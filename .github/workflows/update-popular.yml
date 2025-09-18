@@ -1,5 +1,4 @@
-permissions:
-  contents: write   # <-- add this at the top level of the job or workflow
+
 name: Update Playlist
 on:
   schedule:
@@ -12,6 +11,8 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+  contents: write 
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v4
