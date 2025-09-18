@@ -2,7 +2,7 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const API_KEY = process.env.YT_KEY;
-const PLAYLIST_ID = "const PLAYLIST_IDS = [
+const PLAYLIST_IDS = [
   "PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL",
   "PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1",
   "PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU",
@@ -44,22 +44,24 @@ const PLAYLIST_ID = "const PLAYLIST_IDS = [
   "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
   "PLkdhKIzS8nUleBlrj9BtMY-_nbWGO2WdR"
 ];
-";  // 
 
 if (!API_KEY) {
   console.error("Missing YT_KEY");
   process.exit(1);
 }
 
-const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
-
 (async () => {
-  const res = await fetch(url);
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`HTTP ${res.status} – ${text}`);
+  const allPlaylists = {};
+  for (const PLAYLIST_ID of PLAYLIST_IDS) {
+    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
+    const res = await fetch(url);
+    if (!res.ok) {
+      const text = await res.text();
+      throw new Error(`HTTP ${res.status} – ${text}`);
+    }
+    const data = await res.json();
+    allPlaylists[PLAYLIST_ID] = data;
   }
-  const data = await res.json();
-  fs.writeFileSync("playlist.json", JSON.stringify(data, null, 2));
+  fs.writeFileSync("playlist.json", JSON.stringify(allPlaylists, null, 2));
   console.log("✅ playlist.json updated");
 })();
