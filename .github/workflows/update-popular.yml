@@ -1,3 +1,5 @@
+permissions:
+  contents: write   # <-- add this at the top level of the job or workflow
 name: Update Playlist
 on:
   schedule:
