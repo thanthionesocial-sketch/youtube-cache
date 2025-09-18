@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 env:
-  YT_KEY: ${{ secrets.YT_KEY }}    # <-- Set here at the workflow level
+  YT_KEY: ${{ secrets.YT_KEY }}    # <-- Workflow-level environment variable
 
 jobs:
   update:
