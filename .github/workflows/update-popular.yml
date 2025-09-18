@@ -4,27 +4,19 @@ on:
     - cron: "0 2 * * *"   # every day 2 AM UTC
   workflow_dispatch:
 
+env:
+  YT_KEY: ${{ secrets.YT_KEY }}    # <-- Workflow-level environment variable
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run update script
-        run: node update.js
-        env:
-          YT_KEY: ${{ secrets.YT_KEY }}   # 👈 pass the secret here per step
-
-      - name: Commit & push updated JSON
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - run: npm install
+      - run: node update.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Auto-update playlist.json"
