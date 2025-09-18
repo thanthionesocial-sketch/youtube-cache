@@ -1,9 +1,16 @@
+// update.js
 import fs from "fs";
 import fetch from "node-fetch";
 
 const API_KEY = process.env.YT_KEY;
+if (!API_KEY) {
+  console.error("❌ Missing YT_KEY environment variable");
+  process.exit(1);
+}
+
+// All your playlist IDs
 const PLAYLIST_IDS = [
-  "PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL",
+    "PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL",
   "PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1",
   "PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU",
   "PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX",
@@ -43,25 +50,39 @@ const PLAYLIST_IDS = [
   "PLkdhKIzS8nUnGpZ4-gGLum_etE3o7-NAs",
   "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
   "PLkdhKIzS8nUleBlrj9BtMY-_nbWGO2WdR"
+  
 ];
 
-if (!API_KEY) {
-  console.error("Missing YT_KEY");
-  process.exit(1);
-}
-
-(async () => {
-  const allPlaylists = {};
-  for (const PLAYLIST_ID of PLAYLIST_IDS) {
-    const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=${PLAYLIST_ID}&key=${API_KEY}`;
+// Helper function to fetch a single playlist
+async function fetchPlaylist(id) {
+  const url = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=${id}&key=${API_KEY}`;
+  try {
     const res = await fetch(url);
     if (!res.ok) {
       const text = await res.text();
       throw new Error(`HTTP ${res.status} – ${text}`);
     }
-    const data = await res.json();
-    allPlaylists[PLAYLIST_ID] = data;
+    const json = await res.json();
+    return json.items || [];
+  } catch (err) {
+    console.warn(`⚠️ Skipping playlist ${id}: ${err.message}`);
+    return []; // skip failed playlist
   }
-  fs.writeFileSync("playlist.json", JSON.stringify(allPlaylists, null, 2));
-  console.log("✅ playlist.json updated");
+}
+
+// Main execution
+(async () => {
+  const allVideos = [];
+
+  for (const id of PLAYLIST_IDS) {
+    console.log(`Fetching playlist ${id}...`);
+    const items = await fetchPlaylist(id);
+    if (items.length) {
+      allVideos.push(...items);
+    }
+  }
+
+  // Save combined results
+  fs.writeFileSync("playlist.json", JSON.stringify({ items: allVideos }, null, 2));
+  console.log(`✅ Saved ${allVideos.length} videos to playlist.json`);
 })();
