@@ -3,6 +3,15 @@ import fetch from "node-fetch";
 
 const API_KEY = process.env.YT_KEY;
 const PLAYLIST_ID = "const PLAYLIST_IDS = [
+  "PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL",
+  "PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1",
+  "PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU",
+  "PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX",
+  "PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y",
+  "PLkdhKIzS8nUl9n2wqOJ6zzK2E_Q8qssdm",
+  "PLkdhKIzS8nUntEI1ZueSQFdnPt-tGhiWT",
+  "PLkdhKIzS8nUlMJvw4KJVvgtJioC57omvW",
+  "PLkdhKIzS8nUnmWnY660x7zh9AH6sIB16J",
   "PLkdhKIzS8nUnRFvWYOof1qqEumGH3HTIX",
   "PLkdhKIzS8nUmqiZSk3LcTGelwDfHeiq15",
   "PLkdhKIzS8nUkJs2k7Woxdk4BWl0pdKhyf",
