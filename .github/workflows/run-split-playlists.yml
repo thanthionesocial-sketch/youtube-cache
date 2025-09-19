@@ -28,7 +28,7 @@ jobs:
 
       - name: Run split script
         # either run npm run split or node directly
-        run: npm run split
+        run: node split-playlists.js
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
 
