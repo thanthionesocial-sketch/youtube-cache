@@ -1,7 +1,7 @@
 import fs from "fs";
 import fetch from "node-fetch";
 
-const API_KEY = process.env.YT_KEY;
+const API_KEY = process.env.YT_API_KEY;
 
 // read all playlist descriptor JSON files
 const files = fs.readdirSync("playlists").filter(f => f.endsWith(".json"));
