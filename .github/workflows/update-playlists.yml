@@ -1,5 +1,8 @@
-name: Update Playlists
+name: Update YouTube Playlists
+
 on:
+  schedule:
+    - cron: "0 3 * * *"   # every day at 03:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -9,20 +12,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Debug env (optional)
-        run: echo "YT_API_KEY length is ${#YT_API_KEY}"
-        env:
-          YT_API_KEY: ${{ secrets.YT_API_KEY }}
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Install deps
+        run: npm install node-fetch@2
 
       - name: Run update script
         run: node update.js
         env:
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add movies-*.json
+          git commit -m "Automated playlist update" || echo "No changes"
+          git push
