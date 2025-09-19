@@ -18,7 +18,7 @@ const categories = {
   action:       ["PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL"],
   romantic:     ["PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1"],
   drama:        ["PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU"],
-  "sus-thriller": ["PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX"],
+  sus-thriller: ["PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX"],
   horror:       ["PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y"],
   fantasy:      ["PLkdhKIzS8nUl9n2wqOJ6zzK2E_Q8qssdm"],   // first fantasy set
   classic:      ["PLkdhKIzS8nUntEI1ZueSQFdnPt-tGhiWT"],
