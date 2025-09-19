@@ -6,14 +6,21 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # ❌ REMOVE install dependencies step
+      - name: Debug env (optional)
+        run: echo "YT_API_KEY length is ${#YT_API_KEY}"
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Run update script
         run: node update.js
