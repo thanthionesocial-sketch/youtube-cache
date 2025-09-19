@@ -15,17 +15,17 @@ if (!API_KEY) {
 
 // ---------------------- CATEGORY → PLAYLIST IDS ----------------------
 const categories = {
-  action:       ["PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL"],
-  romantic:     ["PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1"],
-  drama:        ["PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU"],
-  sus-thriller: ["PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX"],
-  horror:       ["PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y"],
-  fantasy:      ["PLkdhKIzS8nUl9n2wqOJ6zzK2E_Q8qssdm"],   // first fantasy set
-  classic:      ["PLkdhKIzS8nUntEI1ZueSQFdnPt-tGhiWT"],
-  family:       ["PLkdhKIzS8nUlMJvw4KJVvgtJioC57omvW"],
-  comedy:       ["PLkdhKIzS8nUnmWnY660x7zh9AH6sIB16J"],
+  "action": ["PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL"],
+  "romantic": ["PLkdhKIzS8nUnX3_wgi81phau_5PBtnuC1"],
+  "drama": ["PLkdhKIzS8nUnT6EIfYIOJqjIC3ifBORKU"],
+  "sus-thriller": ["PLkdhKIzS8nUnq-OykjNFBNGWYbB1Pa6eX"],
+  "horror": ["PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y"],
+  "fantasy": ["PLkdhKIzS8nUl9n2wqOJ6zzK2E_Q8qssdm"],
+  "classic": ["PLkdhKIzS8nUntEI1ZueSQFdnPt-tGhiWT"],
+  "family": ["PLkdhKIzS8nUlMJvw4KJVvgtJioC57omvW"],
+  "comedy": ["PLkdhKIzS8nUnmWnY660x7zh9AH6sIB16J"],
 
-  devotional: [
+  "devotional": [
     "PLkdhKIzS8nUnRFvWYOof1qqEumGH3HTIX",
     "PLkdhKIzS8nUmqiZSk3LcTGelwDfHeiq15",
     "PLkdhKIzS8nUkJs2k7Woxdk4BWl0pdKhyf",
@@ -50,7 +50,7 @@ const categories = {
     "PLkdhKIzS8nUlMfh7Pe_4YM3o-9JpsBhN_"
   ],
 
-  historical: [
+  "historical": [
     "PLkdhKIzS8nUn56ebMPrAiQNzhfEQAhLDk",
     "PLkdhKIzS8nUknzX9JXNZGnNge6fZ--jiy",
     "PLkdhKIzS8nUkwK7UuNEMNVbyVQj4eWd-T",
