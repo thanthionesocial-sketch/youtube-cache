@@ -1,0 +1,39 @@
+name: Update YouTube Movie Categories
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # every 6 hours
+  workflow_dispatch:            # manual trigger
+
+jobs:
+  update-movies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install deps (none needed, but keep for npm init later)
+        run: npm init -y
+
+      - name: Run update.js
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        run: node update.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add movies-*.json
+            git commit -m "Auto-update movie category JSON files"
+            git push
+          else
+            echo "No changes detected."
+          fi
