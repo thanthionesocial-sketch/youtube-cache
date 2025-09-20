@@ -1,6 +1,4 @@
 {
-  "kind": "youtube#playlistItemListResponse",
-  "etag": "Cizp4bj7WZK_VHod6uq4VMtgATg",
   "items": [
     {
       "kind": "youtube#playlistItem",
@@ -1177,9 +1175,5 @@
         "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
       }
     }
-  ],
-  "pageInfo": {
-    "totalResults": 25,
-    "resultsPerPage": 50
-  }
+  ]
 }
