@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#playlistItem",
-      "etag": "9FU6IZTmtTZ51RdTYiv36APgZFw",
+      "etag": "tR3l7MrNaeJGauxNKSXNU3gta7c",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay40ODU2MTBGM0M5MkIwQzU0",
       "snippet": {
         "publishedAt": "2025-09-03T13:24:48Z",
@@ -49,7 +49,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "izvEzypGRzRvzf2kw1R25dS1u60",
+      "etag": "i0p_uaqJctkfcc5QLlmf1QQ8fDM",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay44REI4QUZDRDI5MDc4Q0NF",
       "snippet": {
         "publishedAt": "2025-09-02T11:27:48Z",
@@ -96,7 +96,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "MLFyTLjk7rSmi66_0s2a5SnHAhA",
+      "etag": "xw9eEdGEnf97sl45Q1IP9PBlCJU",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay5FQjcyRDZBMEMyNTY3OTdE",
       "snippet": {
         "publishedAt": "2025-09-01T10:59:13Z",
@@ -143,7 +143,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "1vwwlg1GdY2BO-WZTAJ7peLCJ-k",
+      "etag": "UyRMvyXtqYlihT0-5JdTXiiufk8",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay4wMEMyQTBBOTUwNTM0OUFG",
       "snippet": {
         "publishedAt": "2025-08-31T13:20:07Z",
@@ -190,7 +190,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "kp-gdhX_MSQ4qilN80VdZ48uxgA",
+      "etag": "lxezobC-P2dM68jKh7_FW2lonyo",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay5EN0U0NTk3NzIwMjUxN0M3",
       "snippet": {
         "publishedAt": "2025-08-30T10:45:38Z",
@@ -237,7 +237,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "8vw-6hB0MvDBRv_Kn66xH_07Q_c",
+      "etag": "HRjutfryXQ4l82zKXob9R__tE5o",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay5BQzRBQzNEOTgzNTU2QkZB",
       "snippet": {
         "publishedAt": "2025-08-29T12:29:13Z",
@@ -284,7 +284,7 @@
     },
     {
       "kind": "youtube#playlistItem",
-      "etag": "4vsPKlQP06q7CRS9JoTf7kcreBE",
+      "etag": "2_rYLWOaIzEzk49Sp8EFtXDzHnw",
       "id": "UExrZGhLSXpTOG5VbjU2ZWJNUHJBaVFOemhmRVFBaExEay45MEI3NjgzMTVFQkZGODYx",
       "snippet": {
         "publishedAt": "2025-08-28T11:23:33Z",
