@@ -22,5 +22,5 @@ files.forEach(f => {
 
 all.sort((a,b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
-fs.writeFileSync("data/latest-movies.json", JSON.stringify(all.slice(0,50), null, 2));
+fs.writeFileSync("data/feeds/latest-movies.json", JSON.stringify(all.slice(0,50), null, 2));
 console.log(`✅ Latest Movies: ${all.length}`);
