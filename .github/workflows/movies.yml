@@ -1,0 +1,34 @@
+name: Update YouTube Movies
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # every day at 03:00 UTC
+  workflow_dispatch:           # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20       # use current LTS
+
+      - name: Install dependencies
+        run: npm install         # installs from package.json
+
+      - name: Fetch latest movie playlists
+        env:
+          YT_KEY: ${{ secrets.YT_KEY }}   # use same key name as other workflows
+        run: node playlists/movies/fetch-playlists.js
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/movies/*.json
+          git commit -m "Update movie playlist videos" || echo "No changes to commit"
+          git push
