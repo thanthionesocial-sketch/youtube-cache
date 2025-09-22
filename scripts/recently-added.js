@@ -23,7 +23,7 @@ async function run() {
     description: v.snippet.description
   }));
 
-  fs.writeFileSync("data/recently.json", JSON.stringify(items, null, 2));
+  fs.writeFileSync("data/feeds/recently.json", JSON.stringify(items, null, 2));
   console.log(`✅ Recently Added: ${items.length}`);
 }
 run();
