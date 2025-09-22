@@ -1,0 +1,66 @@
+name: Update YouTube Playlists
+
+on:
+  schedule:
+    - cron: "0 2,3 * * *"        # daily: 02:00 UTC for serials, 03:00 UTC for movies
+  workflow_dispatch:             # allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Checkout the repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2️⃣ Debug: list repo files
+      - name: List repo files
+        run: ls -R
+
+      # 3️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 4️⃣ Install dependencies if package.json exists
+      - name: Install npm dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          else
+            echo "No package.json found, skipping npm install"
+          fi
+
+      # 5️⃣ Run serial playlists script if exists
+      - name: Update serial playlists
+        env:
+          YT_KEY: ${{ secrets.YT_KEY }}
+        run: |
+          if [ -f ./playlists/serials/fetch-playlists.js ]; then
+            node ./playlists/serials/fetch-playlists.js
+          else
+            echo "Serial playlist script not found, skipping"
+          fi
+
+      # 6️⃣ Run movie playlists script if exists
+      - name: Update movie playlists
+        env:
+          YT_KEY: ${{ secrets.YT_KEY }}
+        run: |
+          if [ -f ./playlists/movies/fetch-playlists.js ]; then
+            node ./playlists/movies/fetch-playlists.js
+          else
+            echo "Movie playlist script not found, skipping"
+          fi
+
+      # 7️⃣ Commit & force push changes
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/serials/*.json data/movies/*.json
+          git commit -m "Update playlist videos" || echo "No changes to commit"
+          git push origin main --force
