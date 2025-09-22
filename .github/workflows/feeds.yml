@@ -1,1 +1,39 @@
+name: Build YouTube Feeds
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install node-fetch@3
+
+      - name: Generate feeds
+        env:
+          YT_KEY: ${{ secrets.YT_KEY }}
+          YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+        run: |
+          node scripts/recently-added.js
+          node scripts/most-viewed.js
+          node scripts/recommended.js
+          node scripts/latest-movies.js
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git commit -m "Auto-update feeds" || echo "No changes"
+          git push
 
