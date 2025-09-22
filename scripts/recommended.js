@@ -1,7 +1,7 @@
 import fs from "fs";
 
-const recent = JSON.parse(fs.readFileSync("data/recently.json"));
-const most   = JSON.parse(fs.readFileSync("data/most-viewed.json"));
+const recent = JSON.parse(fs.readFileSync("data/feeds/recently.json"));
+const most   = JSON.parse(fs.readFileSync("data/feeds/most-viewed.json"));
 
 // simple algorithm: merge & shuffle
 const combined = [...recent, ...most]
