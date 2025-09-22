@@ -9,7 +9,7 @@ const recommendedFile = path.join(feedsDir, "recommended.json");
 // Ensure the feeds directory exists
 fs.mkdirSync(feedsDir, { recursive: true });
 
-// Create empty JSON files if they don't exist
+// Create empty JSON files if missing
 if (!fs.existsSync(recentFile)) fs.writeFileSync(recentFile, "[]", "utf-8");
 if (!fs.existsSync(mostFile)) fs.writeFileSync(mostFile, "[]", "utf-8");
 
