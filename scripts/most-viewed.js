@@ -22,7 +22,7 @@ async function run() {
     thumbnails: v.snippet.thumbnails
   }));
 
-  fs.writeFileSync("data/most-viewed.json", JSON.stringify(items, null, 2));
+  fs.writeFileSync("data/feeds/most-viewed.json", JSON.stringify(items, null, 2));
   console.log(`✅ Most Viewed: ${items.length}`);
 }
 run();
