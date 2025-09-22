@@ -9,5 +9,5 @@ const combined = [...recent, ...most]
 
 const shuffled = combined.sort(() => 0.5 - Math.random());
 
-fs.writeFileSync("data/recommended.json", JSON.stringify(shuffled.slice(0,50), null, 2));
+fs.writeFileSync("data/feeds/recommended.json", JSON.stringify(shuffled.slice(0,50), null, 2));
 console.log(`✅ Recommended: ${shuffled.length}`);
