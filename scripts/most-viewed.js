@@ -1,3 +1,4 @@
+// scripts/most-viewed.js
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
@@ -18,42 +19,78 @@ fs.mkdirSync(feedsDir, { recursive: true });
 
 async function run() {
   try {
-    const url = new URL("https://www.googleapis.com/youtube/v3/search");
-    url.searchParams.set("part", "snippet");
-    url.searchParams.set("channelId", CHANNEL);
-    url.searchParams.set("order", "viewCount");
-    url.searchParams.set("maxResults", "50");
-    url.searchParams.set("type", "video");
-    url.searchParams.set("key", KEY);
-
-    const res = await fetch(url);
-    const data = await res.json();
-
-    if (data.error) {
-      console.error("❌ YouTube API Error:", data.error);
+    // Step 1: Get uploads playlist ID
+    const channelRes = await fetch(
+      `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${CHANNEL}&key=${KEY}`
+    );
+    const channelData = await channelRes.json();
+    if (!channelData.items?.length) {
+      console.error("❌ Could not fetch channel details");
       return;
     }
+    const uploadsPlaylist = channelData.items[0].contentDetails.relatedPlaylists.uploads;
 
-    // Filter out non-16:9 videos (e.g., Shorts)
-    const items = data.items
-      .map(v => ({
-        id: v.id.videoId,
-        title: v.snippet.title,
-        publishedAt: v.snippet.publishedAt,
-        thumbnails: v.snippet.thumbnails,
-        description: v.snippet.description
-      }))
-      .filter(v => {
-        const t = v.thumbnails?.maxres || v.thumbnails?.high || v.thumbnails?.medium;
-        if (!t) return false;
-        const w = t.width || 16;
-        const h = t.height || 9;
-        // allow small tolerance to avoid rounding issues
-        return Math.abs(w / h - 16 / 9) < 0.05;
+    // Step 2: Fetch all videos in uploads playlist
+    let items = [];
+    let pageToken = "";
+    do {
+      const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
+      url.searchParams.set("part", "snippet,contentDetails");
+      url.searchParams.set("playlistId", uploadsPlaylist);
+      url.searchParams.set("maxResults", "50");
+      if (pageToken) url.searchParams.set("pageToken", pageToken);
+      url.searchParams.set("key", KEY);
+
+      const res = await fetch(url);
+      const data = await res.json();
+      if (data.error) {
+        console.error("❌ YouTube API Error:", data.error);
+        break;
+      }
+
+      items = items.concat(data.items || []);
+      pageToken = data.nextPageToken || "";
+    } while (pageToken);
+
+    // Step 3: Fetch video stats (views) in batches
+    const allVideos = [];
+    for (let i = 0; i < items.length; i += 50) {
+      const batch = items.slice(i, i + 50);
+      const ids = batch.map(v => v.contentDetails.videoId).join(",");
+
+      const statsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+      statsUrl.searchParams.set("part", "snippet,statistics");
+      statsUrl.searchParams.set("id", ids);
+      statsUrl.searchParams.set("key", KEY);
+
+      const statsRes = await fetch(statsUrl);
+      const statsData = await statsRes.json();
+
+      statsData.items.forEach(v => {
+        const t = v.snippet.thumbnails?.maxres || v.snippet.thumbnails?.high || v.snippet.thumbnails?.medium;
+        if (!t) return;
+
+        // filter only ~16:9 videos
+        const w = t.width || 16, h = t.height || 9;
+        if (Math.abs(w / h - 16 / 9) > 0.05) return;
+
+        allVideos.push({
+          id: v.id,
+          title: v.snippet.title,
+          description: v.snippet.description,
+          publishedAt: v.snippet.publishedAt,
+          thumbnails: v.snippet.thumbnails,
+          views: parseInt(v.statistics?.viewCount || "0", 10)
+        });
       });
+    }
 
-    fs.writeFileSync(mostFile, JSON.stringify(items, null, 2), "utf-8");
-    console.log(`✅ Most Viewed (16:9 only): ${items.length}`);
+    // Step 4: Sort by views (descending)
+    allVideos.sort((a, b) => b.views - a.views);
+
+    // Step 5: Save top 50
+    fs.writeFileSync(mostFile, JSON.stringify(allVideos.slice(0, 50), null, 2), "utf-8");
+    console.log(`✅ Most Viewed: ${allVideos.length} videos fetched, saved top 50.`);
   } catch (err) {
     console.error("❌ Failed to fetch most viewed videos:", err);
   }
