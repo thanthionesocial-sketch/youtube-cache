@@ -1,111 +1,86 @@
 import fs from "fs";
-import path from "path";
 import fetch from "node-fetch";
-import { parse, toSeconds } from "iso8601-duration"; // Add this dependency
+import { parse, toSeconds } from "iso8601-duration";
 
 const KEY = process.env.YT_KEY;
 const CHANNEL = process.env.YT_CHANNEL_ID;
+const OUTPUT_FILE = "data/feeds/most-viewed.json";
 
-if (!KEY || !CHANNEL) {
-  console.error("❌ Missing YT_KEY or YT_CHANNEL_ID environment variable.");
-  process.exit(1);
-}
-
-const feedsDir = path.join("data", "feeds");
-const mostFile = path.join(feedsDir, "most-viewed.json");
-
-// Ensure the directory exists
-fs.mkdirSync(feedsDir, { recursive: true });
-
-async function run() {
-  try {
-    // Step 1: Get uploads playlist ID
-    const channelRes = await fetch(
-      `https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=${CHANNEL}&key=${KEY}`
-    );
-    const channelData = await channelRes.json();
-    if (!channelData.items?.length) {
-      console.error("❌ Could not fetch channel details");
-      fs.writeFileSync(mostFile, JSON.stringify([], null, 2), "utf-8");
-      return;
-    }
-    const uploadsPlaylist = channelData.items[0].contentDetails.relatedPlaylists.uploads;
-
-    // Step 2: Fetch all videos in uploads playlist
-    let items = [];
-    let pageToken = "";
-    do {
-      const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
-      url.searchParams.set("part", "snippet,contentDetails");
-      url.searchParams.set("playlistId", uploadsPlaylist);
-      url.searchParams.set("maxResults", "50");
-      if (pageToken) url.searchParams.set("pageToken", pageToken);
-      url.searchParams.set("key", KEY);
-
-      const res = await fetch(url);
-      const data = await res.json();
-      if (data.error) {
-        console.error("❌ YouTube API Error:", data.error);
-        fs.writeFileSync(mostFile, JSON.stringify([], null, 2), "utf-8");
-        break;
-      }
-
-      items = items.concat(data.items || []);
-      pageToken = data.nextPageToken || "";
-    } while (pageToken);
-
-    // Step 3: Fetch video stats (views) and durations in batches
-    const allVideos = [];
-    for (let i = 0; i < items.length; i += 50) {
-      const batch = items.slice(i, i + 50);
-      const ids = batch.map(v => v.contentDetails.videoId).join(",");
-
-      const statsUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
-      statsUrl.searchParams.set("part", "snippet,statistics,contentDetails"); // Added contentDetails
-      statsUrl.searchParams.set("id", ids);
-      statsUrl.searchParams.set("key", KEY);
-
-      const statsRes = await fetch(statsUrl);
-      const statsData = await statsRes.json();
-
-      statsData.items.forEach(v => {
-        const t = v.snippet.thumbnails?.maxres || v.snippet.thumbnails?.high || v.snippet.thumbnails?.medium;
-        if (!t || !v.contentDetails?.duration) return;
-
-        // Parse duration
-        try {
-          const durationSeconds = toSeconds(parse(v.contentDetails.duration));
-          if (durationSeconds <= 600) return; // Filter for > 10 minutes (600 seconds)
-
-          // Filter only ~16:9 videos
-          const w = t.width || 16, h = t.height || 9;
-          if (Math.abs(w / h - 16 / 9) > 0.05) return;
-
-          allVideos.push({
-            id: v.id,
-            title: v.snippet.title,
-            description: v.snippet.description,
-            publishedAt: v.snippet.publishedAt,
-            thumbnails: v.snippet.thumbnails,
-            views: parseInt(v.statistics?.viewCount || "0", 10),
-            duration: durationSeconds // Optional: include duration in output
-          });
-        } catch (err) {
-          console.warn(`⚠️ Skipping video ${v.id}: Invalid duration format`);
-        }
-      });
-    }
-
-    // Step 4: Sort by views (descending)
-    allVideos.sort((a, b) => b.views - a.views);
-
-    // Step 5: Save top 50
-    fs.writeFileSync(mostFile, JSON.stringify(allVideos.slice(0, 50), null, 2), "utf-8");
-    console.log(`✅ Most Viewed (>10 min, 16:9): ${allVideos.length} videos fetched, saved top 50.`);
-  } catch (err) {
-    console.error("❌ Failed to fetch most viewed videos:", err);
-    fs.writeFileSync(mostFile, JSON.stringify([], null, 2), "utf-8");
+async function fetchMostViewed() {
+  if (!KEY || !CHANNEL) {
+    console.error("❌ Missing YT_KEY or YT_CHANNEL_ID environment variables");
+    return;
   }
+
+  // Fetch most viewed videos from the channel
+  const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+  searchUrl.searchParams.set("part", "snippet");
+  searchUrl.searchParams.set("channelId", CHANNEL);
+  searchUrl.searchParams.set("order", "viewCount"); // most-viewed
+  searchUrl.searchParams.set("maxResults", "50");
+  searchUrl.searchParams.set("type", "video");
+  searchUrl.searchParams.set("key", KEY);
+
+  const searchRes = await fetch(searchUrl);
+  const searchData = await searchRes.json();
+
+  if (!searchData.items || searchData.items.length === 0) {
+    console.log("⚠️ No videos found");
+    fs.mkdirSync("data/feeds", { recursive: true });
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify([], null, 2));
+    return;
+  }
+
+  const videoIds = searchData.items.map(v => v.id.videoId);
+
+  // Fetch video durations
+  const videosUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+  videosUrl.searchParams.set("part", "contentDetails,statistics");
+  videosUrl.searchParams.set("id", videoIds.join(","));
+  videosUrl.searchParams.set("key", KEY);
+
+  const videosRes = await fetch(videosUrl);
+  const videosData = await videosRes.json();
+
+  const durationMap = new Map(videosData.items.map(v => [v.id, v.contentDetails.duration]));
+  const viewMap = new Map(videosData.items.map(v => [v.id, Number(v.statistics.viewCount || 0)]));
+
+  // Process and filter videos
+  const items = searchData.items
+    .map(v => {
+      const durationISO = durationMap.get(v.id.videoId);
+      if (!durationISO) return null;
+      try {
+        const durationSec = toSeconds(parse(durationISO));
+        return {
+          id: v.id.videoId,
+          title: v.snippet.title,
+          publishedAt: v.snippet.publishedAt,
+          description: v.snippet.description,
+          duration: durationSec,
+          views: viewMap.get(v.id.videoId) || 0,
+          thumbnails: v.snippet.thumbnails
+        };
+      } catch {
+        return null;
+      }
+    })
+    .filter(v => {
+      if (!v) return false;
+      const t = v.thumbnails.maxres || v.thumbnails.high || v.thumbnails.medium || v.thumbnails.default;
+      if (!t) return false;
+      const w = t.width || 16;
+      const h = t.height || 9;
+      const aspectRatio = w / h;
+      return Math.abs(aspectRatio - 16 / 9) < 0.05 && v.duration > 600;
+    })
+    .sort((a, b) => b.views - a.views) // sort descending by views
+    .slice(0, 50);
+
+  // Save output
+  fs.mkdirSync("data/feeds", { recursive: true });
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(items, null, 2));
+  console.log(`✅ Most Viewed (>10 min, 16:9): ${items.length}`);
 }
 
-run();
+fetchMostViewed().catch(err => console.error(`❌ Error: ${err.message}`));
