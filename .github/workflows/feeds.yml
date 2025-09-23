@@ -15,10 +15,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'  # Cache dependencies using package-lock.json
+          cache: 'npm'  # will cache dependencies using package-lock.json
 
       - name: Install dependencies
-        run: npm install  # Installs dependencies from package.json
+        run: |
+          if [ ! -f package-lock.json ]; then
+            echo "⚠️ package-lock.json not found, generating..."
+            npm install
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add package-lock.json
+            git commit -m "chore: add package-lock.json" || echo "No changes to commit"
+            git push
+          else
+            npm ci
+          fi
 
       - name: Generate feeds
         env:
@@ -30,7 +41,7 @@ jobs:
           node scripts/recommended.js || echo "⚠️ recommended.js failed"
           node scripts/latest-movies.js || echo "⚠️ latest-movies.js failed"
 
-      - name: Commit & Push
+      - name: Commit & Push feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
