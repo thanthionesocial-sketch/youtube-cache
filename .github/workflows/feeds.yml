@@ -15,10 +15,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'  # Cache dependencies for faster runs
+          cache: 'npm'  # Cache dependencies using package-lock.json
 
       - name: Install dependencies
-        run: npm install node-fetch@3 iso8601-duration  # Added iso8601-duration
+        run: npm install  # Installs dependencies from package.json
 
       - name: Generate feeds
         env:
