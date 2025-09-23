@@ -34,16 +34,26 @@ async function run() {
       return;
     }
 
-    const items = data.items.map(v => ({
-      id: v.id.videoId,
-      title: v.snippet.title,
-      publishedAt: v.snippet.publishedAt,
-      thumbnails: v.snippet.thumbnails,
-      description: v.snippet.description
-    }));
+    // Filter out non-16:9 videos (e.g., Shorts)
+    const items = data.items
+      .map(v => ({
+        id: v.id.videoId,
+        title: v.snippet.title,
+        publishedAt: v.snippet.publishedAt,
+        thumbnails: v.snippet.thumbnails,
+        description: v.snippet.description
+      }))
+      .filter(v => {
+        const t = v.thumbnails?.maxres || v.thumbnails?.high || v.thumbnails?.medium;
+        if (!t) return false;
+        const w = t.width || 16;
+        const h = t.height || 9;
+        // allow small tolerance to avoid rounding issues
+        return Math.abs(w / h - 16 / 9) < 0.05;
+      });
 
     fs.writeFileSync(mostFile, JSON.stringify(items, null, 2), "utf-8");
-    console.log(`✅ Most Viewed: ${items.length}`);
+    console.log(`✅ Most Viewed (16:9 only): ${items.length}`);
   } catch (err) {
     console.error("❌ Failed to fetch most viewed videos:", err);
   }
