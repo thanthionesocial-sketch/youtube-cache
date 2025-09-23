@@ -9,26 +9,32 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # Checkout repo
       - uses: actions/checkout@v4
 
+      # Setup Node.js
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # cache removed because no package-lock.json
+          # No cache needed, no package-lock.json
 
+      # Install dependencies
       - name: Install dependencies
-        run: npm install || echo "No dependencies to install"
+        run: |
+          npm install node-fetch iso8601-duration || echo "No dependencies to install"
 
+      # Run feeds scripts
       - name: Generate feeds
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
           YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
         run: |
           node scripts/recently-added.js || echo "⚠️ recently-added.js failed"
-          node scripts/most-viewed.js || echo "⚠️ most-viewed.js failed"
-          node scripts/recommended.js || echo "⚠️ recommended.js failed"
+          node scripts/most-viewed.js   || echo "⚠️ most-viewed.js failed"
+          node scripts/recommended.js   || echo "⚠️ recommended.js failed"
 
+      # Commit & Push updates
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
