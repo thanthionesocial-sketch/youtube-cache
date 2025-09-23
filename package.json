@@ -1,0 +1,13 @@
+{
+  "name": "youtube-cache",
+  "version": "1.0.0",
+  "description": "YouTube feeds generator",
+  "scripts": {
+    "generate-feeds": "node scripts/recently-added.js && node scripts/most-viewed.js && node scripts/recommended.js && node scripts/latest-movies.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "iso8601-duration": "^2.0.0"
+  },
+  "license": "MIT"
+}
