@@ -11,18 +11,27 @@ fs.mkdirSync(feedsDir, { recursive: true });
 
 // Create empty JSON files if missing
 if (!fs.existsSync(recentFile)) fs.writeFileSync(recentFile, "[]", "utf-8");
-if (!fs.existsSync(mostFile)) fs.writeFileSync(mostFile, "[]", "utf-8");
+if (!fs.existsSync(mostFile))   fs.writeFileSync(mostFile,   "[]", "utf-8");
 
 // Read JSON files safely
 const recent = JSON.parse(fs.readFileSync(recentFile, "utf-8"));
-const most   = JSON.parse(fs.readFileSync(mostFile, "utf-8"));
+const most   = JSON.parse(fs.readFileSync(mostFile,   "utf-8"));
 
-// Merge, deduplicate, and shuffle
-const combined = [...recent, ...most].filter(
+// Merge, deduplicate
+let combined = [...recent, ...most].filter(
   (v, i, a) => a.findIndex(x => x.id === v.id) === i
 );
-const shuffled = combined.sort(() => 0.5 - Math.random());
 
-// Write top 50 recommended items
+// --- 16:9 filter to exclude Shorts/vertical ---
+combined = combined.filter(v => {
+  const t = v.thumbnails?.maxres || v.thumbnails?.high || v.thumbnails?.medium;
+  if (!t) return false;
+  const w = t.width || 16;
+  const h = t.height || 9;
+  return Math.abs(w / h - 16 / 9) < 0.05;  // small tolerance
+});
+
+// Shuffle and keep top 50
+const shuffled = combined.sort(() => 0.5 - Math.random());
 fs.writeFileSync(recommendedFile, JSON.stringify(shuffled.slice(0, 50), null, 2), "utf-8");
-console.log(`✅ Recommended: ${shuffled.length}`);
+console.log(`✅ Recommended (16:9 only): ${shuffled.length}`);
