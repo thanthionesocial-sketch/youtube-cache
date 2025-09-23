@@ -1,73 +1,85 @@
 import fs from "fs";
-import path from "path";
 import fetch from "node-fetch";
+import { parse, toSeconds } from "iso8601-duration";
 
-const feedsDir = path.join("data", "feeds");
-const recommendedFile = path.join(feedsDir, "recommended.json");
+const KEY = process.env.YT_KEY;
+const CHANNEL = process.env.YT_CHANNEL_ID;
 
-// Ensure feeds directory exists
-fs.mkdirSync(feedsDir, { recursive: true });
+async function run() {
+  // Fetch latest videos from the channel
+  const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+  searchUrl.searchParams.set("part", "snippet");
+  searchUrl.searchParams.set("channelId", CHANNEL);
+  searchUrl.searchParams.set("order", "relevance"); // recommended-ish ordering
+  searchUrl.searchParams.set("maxResults", "50");
+  searchUrl.searchParams.set("type", "video");
+  searchUrl.searchParams.set("key", KEY);
 
-// Environment variables
-const API_KEY = process.env.YT_KEY;
-const CHANNEL_ID = process.env.YT_CHANNEL_ID;
-if (!API_KEY || !CHANNEL_ID) {
-  console.error("❌ Missing YT_KEY or YT_CHANNEL_ID environment variable");
-  process.exit(1);
-}
+  const searchRes = await fetch(searchUrl);
+  const searchData = await searchRes.json();
 
-// Fetch videos from YouTube channel
-async function fetchChannelVideos() {
-  let videos = [];
-  let pageToken = "";
-  while (videos.length < 100) { // fetch up to 100, then filter to 50
-    const url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet,id&order=date&maxResults=50&pageToken=${pageToken}&type=video`;
-    const res = await fetch(url);
-    const data = await res.json();
-    if (!data.items) break;
-
-    const ids = data.items.map(v => v.id.videoId).join(",");
-    const detailsUrl = `https://www.googleapis.com/youtube/v3/videos?key=${API_KEY}&id=${ids}&part=contentDetails,snippet,statistics`;
-    const detailsRes = await fetch(detailsUrl);
-    const detailsData = await detailsRes.json();
-
-    videos.push(...detailsData.items);
-    pageToken = data.nextPageToken;
-    if (!pageToken) break;
+  if (!searchData.items || searchData.items.length === 0) {
+    console.log("⚠️ No videos found");
+    fs.mkdirSync("data/feeds", { recursive: true });
+    fs.writeFileSync("data/feeds/recommended.json", JSON.stringify([], null, 2));
+    return;
   }
-  return videos;
+
+  // Get video IDs
+  const videoIds = searchData.items.map(v => v.id.videoId);
+
+  // Fetch video durations
+  const videosUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+  videosUrl.searchParams.set("part", "contentDetails");
+  videosUrl.searchParams.set("id", videoIds.join(","));
+  videosUrl.searchParams.set("key", KEY);
+
+  const videosRes = await fetch(videosUrl);
+  const videosData = await videosRes.json();
+
+  // Map durations to video IDs
+  const durationMap = new Map(
+    videosData.items.map(v => [v.id, v.contentDetails.duration])
+  );
+
+  // Process and filter videos
+  const items = searchData.items
+    .map(v => {
+      const duration = durationMap.get(v.id.videoId);
+      if (!duration) return null;
+
+      try {
+        const durationSeconds = toSeconds(parse(duration));
+        return {
+          id: v.id.videoId,
+          title: v.snippet.title,
+          publishedAt: v.snippet.publishedAt,
+          thumbnails: v.snippet.thumbnails,
+          description: v.snippet.description,
+          duration: durationSeconds
+        };
+      } catch {
+        return null;
+      }
+    })
+    .filter(v => {
+      if (!v) return false;
+      const t = v.thumbnails?.medium || v.thumbnails?.high;
+      if (!t) return false;
+      const w = t.width || 16;
+      const h = t.height || 9;
+      const aspectRatio = w / h;
+      return Math.abs(aspectRatio - 16 / 9) < 0.05 && v.duration > 600;
+    });
+
+  // Shuffle and keep top 50
+  const shuffled = items.sort(() => 0.5 - Math.random());
+
+  // Ensure output directory exists
+  fs.mkdirSync("data/feeds", { recursive: true });
+  fs.writeFileSync("data/feeds/recommended.json", JSON.stringify(shuffled.slice(0, 50), null, 2));
+
+  console.log(`✅ Recommended (>10 min, 16:9): ${shuffled.length}`);
 }
 
-// Filter 16:9 long videos (>10 min) and shuffle
-function filterAndShuffle(videos) {
-  const filtered = videos.filter(v => {
-    const t = v.snippet.thumbnails.maxres || v.snippet.thumbnails.high || v.snippet.thumbnails.medium;
-    if (!t || !v.contentDetails?.duration) return false;
-    const w = t.width || 16;
-    const h = t.height || 9;
-    const aspectRatio = w / h;
-
-    // Convert ISO 8601 duration to seconds
-    const match = v.contentDetails.duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-    const seconds = (parseInt(match[1] || 0) * 3600) +
-                    (parseInt(match[2] || 0) * 60) +
-                    (parseInt(match[3] || 0));
-    return Math.abs(aspectRatio - 16 / 9) < 0.05 && seconds > 600;
-  });
-
-  return filtered.sort(() => 0.5 - Math.random()).slice(0, 50);
-}
-
-// Save recommended feed
-async function generateRecommended() {
-  try {
-    const videos = await fetchChannelVideos();
-    const finalVideos = filterAndShuffle(videos);
-    fs.writeFileSync(recommendedFile, JSON.stringify(finalVideos, null, 2), "utf-8");
-    console.log(`✅ Recommended feed generated: ${finalVideos.length} videos`);
-  } catch (err) {
-    console.error("❌ Failed to generate recommended feed:", err);
-  }
-}
-
-generateRecommended();
+run().catch(err => console.error(`❌ Error: ${err.message}`));
