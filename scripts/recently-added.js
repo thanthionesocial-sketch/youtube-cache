@@ -23,7 +23,7 @@ async function run() {
     thumbnails: v.snippet.thumbnails,
     description: v.snippet.description
   }))
-  // Filter only 16:9 videos (exclude vertical/shorts)
+  // Filter only 16:9 videos
   .filter(v => {
     const t = v.thumbnails?.medium || v.thumbnails?.high;
     if(!t) return false;
