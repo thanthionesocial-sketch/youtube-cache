@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { parse, toSeconds } from "iso8601-duration"; // Add this dependency
 
 const dataDir = "data";
 const feedsDir = path.join(dataDir, "feeds");
@@ -20,12 +21,24 @@ files.forEach(f => {
   data.playlists?.forEach(pl => {
     pl.items?.forEach(i => {
       const s = i.snippet;
-      all.push({
-        id: s.resourceId.videoId,
-        title: s.title,
-        publishedAt: s.publishedAt,
-        thumbnails: s.thumbnails
-      });
+      const duration = i.contentDetails?.duration; // e.g., "PT15M30S"
+      if (!duration) return; // Skip if no duration
+
+      // Parse duration and convert to seconds
+      try {
+        const durationSeconds = toSeconds(parse(duration));
+        if (durationSeconds > 600) { // Filter for > 10 minutes (600 seconds)
+          all.push({
+            id: s.resourceId.videoId,
+            title: s.title,
+            publishedAt: s.publishedAt,
+            thumbnails: s.thumbnails,
+            duration: durationSeconds // Optional: include duration in output
+          });
+        }
+      } catch (err) {
+        console.warn(`⚠️ Skipping video ${s.resourceId.videoId}: Invalid duration format`);
+      }
     });
   });
 });
@@ -37,4 +50,4 @@ all.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 const latestFile = path.join(feedsDir, "latest-movies.json");
 fs.writeFileSync(latestFile, JSON.stringify(all.slice(0, 50), null, 2), "utf-8");
 
-console.log(`✅ Latest Movies: ${all.length}`);
+console.log(`✅ Latest Movies (>10 min): ${all.length}`);
