@@ -1,32 +1,76 @@
 import fs from "fs";
-import path from "path";
+import fetch from "node-fetch";
+import { parse, toSeconds } from "iso8601-duration";
 
-const feedsDir = path.join("data", "feeds");
-const recentFile = path.join(feedsDir, "recently.json");
-const mostFile = path.join(feedsDir, "most-viewed.json");
-const recommendedFile = path.join(feedsDir, "recommended.json");
+const KEY = process.env.YT_KEY;
+const CHANNEL = process.env.YT_CHANNEL_ID;
+const OUTPUT = "data/feeds/recommended.json";
 
-fs.mkdirSync(feedsDir, { recursive: true });
+async function run() {
+  fs.mkdirSync("data/feeds", { recursive: true });
 
-if (!fs.existsSync(recentFile)) fs.writeFileSync(recentFile, "[]", "utf-8");
-if (!fs.existsSync(mostFile)) fs.writeFileSync(mostFile, "[]", "utf-8");
+  // Fetch recent 100 videos to pick recommended
+  const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
+  searchUrl.searchParams.set("part", "snippet");
+  searchUrl.searchParams.set("channelId", CHANNEL);
+  searchUrl.searchParams.set("order", "relevance");
+  searchUrl.searchParams.set("maxResults", "50");
+  searchUrl.searchParams.set("type", "video");
+  searchUrl.searchParams.set("key", KEY);
 
-const recent = JSON.parse(fs.readFileSync(recentFile, "utf-8"));
-const most = JSON.parse(fs.readFileSync(mostFile, "utf-8"));
+  const searchRes = await fetch(searchUrl);
+  const searchData = await searchRes.json();
 
-let combined = [...recent, ...most].filter(
-  (v, i, a) => a.findIndex(x => x.id === v.id) === i
-);
+  if (!searchData.items || searchData.items.length === 0) {
+    console.log("⚠️ No videos found");
+    fs.writeFileSync(OUTPUT, JSON.stringify([], null, 2));
+    return;
+  }
 
-combined = combined.filter(v => {
-  const t = v.thumbnails?.maxres || v.thumbnails?.high || v.thumbnails?.medium;
-  if (!t || !v.duration) return false;
-  const w = t.width || 16;
-  const h = t.height || 9;
-  const aspectRatio = w / h;
-  return Math.abs(aspectRatio - 16 / 9) < 0.05 && v.duration > 600;
-});
+  const videoIds = searchData.items.map(v => v.id.videoId);
 
-const shuffled = combined.sort(() => 0.5 - Math.random());
-fs.writeFileSync(recommendedFile, JSON.stringify(shuffled.slice(0, 50), null, 2), "utf-8");
-console.log(`✅ Recommended (>10 min, 16:9): ${shuffled.length}`);
+  const videosUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
+  videosUrl.searchParams.set("part", "contentDetails");
+  videosUrl.searchParams.set("id", videoIds.join(","));
+  videosUrl.searchParams.set("key", KEY);
+
+  const videosRes = await fetch(videosUrl);
+  const videosData = await videosRes.json();
+
+  const durationMap = new Map(
+    videosData.items.map(v => [v.id, v.contentDetails.duration])
+  );
+
+  const items = searchData.items
+    .map(v => {
+      const duration = durationMap.get(v.id.videoId);
+      if (!duration) return null;
+      try {
+        const durationSeconds = toSeconds(parse(duration));
+        return {
+          id: v.id.videoId,
+          title: v.snippet.title,
+          publishedAt: v.snippet.publishedAt,
+          thumbnails: v.snippet.thumbnails,
+          description: v.snippet.description,
+          duration: durationSeconds
+        };
+      } catch {
+        return null;
+      }
+    })
+    .filter(v => {
+      if (!v) return false;
+      const t = v.thumbnails?.medium || v.thumbnails?.high;
+      if (!t) return false;
+      const w = t.width || 16, h = t.height || 9;
+      return Math.abs(w/h - 16/9) < 0.05 && v.duration > 600;
+    })
+    .sort(() => 0.5 - Math.random()) // Shuffle
+    .slice(0, 50);
+
+  fs.writeFileSync(OUTPUT, JSON.stringify(items, null, 2));
+  console.log(`✅ Recommended (>10 min, 16:9): ${items.length}`);
+}
+
+run().catch(err => console.error(err));
