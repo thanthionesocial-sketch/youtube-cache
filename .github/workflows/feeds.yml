@@ -28,7 +28,6 @@ jobs:
           node scripts/recently-added.js || echo "⚠️ recently-added.js failed"
           node scripts/most-viewed.js || echo "⚠️ most-viewed.js failed"
           node scripts/recommended.js || echo "⚠️ recommended.js failed"
-          node scripts/latest-movies.js || echo "⚠️ latest-movies.js failed"
 
       - name: Commit & Push
         run: |
