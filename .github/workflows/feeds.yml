@@ -15,25 +15,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'  # Cache dependencies for faster runs
 
       - name: Install dependencies
-        run: npm install node-fetch@3
+        run: npm install node-fetch@3 iso8601-duration  # Added iso8601-duration
 
       - name: Generate feeds
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
           YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
         run: |
-          node scripts/recently-added.js
-          node scripts/most-viewed.js
-          node scripts/recommended.js
-          node scripts/latest-movies.js
+          node scripts/recently-added.js || echo "⚠️ recently-added.js failed"
+          node scripts/most-viewed.js || echo "⚠️ most-viewed.js failed"
+          node scripts/recommended.js || echo "⚠️ recommended.js failed"
+          node scripts/latest-movies.js || echo "⚠️ latest-movies.js failed"
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/feeds/*.json
-          git commit -m "Auto-update feeds" || echo "No changes"
+          git commit -m "Auto-update feeds" || echo "No changes to commit"
           git push
-
