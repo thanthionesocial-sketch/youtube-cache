@@ -15,21 +15,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'  # will cache dependencies using package-lock.json
+          cache: "npm"   # will cache once package-lock.json exists
 
-      - name: Install dependencies
+      - name: Check for lock file
         run: |
           if [ ! -f package-lock.json ]; then
-            echo "⚠️ package-lock.json not found, generating..."
+            echo "No lock file found. Initializing npm and creating package-lock.json..."
+            npm init -y
             npm install
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add package-lock.json
-            git commit -m "chore: add package-lock.json" || echo "No changes to commit"
+            git commit -m "Add package-lock.json for caching"
             git push
           else
-            npm ci
+            echo "Lock file exists."
           fi
+
+      - name: Install dependencies
+        run: npm install || echo "No dependencies to install"
 
       - name: Generate feeds
         env:
