@@ -1,76 +1,128 @@
+// scripts/recommended.js
 import fs from "fs";
 import fetch from "node-fetch";
 import { parse, toSeconds } from "iso8601-duration";
 
-const KEY = process.env.YT_KEY;
+const KEY     = process.env.YT_KEY;
 const CHANNEL = process.env.YT_CHANNEL_ID;
-const OUTPUT = "data/feeds/recommended.json";
+const OUTPUT  = "data/feeds/recommended.json";
 
 async function run() {
   fs.mkdirSync("data/feeds", { recursive: true });
 
-  // Fetch recent 100 videos to pick recommended
-  const searchUrl = new URL("https://www.googleapis.com/youtube/v3/search");
-  searchUrl.searchParams.set("part", "snippet");
-  searchUrl.searchParams.set("channelId", CHANNEL);
-  searchUrl.searchParams.set("order", "relevance");
-  searchUrl.searchParams.set("maxResults", "50");
-  searchUrl.searchParams.set("type", "video");
-  searchUrl.searchParams.set("key", KEY);
+  // 1️⃣ Get all public playlists of the channel
+  const playlists = [];
+  let nextPage = "";
+  do {
+    const url = new URL("https://www.googleapis.com/youtube/v3/playlists");
+    url.searchParams.set("part", "snippet,contentDetails");
+    url.searchParams.set("channelId", CHANNEL);
+    url.searchParams.set("maxResults", "50");
+    if (nextPage) url.searchParams.set("pageToken", nextPage);
+    url.searchParams.set("key", KEY);
 
-  const searchRes = await fetch(searchUrl);
-  const searchData = await searchRes.json();
+    const r = await fetch(url);
+    const d = await r.json();
+    d.items?.forEach(p => playlists.push({ id: p.id, title: p.snippet.title }));
+    nextPage = d.nextPageToken || "";
+  } while (nextPage);
 
-  if (!searchData.items || searchData.items.length === 0) {
-    console.log("⚠️ No videos found");
+  if (!playlists.length) {
+    console.log("⚠️ No playlists found");
     fs.writeFileSync(OUTPUT, JSON.stringify([], null, 2));
     return;
   }
 
-  const videoIds = searchData.items.map(v => v.id.videoId);
+  console.log(`Found ${playlists.length} playlists`);
 
-  const videosUrl = new URL("https://www.googleapis.com/youtube/v3/videos");
-  videosUrl.searchParams.set("part", "contentDetails");
-  videosUrl.searchParams.set("id", videoIds.join(","));
-  videosUrl.searchParams.set("key", KEY);
+  // 2️⃣ For each playlist, find its top-viewed eligible video
+  const recommended = [];
+  for (const pl of playlists) {
+    const vids = await fetchPlaylistVideos(pl.id);
+    if (!vids.length) continue;
 
-  const videosRes = await fetch(videosUrl);
-  const videosData = await videosRes.json();
+    // Fetch details + stats in batches of 50
+    const details = await fetchVideoDetails(vids);
+    const filtered = details.filter(filterVideo);
+    if (!filtered.length) continue;
 
-  const durationMap = new Map(
-    videosData.items.map(v => [v.id, v.contentDetails.duration])
-  );
+    // Pick the most viewed from this playlist
+    filtered.sort((a, b) => b.views - a.views);
+    const top = filtered[0];
+    recommended.push({
+      ...top,
+      playlistId: pl.id,
+      playlistTitle: pl.title
+    });
+  }
 
-  const items = searchData.items
-    .map(v => {
-      const duration = durationMap.get(v.id.videoId);
-      if (!duration) return null;
+  // Shuffle the final list (optional)
+  recommended.sort(() => 0.5 - Math.random());
+
+  fs.writeFileSync(OUTPUT, JSON.stringify(recommended, null, 2));
+  console.log(`✅ Recommended videos written: ${recommended.length}`);
+}
+
+/* ---------- Helpers ---------- */
+
+async function fetchPlaylistVideos(playlistId) {
+  const ids = [];
+  let next = "";
+  do {
+    const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
+    url.searchParams.set("part", "contentDetails");
+    url.searchParams.set("playlistId", playlistId);
+    url.searchParams.set("maxResults", "50");
+    if (next) url.searchParams.set("pageToken", next);
+    url.searchParams.set("key", KEY);
+
+    const r = await fetch(url);
+    const d = await r.json();
+    d.items?.forEach(it => ids.push(it.contentDetails.videoId));
+    next = d.nextPageToken || "";
+  } while (next);
+  return ids;
+}
+
+async function fetchVideoDetails(videoIds) {
+  const out = [];
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const batch = videoIds.slice(i, i + 50);
+    const url = new URL("https://www.googleapis.com/youtube/v3/videos");
+    url.searchParams.set("part", "snippet,contentDetails,statistics");
+    url.searchParams.set("id", batch.join(","));
+    url.searchParams.set("key", KEY);
+
+    const r = await fetch(url);
+    const d = await r.json();
+
+    d.items?.forEach(v => {
       try {
-        const durationSeconds = toSeconds(parse(duration));
-        return {
-          id: v.id.videoId,
+        const durationSeconds = toSeconds(parse(v.contentDetails.duration));
+        out.push({
+          id: v.id,
           title: v.snippet.title,
           publishedAt: v.snippet.publishedAt,
           thumbnails: v.snippet.thumbnails,
           description: v.snippet.description,
-          duration: durationSeconds
-        };
-      } catch {
-        return null;
-      }
-    })
-    .filter(v => {
-      if (!v) return false;
-      const t = v.thumbnails?.medium || v.thumbnails?.high;
-      if (!t) return false;
-      const w = t.width || 16, h = t.height || 9;
-      return Math.abs(w/h - 16/9) < 0.05 && v.duration > 600;
-    })
-    .sort(() => 0.5 - Math.random()) // Shuffle
-    .slice(0, 50);
-
-  fs.writeFileSync(OUTPUT, JSON.stringify(items, null, 2));
-  console.log(`✅ Recommended (>10 min, 16:9): ${items.length}`);
+          duration: durationSeconds,
+          views: Number(v.statistics.viewCount || 0)
+        });
+      } catch { /* skip bad item */ }
+    });
+  }
+  return out;
 }
 
-run().catch(err => console.error(err));
+function filterVideo(v) {
+  if (!v) return false;
+  const t = v.thumbnails?.medium || v.thumbnails?.high;
+  if (!t) return false;
+  const w = t.width || 16, h = t.height || 9;
+  return Math.abs(w / h - 16 / 9) < 0.05 && v.duration > 600;
+}
+
+run().catch(err => {
+  console.error("❌ recommended.js failed:", err);
+  process.exit(1);
+});
