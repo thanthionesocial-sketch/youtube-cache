@@ -8,42 +8,60 @@ on:
 jobs:
   update-serials:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout repository
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: List repo files
-        run: ls -R
-
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # 3️⃣ Cache node_modules for faster installs
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # 4️⃣ Install npm dependencies
       - name: Install npm dependencies
         run: |
           if [ -f package.json ]; then
+            echo "Installing npm dependencies..."
             npm install
           else
             echo "No package.json found, skipping npm install"
           fi
 
-      - name: Run serial playlists script
+      # 5️⃣ Run serial playlist script from scripts folder
+      - name: Fetch serial playlists
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
         run: |
-          if [ -f ./playlists/serials/fetch-playlists.js ]; then
-            node ./playlists/serials/fetch-playlists.js
+          if [ -f ./scripts/serials-playlists.js ]; then
+            echo "Running serial playlist fetch script..."
+            node ./scripts/serials-playlists.js
           else
             echo "Serial playlist script not found, skipping"
           fi
 
+      # 6️⃣ Commit & push updates if any
       - name: Commit & push serials updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/serials/*.json
-          git commit -m "Update serial playlist videos" || echo "No changes to commit"
-          git push origin main --force
+          if git diff --staged --quiet; then
+            echo "No changes detected, skipping commit."
+          else
+            git commit -m "Update serial playlist videos"
+            git push origin main
+          fi
