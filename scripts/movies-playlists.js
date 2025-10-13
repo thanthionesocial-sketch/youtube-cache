@@ -1,9 +1,8 @@
-import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
 
-const API_KEY = process.env.YT_KEY;
+const API_KEY = process.env.YT_KEY; // use the unified secret name
 if (!API_KEY) {
   console.error("❌ Missing YT_KEY environment variable");
   process.exit(1);
@@ -26,26 +25,8 @@ async function getAllItems(playlistId) {
     const data = await res.json();
 
     if (Array.isArray(data.items) && data.items.length) {
-      const flatItems = data.items.map((item) => {
-        const s = item.snippet;
-        return {
-          id: s?.resourceId?.videoId || "",
-          title: s?.title || "",
-          description: s?.description || "",
-          publishedAt: s?.publishedAt || "",
-          thumbnail:
-            s?.thumbnails?.maxres?.url ||
-            s?.thumbnails?.high?.url ||
-            s?.thumbnails?.medium?.url ||
-            s?.thumbnails?.default?.url ||
-            "",
-          playlistId,
-          channelTitle: s?.channelTitle || "",
-        };
-      });
-      allItems.push(...flatItems);
+      allItems.push(...data.items);
     }
-
     pageToken = data.nextPageToken;
   } while (pageToken);
 
@@ -53,38 +34,38 @@ async function getAllItems(playlistId) {
 }
 
 async function run() {
+  // --- Adjusted paths for new structure ---
   const playlistsDir = path.join("playlists", "movies");
-  const outputFile = path.join("data", "movies.json");
+  const outputDir = path.join("data", "movies");
 
-  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+  fs.mkdirSync(outputDir, { recursive: true });
 
+  // read only .json files inside playlists/movies
   const files = fs
     .readdirSync(playlistsDir)
     .filter((f) => f.toLowerCase().endsWith(".json"));
-
-  const allVideos = [];
 
   for (const file of files) {
     const fullPath = path.join(playlistsDir, file);
     const info = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
     if (!info.playlistId) {
-      console.warn(`⚠️ No playlistId found in ${file}`);
+      console.warn(`⚠️ No playlistId for ${file}`);
       continue;
     }
 
     try {
       const items = await getAllItems(info.playlistId);
-      console.log(`✅ ${file}: ${items.length} videos fetched`);
-      allVideos.push(...items);
+      const outFile = path.join(
+        outputDir,
+        file.replace(/\.json$/i, "-videos.json")
+      );
+      fs.writeFileSync(outFile, JSON.stringify({ items }, null, 2));
+      console.log(`✅ ${file}: ${items.length} videos`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
   }
-
-  // Save all playlists combined into one movies.json
-  fs.writeFileSync(outputFile, JSON.stringify(allVideos, null, 2));
-  console.log(`✅ All playlists merged: ${allVideos.length} videos saved to ${outputFile}`);
 }
 
 run().catch((e) => {
