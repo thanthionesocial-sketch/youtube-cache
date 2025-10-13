@@ -39,7 +39,7 @@ async function getAllItems(playlistId) {
             s?.thumbnails?.medium?.url ||
             s?.thumbnails?.default?.url ||
             "",
-          playlistId: playlistId,
+          playlistId,
           channelTitle: s?.channelTitle || "",
         };
       });
@@ -54,13 +54,15 @@ async function getAllItems(playlistId) {
 
 async function run() {
   const playlistsDir = path.join("playlists", "movies");
-  const outputDir = path.join("data", "movies");
+  const outputFile = path.join("data", "movies.json");
 
-  fs.mkdirSync(outputDir, { recursive: true });
+  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
 
   const files = fs
     .readdirSync(playlistsDir)
     .filter((f) => f.toLowerCase().endsWith(".json"));
+
+  const allVideos = [];
 
   for (const file of files) {
     const fullPath = path.join(playlistsDir, file);
@@ -73,18 +75,16 @@ async function run() {
 
     try {
       const items = await getAllItems(info.playlistId);
-
-      // Output flattened JSON directly
-      const outFile = path.join(
-        outputDir,
-        file.replace(/\.json$/i, "-videos.json")
-      );
-      fs.writeFileSync(outFile, JSON.stringify(items, null, 2));
-      console.log(`✅ ${file}: ${items.length} flattened videos saved`);
+      console.log(`✅ ${file}: ${items.length} videos fetched`);
+      allVideos.push(...items);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
   }
+
+  // Save all playlists combined into one movies.json
+  fs.writeFileSync(outputFile, JSON.stringify(allVideos, null, 2));
+  console.log(`✅ All playlists merged: ${allVideos.length} videos saved to ${outputFile}`);
 }
 
 run().catch((e) => {
