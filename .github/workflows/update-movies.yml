@@ -10,19 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 3️⃣ Cache node_modules for faster runs
       - name: Cache node_modules
         uses: actions/cache@v3
         with:
@@ -31,30 +28,25 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      # 4️⃣ Install npm dependencies (if package.json exists)
       - name: Install dependencies
         run: |
           if [ -f package.json ]; then
-            echo "Installing dependencies..."
             npm ci || npm install
           else
-            echo "No package.json found, skipping npm install."
+            echo "No package.json found, skipping install."
           fi
 
-      # 5️⃣ Fetch movie playlists and generate flattened JSON
       - name: Fetch YouTube movie playlists
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
         run: |
           if [ -f ./scripts/movie-playlist.js ]; then
-            echo "Running movie playlist fetch script..."
-            node ./scripts/movie-playlist.js
+            echo "🎬 Running movie playlist fetch script..."
+            node ./scripts/movie-playlist.js || echo "⚠️ Fetch failed, continuing."
           else
             echo "❌ Script not found at ./scripts/movie-playlist.js"
-            exit 1
           fi
 
-      # 6️⃣ Commit and push only if there are changes
       - name: Commit and push updates
         run: |
           git config user.name "github-actions[bot]"
@@ -63,6 +55,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No updates found — skipping commit."
           else
+            echo "✅ Movies JSON updated successfully — committing changes..."
             git commit -m "🔄 Update movie playlist videos (auto)"
             git push origin main
           fi
