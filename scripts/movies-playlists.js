@@ -26,31 +26,30 @@ async function getAllItems(playlistId) {
     const data = await res.json();
 
     if (Array.isArray(data.items) && data.items.length) {
-      allItems.push(...data.items);
+      const flatItems = data.items.map((item) => {
+        const s = item.snippet;
+        return {
+          id: s?.resourceId?.videoId || "",
+          title: s?.title || "",
+          description: s?.description || "",
+          publishedAt: s?.publishedAt || "",
+          thumbnail:
+            s?.thumbnails?.maxres?.url ||
+            s?.thumbnails?.high?.url ||
+            s?.thumbnails?.medium?.url ||
+            s?.thumbnails?.default?.url ||
+            "",
+          playlistId: playlistId,
+          channelTitle: s?.channelTitle || "",
+        };
+      });
+      allItems.push(...flatItems);
     }
+
     pageToken = data.nextPageToken;
   } while (pageToken);
 
-  // 🔹 Flatten each video
-  const flat = allItems
-    .map((item) => {
-      const s = item.snippet;
-      if (!s?.resourceId?.videoId) return null;
-      return {
-        title: s.title,
-        videoId: s.resourceId.videoId,
-        thumbnail:
-          s.thumbnails?.high?.url ||
-          s.thumbnails?.medium?.url ||
-          s.thumbnails?.default?.url ||
-          "",
-        description: s.description || "",
-        publishedAt: s.publishedAt || "",
-      };
-    })
-    .filter(Boolean);
-
-  return flat;
+  return allItems;
 }
 
 async function run() {
@@ -68,18 +67,20 @@ async function run() {
     const info = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
     if (!info.playlistId) {
-      console.warn(`⚠️ No playlistId for ${file}`);
+      console.warn(`⚠️ No playlistId found in ${file}`);
       continue;
     }
 
     try {
       const items = await getAllItems(info.playlistId);
+
+      // Output flattened JSON directly
       const outFile = path.join(
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
       fs.writeFileSync(outFile, JSON.stringify(items, null, 2));
-      console.log(`✅ ${file}: ${items.length} videos saved`);
+      console.log(`✅ ${file}: ${items.length} flattened videos saved`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
