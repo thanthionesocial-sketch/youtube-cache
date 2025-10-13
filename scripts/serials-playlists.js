@@ -1,3 +1,4 @@
+import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
@@ -25,8 +26,26 @@ async function getAllItems(playlistId) {
     const data = await res.json();
 
     if (Array.isArray(data.items) && data.items.length) {
-      allItems.push(...data.items);
+      const flatItems = data.items.map((item) => {
+        const s = item.snippet;
+        return {
+          id: s?.resourceId?.videoId || "",
+          title: s?.title || "",
+          description: s?.description || "",
+          publishedAt: s?.publishedAt || "",
+          thumbnail:
+            s?.thumbnails?.maxres?.url ||
+            s?.thumbnails?.high?.url ||
+            s?.thumbnails?.medium?.url ||
+            s?.thumbnails?.default?.url ||
+            "",
+          playlistId: playlistId,
+          channelTitle: s?.channelTitle || "",
+        };
+      });
+      allItems.push(...flatItems);
     }
+
     pageToken = data.nextPageToken;
   } while (pageToken);
 
@@ -34,13 +53,11 @@ async function getAllItems(playlistId) {
 }
 
 async function run() {
-  // --- Adjusted paths for the serials structure ---
   const playlistsDir = path.join("playlists", "serials");
   const outputDir = path.join("data", "serials");
 
   fs.mkdirSync(outputDir, { recursive: true });
 
-  // only .json files inside playlists/serials
   const files = fs
     .readdirSync(playlistsDir)
     .filter((f) => f.toLowerCase().endsWith(".json"));
@@ -50,18 +67,20 @@ async function run() {
     const info = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
     if (!info.playlistId) {
-      console.warn(`⚠️ No playlistId for ${file}`);
+      console.warn(`⚠️ No playlistId found in ${file}`);
       continue;
     }
 
     try {
       const items = await getAllItems(info.playlistId);
+
+      // Output flattened JSON directly
       const outFile = path.join(
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
-      fs.writeFileSync(outFile, JSON.stringify({ items }, null, 2));
-      console.log(`✅ ${file}: ${items.length} videos`);
+      fs.writeFileSync(outFile, JSON.stringify(items, null, 2));
+      console.log(`✅ ${file}: ${items.length} flattened videos saved`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
