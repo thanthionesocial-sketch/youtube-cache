@@ -36,16 +36,17 @@ jobs:
             echo "No package.json found, skipping install."
           fi
 
-      - name: Fetch YouTube movie playlists
-        env:
-          YT_KEY: ${{ secrets.YT_KEY }}
-        run: |
-          if [ -f ./scripts/movie-playlist.js ]; then
-            echo "🎬 Running movie playlist fetch script..."
-            node ./scripts/movie-playlist.js || echo "⚠️ Fetch failed, continuing."
-          else
-            echo "❌ Script not found at ./scripts/movie-playlist.js"
-          fi
+      - name: Fetch movie playlists
+  env:
+    YT_KEY: ${{ secrets.YT_KEY }}
+  run: |
+    if [ -f ./scripts/movies-playlists.js ]; then
+      echo "🎬 Running movie playlist fetch script..."
+      node ./scripts/movies-playlists.js || echo "⚠️ Fetch failed, continuing."
+    else
+      echo "❌ Script not found at ./scripts/movies-playlists.js"
+    fi
+
 
       - name: Commit and push updates
         run: |
