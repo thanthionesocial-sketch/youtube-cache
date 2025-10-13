@@ -2,16 +2,16 @@ name: Update YouTube Movies
 
 on:
   schedule:
-    - cron: "0 3 * * *" # every day at 03:00 UTC
-  workflow_dispatch: # manual trigger
+    - cron: "0 3 * * *"        # every day at 03:00 UTC
+  workflow_dispatch:
 
 jobs:
   update-movies:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repository
-      - name: Checkout repository
+      # 1️⃣ Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -22,35 +22,42 @@ jobs:
         with:
           node-version: 20
 
-      # 3️⃣ Install dependencies reliably
-      - name: Install dependencies
+      # 3️⃣ Cache node_modules
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      # 4️⃣ Install npm dependencies
+      - name: Install npm dependencies
         run: |
-          echo "📦 Installing dependencies..."
-          npm install
-
-      # 4️⃣ Run the movie playlist script
-      - name: Fetch YouTube movie playlists
+          if [ -f package.json ]; then
+            echo "Installing npm dependencies..."
+            npm install
+          else
+            echo "No package.json found, skipping npm install"
+          fi
+      # 5️⃣ Run movie playlist script (update path if you move to scripts/)
+      - name: Fetch movie playlists
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
         run: |
-          SCRIPT="./scripts/movies-playlists.js"
-          if [ -f "$SCRIPT" ]; then
-            echo "🎬 Running movie playlist fetch script..."
-            node "$SCRIPT" || echo "⚠️ Script failed or quota exceeded — continuing."
+          if [ -f ./scripts/movies-playlists.js ]; then
+            echo "Running movie playlist fetch script..."
+            node ./scripts/movies-playlists.js
           else
-            echo "❌ Script not found at $SCRIPT"
-            exit 1
+            echo "Movie playlist script not found, skipping"
           fi
-
-      # 5️⃣ Commit & push updated JSON if any changes
-      - name: Commit and push updates
+      # 6️⃣ Commit & push updates if any
+      - name: Commit & push movies updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/movies/*.json
           if git diff --staged --quiet; then
-            echo "No updates found — skipping commit."
+            echo "No changes detected, skipping commit."
           else
-            echo "✅ Movies JSON updated successfully — committing changes..."
-            git commit -m "🔄 Update movie playlist videos (auto)"
+            git commit -m "Update movie playlist videos"
             git push origin main
