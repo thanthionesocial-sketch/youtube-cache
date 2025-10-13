@@ -1,8 +1,8 @@
-import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
 
+// Use environment variable from GitHub Actions
 const API_KEY = process.env.YT_KEY;
 if (!API_KEY) {
   console.error("❌ Missing YT_KEY environment variable");
@@ -26,26 +26,8 @@ async function getAllItems(playlistId) {
     const data = await res.json();
 
     if (Array.isArray(data.items) && data.items.length) {
-      const flatItems = data.items.map((item) => {
-        const s = item.snippet;
-        return {
-          id: s?.resourceId?.videoId || "",
-          title: s?.title || "",
-          description: s?.description || "",
-          publishedAt: s?.publishedAt || "",
-          thumbnail:
-            s?.thumbnails?.maxres?.url ||
-            s?.thumbnails?.high?.url ||
-            s?.thumbnails?.medium?.url ||
-            s?.thumbnails?.default?.url ||
-            "",
-          playlistId: playlistId,
-          channelTitle: s?.channelTitle || "",
-        };
-      });
-      allItems.push(...flatItems);
+      allItems.push(...data.items);
     }
-
     pageToken = data.nextPageToken;
   } while (pageToken);
 
@@ -67,20 +49,33 @@ async function run() {
     const info = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
     if (!info.playlistId) {
-      console.warn(`⚠️ No playlistId found in ${file}`);
+      console.warn(`⚠️ No playlistId for ${file}`);
       continue;
     }
 
     try {
       const items = await getAllItems(info.playlistId);
 
-      // Output flattened JSON directly
+      // Flatten the JSON format
+      const flatItems = items.map((v) => ({
+        id: v.snippet.resourceId.videoId,
+        title: v.snippet.title,
+        description: v.snippet.description,
+        thumbnails: v.snippet.thumbnails,
+        publishedAt: v.snippet.publishedAt,
+        channelTitle: v.snippet.channelTitle,
+        playlistId: v.snippet.playlistId,
+        position: v.snippet.position,
+        videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
+        videoOwnerChannelId: v.snippet.videoOwnerChannelId,
+      }));
+
       const outFile = path.join(
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
-      fs.writeFileSync(outFile, JSON.stringify(items, null, 2));
-      console.log(`✅ ${file}: ${items.length} flattened videos saved`);
+      fs.writeFileSync(outFile, JSON.stringify(flatItems, null, 2));
+      console.log(`✅ ${file}: ${flatItems.length} videos`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
