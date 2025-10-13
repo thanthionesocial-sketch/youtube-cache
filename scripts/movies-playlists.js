@@ -1,8 +1,9 @@
+import "dotenv/config";
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
 
-const API_KEY = process.env.YT_KEY; // use the unified secret name
+const API_KEY = process.env.YT_KEY;
 if (!API_KEY) {
   console.error("❌ Missing YT_KEY environment variable");
   process.exit(1);
@@ -30,17 +31,34 @@ async function getAllItems(playlistId) {
     pageToken = data.nextPageToken;
   } while (pageToken);
 
-  return allItems;
+  // 🔹 Flatten each video
+  const flat = allItems
+    .map((item) => {
+      const s = item.snippet;
+      if (!s?.resourceId?.videoId) return null;
+      return {
+        title: s.title,
+        videoId: s.resourceId.videoId,
+        thumbnail:
+          s.thumbnails?.high?.url ||
+          s.thumbnails?.medium?.url ||
+          s.thumbnails?.default?.url ||
+          "",
+        description: s.description || "",
+        publishedAt: s.publishedAt || "",
+      };
+    })
+    .filter(Boolean);
+
+  return flat;
 }
 
 async function run() {
-  // --- Adjusted paths for new structure ---
   const playlistsDir = path.join("playlists", "movies");
   const outputDir = path.join("data", "movies");
 
   fs.mkdirSync(outputDir, { recursive: true });
 
-  // read only .json files inside playlists/movies
   const files = fs
     .readdirSync(playlistsDir)
     .filter((f) => f.toLowerCase().endsWith(".json"));
@@ -60,8 +78,8 @@ async function run() {
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
-      fs.writeFileSync(outFile, JSON.stringify({ items }, null, 2));
-      console.log(`✅ ${file}: ${items.length} videos`);
+      fs.writeFileSync(outFile, JSON.stringify(items, null, 2));
+      console.log(`✅ ${file}: ${items.length} videos saved`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
