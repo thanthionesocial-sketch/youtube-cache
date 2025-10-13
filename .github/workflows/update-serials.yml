@@ -2,7 +2,7 @@ name: Update YouTube Serials
 
 on:
   schedule:
-    - cron: "0 2 * * *"        # every day at 02:00 UTC
+    - cron: "0 2 * * *" # every day at 02:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -10,20 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      # 3️⃣ Cache node_modules for faster installs
-      - name: Cache node modules
+      - name: Cache node_modules
         uses: actions/cache@v3
         with:
           path: ~/.npm
@@ -31,37 +28,34 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      # 4️⃣ Install npm dependencies
-      - name: Install npm dependencies
+      - name: Install dependencies
         run: |
           if [ -f package.json ]; then
-            echo "Installing npm dependencies..."
-            npm install
+            npm ci || npm install
           else
-            echo "No package.json found, skipping npm install"
+            echo "No package.json found, skipping install."
           fi
 
-      # 5️⃣ Run serial playlist script from scripts folder
-      - name: Fetch serial playlists
+      - name: Fetch YouTube serial playlists
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
         run: |
           if [ -f ./scripts/serials-playlists.js ]; then
-            echo "Running serial playlist fetch script..."
-            node ./scripts/serials-playlists.js
+            echo "🎬 Running serial playlist fetch script..."
+            node ./scripts/serials-playlists.js || echo "⚠️ Fetch failed or quota exceeded — continuing."
           else
-            echo "Serial playlist script not found, skipping"
+            echo "❌ Script not found at ./scripts/serials-playlists.js"
           fi
 
-      # 6️⃣ Commit & push updates if any
-      - name: Commit & push serials updates
+      - name: Commit and push updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/serials/*.json
           if git diff --staged --quiet; then
-            echo "No changes detected, skipping commit."
+            echo "No updates found — skipping commit."
           else
-            git commit -m "Update serial playlist videos"
+            echo "✅ Serials JSON updated successfully — committing changes..."
+            git commit -m "🔄 Update serial playlist videos (auto)"
             git push origin main
           fi
