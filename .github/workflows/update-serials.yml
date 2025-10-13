@@ -10,43 +10,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Cache node_modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
+      # 3️⃣ Install dependencies reliably
       - name: Install dependencies
         run: |
-          if [ -f package.json ]; then
-            npm ci || npm install
-          else
-            echo "No package.json found, skipping install."
-          fi
+          echo "📦 Installing dependencies..."
+          npm install
 
+      # 4️⃣ Run the serial playlist script
       - name: Fetch YouTube serial playlists
         env:
           YT_KEY: ${{ secrets.YT_KEY }}
         run: |
-          if [ -f ./scripts/serials-playlists.js ]; then
+          SCRIPT="./scripts/serials-playlists.js"
+          if [ -f "$SCRIPT" ]; then
             echo "🎬 Running serial playlist fetch script..."
-            node ./scripts/serials-playlists.js || echo "⚠️ Fetch failed or quota exceeded — continuing."
+            node "$SCRIPT" || echo "⚠️ Script failed or quota exceeded — continuing."
           else
-            echo "❌ Script not found at ./scripts/serials-playlists.js"
+            echo "❌ Script not found at $SCRIPT"
+            exit 1
           fi
 
+      # 5️⃣ Commit & push updated JSON if any changes
       - name: Commit and push updates
         run: |
           git config user.name "github-actions[bot]"
@@ -58,4 +54,3 @@ jobs:
             echo "✅ Serials JSON updated successfully — committing changes..."
             git commit -m "🔄 Update serial playlist videos (auto)"
             git push origin main
-          fi
