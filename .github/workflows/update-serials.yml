@@ -3,7 +3,7 @@ name: Update YouTube Serials
 on:
   schedule:
     - cron: "0 2 * * *" # every day at 02:00 UTC
-  workflow_dispatch:
+  workflow_dispatch: # manual trigger
 
 jobs:
   update-serials:
