@@ -3,51 +3,46 @@ name: Update YouTube Movies
 on:
   schedule:
     - cron: "0 3 * * *" # every day at 03:00 UTC
-  workflow_dispatch:  # manual trigger
+  workflow_dispatch: # manual trigger
 
 jobs:
   update-movies:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Cache node_modules
-        uses: actions/cache@v3
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
+      # 3️⃣ Install dependencies reliably
       - name: Install dependencies
         run: |
-          if [ -f package.json ]; then
-            npm ci || npm install
+          echo "📦 Installing dependencies..."
+          npm install
+
+      # 4️⃣ Run the movie playlist script
+      - name: Fetch YouTube movie playlists
+        env:
+          YT_KEY: ${{ secrets.YT_KEY }}
+        run: |
+          SCRIPT="./scripts/movies-playlists.js"
+          if [ -f "$SCRIPT" ]; then
+            echo "🎬 Running movie playlist fetch script..."
+            node "$SCRIPT" || echo "⚠️ Script failed or quota exceeded — continuing."
           else
-            echo "No package.json found, skipping install."
+            echo "❌ Script not found at $SCRIPT"
+            exit 1
           fi
 
-      - name: Fetch movie playlists
-  env:
-    YT_KEY: ${{ secrets.YT_KEY }}
-  run: |
-    if [ -f ./scripts/movies-playlists.js ]; then
-      echo "🎬 Running movie playlist fetch script..."
-      node ./scripts/movies-playlists.js || echo "⚠️ Fetch failed, continuing."
-    else
-      echo "❌ Script not found at ./scripts/movies-playlists.js"
-    fi
-
-
+      # 5️⃣ Commit & push updated JSON if any changes
       - name: Commit and push updates
         run: |
           git config user.name "github-actions[bot]"
@@ -59,4 +54,3 @@ jobs:
             echo "✅ Movies JSON updated successfully — committing changes..."
             git commit -m "🔄 Update movie playlist videos (auto)"
             git push origin main
-          fi
