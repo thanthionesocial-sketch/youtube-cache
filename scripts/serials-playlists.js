@@ -98,32 +98,24 @@ async function run() {
       const videoDurations = await getVideoDurations(videoIds);
 
 
-      // Each video is treated as a standalone movie
-      const movies = items.map((v) => ({
+      // Flatten the JSON format 
+        const flatItems = items.map((v) => ({
         id: v.snippet.resourceId.videoId,
         title: v.snippet.title,
         description: cleanDescription(v.snippet.description),
-        thumbnail: v.snippet.thumbnails.maxres
-          ? v.snippet.thumbnails.maxres.url
-          : v.snippet.thumbnails.high.url,
+        thumbnail: v.snippet.thumbnails
         publishedAt: v.snippet.publishedAt,
+        playlistId: v.snippet.playlistId,
         channelTitle: v.snippet.channelTitle,
         videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
         videoOwnerChannelId: v.snippet.videoOwnerChannelId,
         duration: videoDurations[v.snippet.resourceId.videoId] || null,
       }));
 
-     const outFile = path.join(
-        outputDir,
-        file.replace(/\.json$/i, "-videos.json")
-      );
-      fs.writeFileSync(outFile, JSON.stringify(flatJson, null, 2));
-      console.log(`✅ ${file}: ${flatJson.episodes.length} episodes`);
-    } catch (err) {
-      console.error(`❌ ${file}: ${err.message}`);
-    }
-  }
-}
+     const outFile = path.join( outputDir, 
+     file.replace(/\.json$/i, "-videos.json") ); 
+    fs.writeFileSync(outFile, JSON.stringify(flatItems, null, 2)); 
+    console.log(✅ ${file}: ${flatItems.length} videos); } catch (err) { console.error(❌ ${file}: ${err.message}); } } } run().catch((e) => { console.error("Fatal error:", e); process.exit(1); });
 
 run().catch((e) => {
   console.error("Fatal error:", e);
