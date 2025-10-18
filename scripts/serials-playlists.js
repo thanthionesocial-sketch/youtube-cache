@@ -112,10 +112,17 @@ async function run() {
         duration: videoDurations[v.snippet.resourceId.videoId] || null,
       }));
 
-     const outFile = path.join( outputDir, 
-     file.replace(/\.json$/i, "-videos.json") ); 
+     const outFile = path.join(
+       outputDir, 
+     file.replace(/\.json$/i, "-videos.json")
+       ); 
     fs.writeFileSync(outFile, JSON.stringify(flatItems, null, 2)); 
-    console.log(✅ ${file}: ${flatItems.length} videos); } catch (err) { console.error(❌ ${file}: ${err.message}); } } } run().catch((e) => { console.error("Fatal error:", e); process.exit(1); });
+    console.log(✅ ${file}: ${flatItems.length} videos);
+  } catch (err) { 
+    console.error(❌ ${file}: ${err.message});
+  }
+ }
+} run().catch((e) => { console.error("Fatal error:", e); process.exit(1); });
 
 run().catch((e) => {
   console.error("Fatal error:", e);
