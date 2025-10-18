@@ -2,14 +2,13 @@ import fs from "fs";
 import path from "path";
 import fetch from "node-fetch";
 
-// Use environment variable from GitHub Actions
 const API_KEY = process.env.YT_KEY;
 if (!API_KEY) {
   console.error("❌ Missing YT_KEY environment variable");
   process.exit(1);
 }
 
-// Fetch all playlist items (max 50 per page)
+// Fetch playlist items
 async function getAllItems(playlistId) {
   const allItems = [];
   let pageToken;
@@ -35,7 +34,7 @@ async function getAllItems(playlistId) {
   return allItems;
 }
 
-// Fetch video durations for all video IDs
+// Fetch video durations
 async function getVideoDurations(videoIds) {
   const durations = {};
   const chunks = [];
@@ -55,33 +54,25 @@ async function getVideoDurations(videoIds) {
     const data = await res.json();
 
     data.items.forEach((v) => {
-      durations[v.id] = v.contentDetails.duration; // ISO 8601 format
+      durations[v.id] = v.contentDetails.duration;
     });
   }
 
   return durations;
 }
 
-// Clean description for OTT: remove hashtags, social links, YouTube links
+// Clean description for OTT
 function cleanDescription(desc) {
   if (!desc) return "";
-  let cleaned = desc;
-
-  // Remove URLs
-  cleaned = cleaned.replace(/https?:\/\/\S+/g, "");
-
-  // Remove hashtags
-  cleaned = cleaned.replace(/#[^\s]+/g, "");
-
-  // Remove multiple newlines
-  cleaned = cleaned.replace(/\n{2,}/g, "\n");
-
-  // Trim spaces
-  cleaned = cleaned.trim();
-
-  return cleaned;
+  return desc
+    .replace(/https?:\/\/\S+/g, "") // remove URLs
+    .replace(/#[^\s]+/g, "") // remove hashtags
+    .replace(/[\-_=]{2,}/g, "") // remove repeated separators
+    .replace(/\n{2,}/g, "\n") // remove extra newlines
+    .trim();
 }
 
+// Main
 async function run() {
   const playlistsDir = path.join("playlists", "serials");
   const outputDir = path.join("data", "serials");
@@ -106,11 +97,10 @@ async function run() {
       const videoIds = items.map((v) => v.snippet.resourceId.videoId);
       const videoDurations = await getVideoDurations(videoIds);
 
-      // Flatten JSON into OTT-ready format
       const flatJson = {
         showId: info.playlistId,
-        showTitle: info.playlisttitle || "",
-        showDescription: cleanDescription(info.playlistdescription || ""),
+        showTitle: info.title || "Untitled Show",
+        showDescription: cleanDescription(info.description || ""),
         episodes: items.map((v) => ({
           id: v.snippet.resourceId.videoId,
           title: v.snippet.title,
@@ -122,6 +112,7 @@ async function run() {
           playlistId: v.snippet.playlistId,
           position: v.snippet.position,
           channelTitle: v.snippet.channelTitle,
+          videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
           videoOwnerChannelId: v.snippet.videoOwnerChannelId,
           duration: videoDurations[v.snippet.resourceId.videoId] || null,
         })),
