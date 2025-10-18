@@ -109,7 +109,6 @@ async function run() {
           videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
           videoOwnerChannelId: v.snippet.videoOwnerChannelId,
           duration: videoDurations[v.snippet.resourceId.videoId] || null,
-        })),
       };
 
       const outFile = path.join(
