@@ -35,7 +35,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 0,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT42M17S"
   },
   {
     "id": "3Wp7ReDh6_I",
@@ -73,7 +74,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 1,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT42M35S"
   },
   {
     "id": "hJf23MDqYic",
@@ -111,7 +113,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 2,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT41M23S"
   },
   {
     "id": "7AzoU2THS6k",
@@ -149,7 +152,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 3,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT42M39S"
   },
   {
     "id": "i4Rs_O-kPuw",
@@ -187,7 +191,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 4,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT41M10S"
   },
   {
     "id": "Hj6mKeEDiKk",
@@ -225,7 +230,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 5,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT43M17S"
   },
   {
     "id": "M35L6m3-ZdM",
@@ -263,7 +269,8 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 6,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT42M12S"
   },
   {
     "id": "1FLvZvqXGQw",
@@ -301,6 +308,7 @@
     "playlistId": "PLkdhKIzS8nUneyJCjtwqMa1w6svulBSFc",
     "position": 7,
     "videoOwnerChannelTitle": "Thanthi One",
-    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw"
+    "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
+    "duration": "PT42M12S"
   }
 ]
