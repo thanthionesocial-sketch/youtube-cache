@@ -105,11 +105,12 @@ async function run() {
           id: v.snippet.resourceId.videoId,
           title: v.snippet.title,
           description: cleanDescription(v.snippet.description),
-          thumbnail: v.snippet.thumbnails.maxres
-            ? v.snippet.thumbnails.maxres.url
-            : v.snippet.thumbnails.high.url,
-          publishedAt: v.snippet.publishedAt,
-          playlistId: v.snippet.playlistId,
+          thumbnail:
+            s?.thumbnails?.maxres?.url ||
+            s?.thumbnails?.high?.url ||
+            s?.thumbnails?.medium?.url ||
+            s?.thumbnails?.default?.url || "",
+          playlistId: playlistId,
           position: v.snippet.position,
           channelTitle: v.snippet.channelTitle,
           videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
