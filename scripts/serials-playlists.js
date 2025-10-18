@@ -99,7 +99,8 @@ async function run() {
 
       const flatJson = {
         showId: info.playlistId,
-        showTitle: info.title, || "",
+        showId: info.playlistId
+        showTitle: info.title || "Untitled Movie Playlist",
         showDescription: cleanDescription(info.description || ""),
         episodeCount: items.length,
         episodes: items.map((v) => ({
