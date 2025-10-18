@@ -9,6 +9,7 @@ if (!API_KEY) {
   process.exit(1);
 }
 
+// Fetch all playlist items (max 50 per page)
 async function getAllItems(playlistId) {
   const allItems = [];
   let pageToken;
@@ -34,6 +35,33 @@ async function getAllItems(playlistId) {
   return allItems;
 }
 
+// Fetch video durations for all video IDs
+async function getVideoDurations(videoIds) {
+  const durations = {};
+  const chunks = [];
+
+  for (let i = 0; i < videoIds.length; i += 50) {
+    chunks.push(videoIds.slice(i, i + 50));
+  }
+
+  for (const chunk of chunks) {
+    const url = new URL("https://www.googleapis.com/youtube/v3/videos");
+    url.searchParams.set("part", "contentDetails");
+    url.searchParams.set("id", chunk.join(","));
+    url.searchParams.set("key", API_KEY);
+
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    const data = await res.json();
+
+    data.items.forEach((v) => {
+      durations[v.id] = v.contentDetails.duration; // ISO 8601 format
+    });
+  }
+
+  return durations;
+}
+
 async function run() {
   const playlistsDir = path.join("playlists", "serials");
   const outputDir = path.join("data", "serials");
@@ -55,27 +83,37 @@ async function run() {
 
     try {
       const items = await getAllItems(info.playlistId);
+      const videoIds = items.map((v) => v.snippet.resourceId.videoId);
+      const videoDurations = await getVideoDurations(videoIds);
 
-      // Flatten the JSON format
-      const flatItems = items.map((v) => ({
-        id: v.snippet.resourceId.videoId,
-        title: v.snippet.title,
-        description: v.snippet.description,
-        thumbnails: v.snippet.thumbnails,
-        publishedAt: v.snippet.publishedAt,
-        channelTitle: v.snippet.channelTitle,
-        playlistId: v.snippet.playlistId,
-        position: v.snippet.position,
-        videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
-        videoOwnerChannelId: v.snippet.videoOwnerChannelId,
-      }));
+      // Flatten JSON into OTT-ready format
+      const flatJson = {
+        showId: info.playlistId,
+        showTitle: info.title || "Untitled Show",
+        showDescription: info.description || "",
+        episodes: items.map((v) => ({
+          id: v.snippet.resourceId.videoId,
+          title: v.snippet.title,
+          description: v.snippet.description,
+          thumbnail: v.snippet.thumbnails.maxres
+            ? v.snippet.thumbnails.maxres.url
+            : v.snippet.thumbnails.high.url,
+          publishedAt: v.snippet.publishedAt,
+          playlistId: v.snippet.playlistId,
+          position: v.snippet.position,
+          channelTitle: v.snippet.channelTitle,
+          videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
+          videoOwnerChannelId: v.snippet.videoOwnerChannelId,
+          duration: videoDurations[v.snippet.resourceId.videoId] || null,
+        })),
+      };
 
       const outFile = path.join(
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
-      fs.writeFileSync(outFile, JSON.stringify(flatItems, null, 2));
-      console.log(`✅ ${file}: ${flatItems.length} videos`);
+      fs.writeFileSync(outFile, JSON.stringify(flatJson, null, 2));
+      console.log(`✅ ${file}: ${flatJson.episodes.length} episodes`);
     } catch (err) {
       console.error(`❌ ${file}: ${err.message}`);
     }
