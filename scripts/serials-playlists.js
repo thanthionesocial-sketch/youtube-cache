@@ -97,21 +97,23 @@ async function run() {
       const videoIds = items.map((v) => v.snippet.resourceId.videoId);
       const videoDurations = await getVideoDurations(videoIds);
 
-      const flatJson = {
-        showId: info.playlistId,
-          id: v.snippet.resourceId.videoId,
-          title: v.snippet.title,
-          description: cleanDescription(v.snippet.description),
-          thumbnails: v.snippet.thumbnails,
-          position: v.snippet.position,
-          playlistId: v.snippet.playlistId,
-          channelTitle: v.snippet.channelTitle,
-          videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
-          videoOwnerChannelId: v.snippet.videoOwnerChannelId,
-          duration: videoDurations[v.snippet.resourceId.videoId] || null,
+
+      // Each video is treated as a standalone movie
+      const movies = items.map((v) => ({
+        id: v.snippet.resourceId.videoId,
+        title: v.snippet.title,
+        description: cleanDescription(v.snippet.description),
+        thumbnail: v.snippet.thumbnails.maxres
+          ? v.snippet.thumbnails.maxres.url
+          : v.snippet.thumbnails.high.url,
+        publishedAt: v.snippet.publishedAt,
+        channelTitle: v.snippet.channelTitle,
+        videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
+        videoOwnerChannelId: v.snippet.videoOwnerChannelId,
+        duration: videoDurations[v.snippet.resourceId.videoId] || null,
       }));
 
-      const outFile = path.join(
+     const outFile = path.join(
         outputDir,
         file.replace(/\.json$/i, "-videos.json")
       );
