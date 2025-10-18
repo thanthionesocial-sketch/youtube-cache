@@ -99,14 +99,16 @@ async function run() {
 
       const flatJson = {
         showId: info.playlistId,
-        showTitle: info.title || "Untitled Show",
+        showTitle: info.v.snippet.playlistiddescription, || "",
         showDescription: cleanDescription(info.description || ""),
+        episodeCount: items.length,
         episodes: items.map((v) => ({
           id: v.snippet.resourceId.videoId,
           title: v.snippet.title,
           description: cleanDescription(v.snippet.description),
           thumbnails: v.snippet.thumbnails,
           position: v.snippet.position,
+          playlistId: v.snippet.playlistId,
           channelTitle: v.snippet.channelTitle,
           videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
           videoOwnerChannelId: v.snippet.videoOwnerChannelId,
