@@ -99,9 +99,6 @@ async function run() {
 
       const flatJson = {
         showId: info.playlistId,
-        showTitle: info.title || "",
-        showDescription: cleanDescription(info.description || ""),
-        episodes: items.map((v) => ({
           id: v.snippet.resourceId.videoId,
           title: v.snippet.title,
           description: cleanDescription(v.snippet.description),
