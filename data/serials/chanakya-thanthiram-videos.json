@@ -1,16 +1,41 @@
 {
   "showId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
-  "showTitle": "Untitled Show",
+  "showTitle": "",
   "showDescription": "",
   "episodes": [
     {
       "id": "XHg16bCo2Hk",
       "title": "Chanakya Thanthiram | Episode 97 | சாணக்கிய தந்திரம் | Thanthi one | 20th December 2024",
       "description": "Durdhara dies after giving birth to Chandragupta's child. Chandragupta has Dhanananda executed, and the dream of Chandragupta and Chanakya's Bharat becomes a reality.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/XHg16bCo2Hk/maxresdefault.jpg",
-      "publishedAt": "2024-12-21T06:25:46Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XHg16bCo2Hk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XHg16bCo2Hk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XHg16bCo2Hk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XHg16bCo2Hk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/XHg16bCo2Hk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 0,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -20,10 +45,35 @@
       "id": "_9akuMZS5Lo",
       "title": "Chanakya Thanthiram | Episode 96 | சாணக்கிய தந்திரம் | Thanthi one | 19th December 2024",
       "description": "Chandragupta defeats Dhananandhan and captures Magadha, becoming its new king. Dhananandhan is banished from the kingdom. Durdhara reveals to Chandragupta that she is pregnant.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/_9akuMZS5Lo/maxresdefault.jpg",
-      "publishedAt": "2024-12-19T14:36:20Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_9akuMZS5Lo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_9akuMZS5Lo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_9akuMZS5Lo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_9akuMZS5Lo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_9akuMZS5Lo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 1,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -33,10 +83,35 @@
       "id": "afq2ojjjIsA",
       "title": "Chanakya Thanthiram | Episode 95 | சாணக்கிய தந்திரம் | Thanthi one | 18th December 2024",
       "description": "Tarini reveals all the truths to Dhananandhan, who in a fit of rage, kills her. As Tarini lies dying, she reveals that she is pregnant.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/afq2ojjjIsA/maxresdefault.jpg",
-      "publishedAt": "2024-12-18T14:40:01Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/afq2ojjjIsA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/afq2ojjjIsA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/afq2ojjjIsA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/afq2ojjjIsA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/afq2ojjjIsA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 2,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -46,10 +121,35 @@
       "id": "HDhQbETxlGc",
       "title": "Chanakya Thanthiram | Episode 94 | சாணக்கிய தந்திரம் | Thanthi one | 17th December 2024",
       "description": "Mahamathyar escapes, while Chandraguptan kills Dhananandhan's last brother. Meanwhile, Dhananandhan discovers the truth about Tarini.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/HDhQbETxlGc/maxresdefault.jpg",
-      "publishedAt": "2024-12-17T14:35:22Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HDhQbETxlGc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HDhQbETxlGc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HDhQbETxlGc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HDhQbETxlGc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HDhQbETxlGc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 3,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -59,10 +159,35 @@
       "id": "oJfCvT_lqco",
       "title": "Chanakya Thanthiram | Episode 93 | சாணக்கிய தந்திரம் | Thanthi one | 16th December 2024",
       "description": "Chandragupta and Chanakya launched an attack to instill fear in Dhanananda. They devised and executed a special plan to capture Magadha.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/oJfCvT_lqco/maxresdefault.jpg",
-      "publishedAt": "2024-12-17T07:19:05Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/oJfCvT_lqco/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oJfCvT_lqco/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oJfCvT_lqco/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/oJfCvT_lqco/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/oJfCvT_lqco/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 4,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -72,10 +197,35 @@
       "id": "w-b8imfv9AQ",
       "title": "Chanakya Thanthiram | Episode 92 | சாணக்கிய தந்திரம் | Thanthi one | 15th December 2024",
       "description": "Chanakya arrested Mahamathiyar and imprisoned him. Furthermore, Chandragupta executed each of the brothers of Dhanananda.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/w-b8imfv9AQ/maxresdefault.jpg",
-      "publishedAt": "2024-12-16T05:40:24Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/w-b8imfv9AQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/w-b8imfv9AQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/w-b8imfv9AQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/w-b8imfv9AQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/w-b8imfv9AQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 5,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -85,10 +235,35 @@
       "id": "DgMRrsCaUHc",
       "title": "Chanakya Thanthiram | Episode 91 | சாணக்கிய தந்திரம் | Thanthi one | 14th December 2024",
       "description": "Chanakya and Chandragupta meet Dharani and reveal the truth to her. They inform her that Dhananandan is responsible for her father's death.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/DgMRrsCaUHc/maxresdefault.jpg",
-      "publishedAt": "2024-12-16T05:30:46Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DgMRrsCaUHc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DgMRrsCaUHc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DgMRrsCaUHc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DgMRrsCaUHc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DgMRrsCaUHc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 6,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -98,10 +273,35 @@
       "id": "dxNOkkt-KPM",
       "title": "Chanakya Thanthiram | Episode 90 | சாணக்கிய தந்திரம் | Thanthi one | 13th December 2024",
       "description": "Dhananandan betrays Chandragupta. Mura confronts Dhananandan and a fight ensues, during which he attacks Mura, resulting in her death.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/dxNOkkt-KPM/maxresdefault.jpg",
-      "publishedAt": "2024-12-13T14:46:14Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dxNOkkt-KPM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dxNOkkt-KPM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dxNOkkt-KPM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dxNOkkt-KPM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/dxNOkkt-KPM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 7,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -111,10 +311,35 @@
       "id": "P1w0G1gE3gg",
       "title": "Chanakya Thanthiram | Episode 89 | சாணக்கிய தந்திரம் | Thanthi one | 12th December 2024",
       "description": "Dharani and Dhananandan's wedding takes place. Chanakya and Chandragupta come to know about this. Chandragupta sets out with his army to destroy Dhananandan.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/P1w0G1gE3gg/maxresdefault.jpg",
-      "publishedAt": "2024-12-13T06:40:45Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/P1w0G1gE3gg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/P1w0G1gE3gg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/P1w0G1gE3gg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/P1w0G1gE3gg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/P1w0G1gE3gg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 8,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -124,10 +349,35 @@
       "id": "mCzYVZ93h9E",
       "title": "Chanakya Thanthiram | Episode 88 | சாணக்கிய தந்திரம் | Thanthi one | 11th December 2024",
       "description": "Dhananandan mistakenly killed his own brother in a fit of rage against Dharani. Meanwhile, the wedding of Durthara and Chandragupta took place with great fanfare and concluded successfully.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/mCzYVZ93h9E/maxresdefault.jpg",
-      "publishedAt": "2024-12-11T14:32:41Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mCzYVZ93h9E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mCzYVZ93h9E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mCzYVZ93h9E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mCzYVZ93h9E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mCzYVZ93h9E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 9,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -137,10 +387,35 @@
       "id": "iNJFW2jM8MQ",
       "title": "Chanakya Thanthiram | Episode 87 | சாணக்கிய தந்திரம் | Thanthi one | 10th December 2024",
       "description": "Chandragupta and Chanakya disguise themselves and infiltrate Magadha. From there, they rescue the children and Princess Durdhara.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/iNJFW2jM8MQ/maxresdefault.jpg",
-      "publishedAt": "2024-12-10T14:31:10Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/iNJFW2jM8MQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iNJFW2jM8MQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iNJFW2jM8MQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iNJFW2jM8MQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/iNJFW2jM8MQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 10,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -150,10 +425,35 @@
       "id": "DhlXileofa0",
       "title": "Chanakya Thanthiram | Episode 86 | சாணக்கிய தந்திரம் | Thanthi one | 9th December 2024",
       "description": "Chanakya devises a new plan and discovers the poisonous maiden. He punishes her, but Chandragupta saves her, leading to her reformation.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/DhlXileofa0/maxresdefault.jpg",
-      "publishedAt": "2024-12-10T06:32:46Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/DhlXileofa0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DhlXileofa0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DhlXileofa0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DhlXileofa0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/DhlXileofa0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 11,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -163,10 +463,35 @@
       "id": "szk7gua4raA",
       "title": "Chanakya Thanthiram | Episode 85 | சாணக்கிய தந்திரம் | Thanthi one | 7th December 2024",
       "description": "Dhananandhan sends Naagakanni to surrender Chandragupta and Chanakya. Dhananandhan becomes suspicious of Taarini. His trust in Taarini is shaken.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/szk7gua4raA/maxresdefault.jpg",
-      "publishedAt": "2024-12-08T15:09:35Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/szk7gua4raA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/szk7gua4raA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/szk7gua4raA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/szk7gua4raA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/szk7gua4raA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 12,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -176,10 +501,35 @@
       "id": "jF19QzB2_oM",
       "title": "Chanakya Thanthiram | Episode 84 | சாணக்கிய தந்திரம் | Thanthi one | 7th December 2024",
       "description": "Chandragupta kills Dhananandhan's brother, leaving him consumed by grief. Dhananandhan is devastated by his brother's death and struggles to come to terms with his loss. He cannot accept his own defeat and the death of his brother.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/jF19QzB2_oM/maxresdefault.jpg",
-      "publishedAt": "2024-12-07T15:54:20Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/jF19QzB2_oM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jF19QzB2_oM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jF19QzB2_oM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/jF19QzB2_oM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/jF19QzB2_oM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 13,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -189,10 +539,35 @@
       "id": "aW3eTDP7ads",
       "title": "Chanakya Thanthiram | Episode 83 | சாணக்கிய தந்திரம் | Thanthi one | 6th December 2024",
       "description": "Chanakya hands over the prince to the King of Avanti, who then agrees to help Chanakya. Chanakya saves the prince of Avanti, earning the king's gratitude and support. Chandragupta, with Chanakya's guidance, rescues the prince of the Paurava kingdom.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/aW3eTDP7ads/maxresdefault.jpg",
-      "publishedAt": "2024-12-06T14:31:00Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/aW3eTDP7ads/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/aW3eTDP7ads/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/aW3eTDP7ads/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/aW3eTDP7ads/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/aW3eTDP7ads/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 14,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -202,10 +577,35 @@
       "id": "RP_xgjJIMAE",
       "title": "Chanakya Thanthiram | Episode 82 | சாணக்கிய தந்திரம் | Thanthi one | 5th December 2024",
       "description": "The prince of Paurava kingdom has been held captive. Chandragupta heads to Magadha to rescue him. As Chanakya had planned, the events unfold accordingly.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/RP_xgjJIMAE/maxresdefault.jpg",
-      "publishedAt": "2024-12-06T06:15:22Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/RP_xgjJIMAE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RP_xgjJIMAE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RP_xgjJIMAE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RP_xgjJIMAE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/RP_xgjJIMAE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 15,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -215,10 +615,35 @@
       "id": "m-PfDiFGBUM",
       "title": "Chanakya Thanthiram | Episode 81 | சாணக்கிய தந்திரம் | Thanthi one | 4th December 2024",
       "description": "As per Chanakya's plan, Tarini meets Dhananandhan, who reveals his intention to destroy the Paurava kingdom. Tarini informs Chanakya about this revelation.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/m-PfDiFGBUM/maxresdefault.jpg",
-      "publishedAt": "2024-12-04T14:30:55Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/m-PfDiFGBUM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/m-PfDiFGBUM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/m-PfDiFGBUM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/m-PfDiFGBUM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/m-PfDiFGBUM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 16,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -228,10 +653,35 @@
       "id": "A0ZQ3Y8oJs4",
       "title": "Chanakya Thanthiram | Episode 80 | சாணக்கிய தந்திரம் | Thanthi one | 3rd December 2024",
       "description": "Chandraguptan and Chanakyan discover the relationship between Tarini and Dhana Nandan. Chanakyan advises Tarini to go to the palace to learn about Dhana's plans, but Tarini refuses.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/maxresdefault.jpg",
-      "publishedAt": "2024-12-03T14:30:26Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/A0ZQ3Y8oJs4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 17,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -241,10 +691,35 @@
       "id": "j3QZsMWeYNc",
       "title": "Chanakya Thanthiram | Episode 79 | சாணக்கிய தந்திரம் | Thanthi one | 2nd December 2024",
       "description": "Supra betrayed Durdhara's trust. Dhanaanandan's soldiers surrounded them. Chandrakupta and Durdhara's wedding did not take place.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/j3QZsMWeYNc/maxresdefault.jpg",
-      "publishedAt": "2024-12-02T14:32:00Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/j3QZsMWeYNc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/j3QZsMWeYNc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/j3QZsMWeYNc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/j3QZsMWeYNc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/j3QZsMWeYNc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 18,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -254,10 +729,35 @@
       "id": "kpH9A4PkSDo",
       "title": "Chanakya Thanthiram | Episode 78 | சாணக்கிய தந்திரம் | Thanthi one | 1st December 2024",
       "description": "Ambikumaran arrives to kidnap Durdhara when Chandragupta and Chanakya are away, but is thwarted by Dharini and Mura. Chandragupta and Durdhara prepare for their wedding.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/kpH9A4PkSDo/maxresdefault.jpg",
-      "publishedAt": "2024-12-02T06:31:47Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/kpH9A4PkSDo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kpH9A4PkSDo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kpH9A4PkSDo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kpH9A4PkSDo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/kpH9A4PkSDo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 19,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -267,10 +767,35 @@
       "id": "shuN_kkClMQ",
       "title": "Chanakya Thanthiram | Episode 77 | சாணக்கிய தந்திரம் | Thanthi one | 30th November 2024",
       "description": "Chandragupta and Chanakya fight against the forces of Dhanananda. Betrayed by his own men, Chandragupta surrenders to Dhanananda. Dhanananda arrests Chandragupta and subjects him to torture.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/shuN_kkClMQ/maxresdefault.jpg",
-      "publishedAt": "2024-12-02T06:41:16Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/shuN_kkClMQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/shuN_kkClMQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/shuN_kkClMQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/shuN_kkClMQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/shuN_kkClMQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 20,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -280,10 +805,35 @@
       "id": "BUOOL8WleiI",
       "title": "Chanakya Thanthiram | Episode 76 | சாணக்கிய தந்திரம் | Thanthi one | 29th November 2024",
       "description": "Chandraguptan follows Dharini due to her suspicion and discovers that she had sent a message through a pigeon. Dhananandhan plans to arrest Chandraguptan by using the King of Avanthi.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/BUOOL8WleiI/maxresdefault.jpg",
-      "publishedAt": "2024-11-29T14:36:42Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BUOOL8WleiI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BUOOL8WleiI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BUOOL8WleiI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BUOOL8WleiI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/BUOOL8WleiI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 21,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -293,10 +843,35 @@
       "id": "XwzHeGPC9Aw",
       "title": "Chanakya Thanthiram | Episode 75 | சாணக்கிய தந்திரம் | Thanthi one | 28th November 2024",
       "description": "Chandraguptan and Durdhara escape from Dhananandan and meet Tarini, and also the people of Pippalivanam.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/XwzHeGPC9Aw/maxresdefault.jpg",
-      "publishedAt": "2024-11-28T14:44:58Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XwzHeGPC9Aw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XwzHeGPC9Aw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XwzHeGPC9Aw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XwzHeGPC9Aw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/XwzHeGPC9Aw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 22,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -306,10 +881,35 @@
       "id": "HLwGDlbUrhU",
       "title": "Chanakya Thanthiram | Episode 74 | சாணக்கிய தந்திரம் | Thanthi one | 27th November 2024",
       "description": "Dhananandan plans to trap Chandrakuptan by using his sister. While Chandrakuptan is meeting with Durthara, Ambikumaran stabs Chandrakuptan with a knife.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/HLwGDlbUrhU/maxresdefault.jpg",
-      "publishedAt": "2024-11-28T06:57:37Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HLwGDlbUrhU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HLwGDlbUrhU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HLwGDlbUrhU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HLwGDlbUrhU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HLwGDlbUrhU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 23,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -319,10 +919,35 @@
       "id": "vFAZuy8pIdg",
       "title": "Chanakya Thanthiram | Episode 73 | சாணக்கிய தந்திரம் | Thanthi one | 26th November 2024",
       "description": "Chanakya announces plans to host a festival, inviting 14 countries. Dhananandan decides to create chaos during the festival. Meanwhile, Ambikapathy pretends to be a good person in front of Durthara.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/vFAZuy8pIdg/maxresdefault.jpg",
-      "publishedAt": "2024-11-27T04:57:30Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/vFAZuy8pIdg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vFAZuy8pIdg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vFAZuy8pIdg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vFAZuy8pIdg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/vFAZuy8pIdg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 24,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -332,10 +957,35 @@
       "id": "cysI3jsKpgk",
       "title": "Chanakya Thanthiram | Episode 72 | சாணக்கிய தந்திரம் | Thanthi one | 25th November 2024",
       "description": "Chanakya and Chandragupta successfully drive Selucus out of the country, just as they had planned. Dhananandhan devises a new plan using Ambhikumar.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/cysI3jsKpgk/maxresdefault.jpg",
-      "publishedAt": "2024-11-26T05:55:52Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/cysI3jsKpgk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cysI3jsKpgk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cysI3jsKpgk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cysI3jsKpgk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/cysI3jsKpgk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 25,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -345,10 +995,35 @@
       "id": "bWtEnHn7qYI",
       "title": "Chanakya Thanthiram | Episode 71 | சாணக்கிய தந்திரம் | Thanthi one | 24th November 2024",
       "description": "Durdhara gets hurt after a fight with Dhananandhan.Dhananandhan tries to save Durdhara but she hates him instead. Chanakya devises a plan to defeat Seleucus.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/bWtEnHn7qYI/maxresdefault.jpg",
-      "publishedAt": "2024-11-25T04:16:01Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/bWtEnHn7qYI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bWtEnHn7qYI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bWtEnHn7qYI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bWtEnHn7qYI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/bWtEnHn7qYI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 26,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -358,10 +1033,35 @@
       "id": "Tjp45MMOk8c",
       "title": "Chanakya Thanthiram | Episode 70 | சாணக்கிய தந்திரம் | Thanthi one | 23rd November 2024",
       "description": "Tamilarasi exposes Pooja as the mastermind behind Kayal's death. Akhila discovers Kavitha's secret love for Suriya. Akhila encourages Kavitha to marry Suriya.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Tjp45MMOk8c/maxresdefault.jpg",
-      "publishedAt": "2024-11-25T04:22:16Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Tjp45MMOk8c/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Tjp45MMOk8c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Tjp45MMOk8c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Tjp45MMOk8c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Tjp45MMOk8c/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 27,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -371,10 +1071,35 @@
       "id": "UnKJIQtqkoc",
       "title": "Chanakya Thanthiram | Episode 69 | சாணக்கிய தந்திரம் | Thanthi one | 22nd November 2024",
       "description": "Seleucus helps Chandragupta, enabling him to kill Ambirajan. With his enemy defeated, Chandragupta reveals his true identity to everyone. Chandragupta's revelation shocks all, exposing his hidden past.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/UnKJIQtqkoc/maxresdefault.jpg",
-      "publishedAt": "2024-11-23T06:14:07Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/UnKJIQtqkoc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UnKJIQtqkoc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UnKJIQtqkoc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UnKJIQtqkoc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/UnKJIQtqkoc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 28,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -384,10 +1109,35 @@
       "id": "LyUtCtKjvs0",
       "title": "Chanakya Thanthiram | Episode 68 | சாணக்கிய தந்திரம் | Thanthi one | 21st November 2024",
       "description": "Dhana Nandhan accuses Chandragupta of attacking Seleucus, leading to his imprisonment. Chanakya devises a plan to rescue Chandragupta from prison. Chanakya's clever strategy aims to free Chandragupta and clear his name.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/LyUtCtKjvs0/maxresdefault.jpg",
-      "publishedAt": "2024-11-22T07:49:03Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/LyUtCtKjvs0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LyUtCtKjvs0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LyUtCtKjvs0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LyUtCtKjvs0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/LyUtCtKjvs0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 29,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -397,10 +1147,35 @@
       "id": "16iEVwt3_fE",
       "title": "Chanakya Thanthiram | Episode 67 | சாணக்கிய தந்திரம் | Thanthi one | 20th November 2024",
       "description": "\"Dhananandhan announces the wedding date of Durdhara and Ambikumar. Chandragupta and Chanakya conspire to stop the wedding.\nChandragupta attacks Seleucus and frames Ambikumar for the crime.\"\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/16iEVwt3_fE/maxresdefault.jpg",
-      "publishedAt": "2024-11-21T04:17:21Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/16iEVwt3_fE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/16iEVwt3_fE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/16iEVwt3_fE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/16iEVwt3_fE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/16iEVwt3_fE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 30,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -410,10 +1185,35 @@
       "id": "MmH8VPzoc24",
       "title": "Chanakya Thanthiram | Episode 66 | சாணக்கிய தந்திரம் | Thanthi one | 19th November 2024",
       "description": "Chandraguptan manipulates Ambikumar to turn against Seleucus. Dhananandan informs Durthara that he plans to arrange an engagement between Durthara and Ambikumar.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/MmH8VPzoc24/maxresdefault.jpg",
-      "publishedAt": "2024-11-20T04:23:18Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/MmH8VPzoc24/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MmH8VPzoc24/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MmH8VPzoc24/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MmH8VPzoc24/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/MmH8VPzoc24/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 31,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -423,10 +1223,35 @@
       "id": "Zr6NeWJRNzw",
       "title": "Chanakya Thanthiram | Episode 65 | சாணக்கிய தந்திரம் | Thanthi one | 18th November 2024",
       "description": "He refuses to believe that Chandrakuptan is dead and accompanies Ambirajan to the underground prison. Upon arrival, he suspects that Chandrakuptan has escaped from the prison.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Zr6NeWJRNzw/maxresdefault.jpg",
-      "publishedAt": "2024-11-20T05:52:56Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Zr6NeWJRNzw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Zr6NeWJRNzw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Zr6NeWJRNzw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Zr6NeWJRNzw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Zr6NeWJRNzw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 32,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -436,10 +1261,35 @@
       "id": "CZOrDyjxCNs",
       "title": "Chanakya Thanthiram | Episode 64 | சாணக்கிய தந்திரம் | Thanthi one | 17th November 2024",
       "description": "Chandraguptan rushes to meet his mother, overjoyed to learn she's alive. He and his mother, Moora, are ecstatic to be reunited. However, Chandraguptan distrusts Durdhara, who seeks forgiveness and claims to want to make amends.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/CZOrDyjxCNs/maxresdefault.jpg",
-      "publishedAt": "2024-11-18T07:16:49Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/CZOrDyjxCNs/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CZOrDyjxCNs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CZOrDyjxCNs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CZOrDyjxCNs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/CZOrDyjxCNs/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 33,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -449,10 +1299,35 @@
       "id": "R1bZG0wH9Xw",
       "title": "Chanakya Thanthiram | Episode 63 | சாணக்கிய தந்திரம் | Thanthi one | 16th November 2024",
       "description": "Queen Durdhara assure that if she discovers the truth about Mura, she will claim to support Mura. Shulphatrikan reveals his true identity to Chanakya and weeps.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/R1bZG0wH9Xw/maxresdefault.jpg",
-      "publishedAt": "2024-11-18T07:05:26Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/R1bZG0wH9Xw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/R1bZG0wH9Xw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/R1bZG0wH9Xw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/R1bZG0wH9Xw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/R1bZG0wH9Xw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 34,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -462,10 +1337,35 @@
       "id": "rjLTuJ3-mVA",
       "title": "Chanakya Thanthiram | Episode 62 | சாணக்கிய தந்திரம் | Thanthi one | 15th November 2024",
       "description": "Durdhara considers apologizing to Chandragupta, but he despises her. Durdhara agrees to marry Ambikumar, uniting Magadha and Takshashila. This alliance strengthens the bond between the two kingdoms.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/rjLTuJ3-mVA/maxresdefault.jpg",
-      "publishedAt": "2024-11-16T06:28:28Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/rjLTuJ3-mVA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rjLTuJ3-mVA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rjLTuJ3-mVA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rjLTuJ3-mVA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/rjLTuJ3-mVA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 35,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -475,10 +1375,35 @@
       "id": "XBWHkyYuTOI",
       "title": "Chanakya Thanthiram | Episode 61 | சாணக்கிய தந்திரம் | Thanthi one | 14th November 2024",
       "description": "Chanakya and Chandragupta conspire to stop Durdhara's wedding. As planned, Seleucus interrupts and halts the ceremony. Meanwhile, Durdhara discovers that thought-to-be-deceased Moora, is actually alive.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/XBWHkyYuTOI/maxresdefault.jpg",
-      "publishedAt": "2024-11-15T06:33:44Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XBWHkyYuTOI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XBWHkyYuTOI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XBWHkyYuTOI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XBWHkyYuTOI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/XBWHkyYuTOI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 36,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -488,10 +1413,35 @@
       "id": "4BX9SHcm3EQ",
       "title": "Chanakya Thanthiram | Episode 60 | சாணக்கிய தந்திரம் | Thanthi one | 13th November 2024",
       "description": "Chandragupta fights against Dhanananda as a brave warrior of Takshashila. Dhanananda decides to surrender to Seleucus. Seleucus proposes marrying off Takshashila's prince to Durdhara, and Dhanananda agrees.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/4BX9SHcm3EQ/maxresdefault.jpg",
-      "publishedAt": "2024-11-14T05:35:17Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4BX9SHcm3EQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4BX9SHcm3EQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4BX9SHcm3EQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4BX9SHcm3EQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/4BX9SHcm3EQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 37,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -501,10 +1451,35 @@
       "id": "O-r1BwuuPVE",
       "title": "Chanakya Thanthiram | Episode 59 | சாணக்கிய தந்திரம் | Thanthi one | 12th November 2024",
       "description": "Chandragupta escapes from the underground well and joins forces with Seleucus' army. He strategizes against Dhana Nanda's forces, planning a counterattack. Chandragupta aims to achieve his goal through Ambhi Kumar, leveraging their alliance for success.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/O-r1BwuuPVE/maxresdefault.jpg",
-      "publishedAt": "2024-11-12T16:04:21Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/O-r1BwuuPVE/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/O-r1BwuuPVE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/O-r1BwuuPVE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/O-r1BwuuPVE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/O-r1BwuuPVE/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 38,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -514,10 +1489,35 @@
       "id": "AEuC2FYUvGo",
       "title": "Chanakya Thanthiram | Episode 58 | சாணக்கிய தந்திரம் | Thanthi one | 11th November 2024",
       "description": "Mura refuses to believe the news of Chandragupta's death, convinced that he will emerge victorious. Chandragupta's unwavering confidence reassures others of his triumph. Dhana Nanda seeks to prove himself a superior ruler, determined to outdo Chandragupta.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/AEuC2FYUvGo/maxresdefault.jpg",
-      "publishedAt": "2024-11-20T05:53:51Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/AEuC2FYUvGo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AEuC2FYUvGo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AEuC2FYUvGo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AEuC2FYUvGo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/AEuC2FYUvGo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 39,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -527,10 +1527,35 @@
       "id": "cs0NJMylqdI",
       "title": "Chanakya Thanthiram | Episode 57 | சாணக்கிய தந்திரம் | Thanthi one | 10th November 2024",
       "description": "Chandragupta and Chanakya meet Seleucus to forge an alliance, but Seleucus betrays them, accusing Chanakya of treachery. He currently imprisons both Chandragupta and Chanakya in the underground jail. Meanwhile, Durdhara secretly reveals to Dhana Nanda that she is plotting against him.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/cs0NJMylqdI/maxresdefault.jpg",
-      "publishedAt": "2024-11-11T06:17:43Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/cs0NJMylqdI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cs0NJMylqdI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cs0NJMylqdI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cs0NJMylqdI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/cs0NJMylqdI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 40,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -540,10 +1565,35 @@
       "id": "AONg4Z3SMs8",
       "title": "Chanakya Thanthiram | Episode 56 | சாணக்கிய தந்திரம் | Thanthi one | 9th November 2024",
       "description": "Dhananandan sets fire to the palace, believing Chandragupta and Chanakya perished in the flames. Durdhara inquires about her father's death, leaving Dhananandan uneasy. Durdhara vows to avenge her father's murder, warning Dhananandan that she will ensure justice is served.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/AONg4Z3SMs8/maxresdefault.jpg",
-      "publishedAt": "2024-11-11T06:30:22Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/AONg4Z3SMs8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AONg4Z3SMs8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AONg4Z3SMs8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AONg4Z3SMs8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/AONg4Z3SMs8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 41,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -553,10 +1603,35 @@
       "id": "I5d37EKWYxo",
       "title": "Chanakya Thanthiram | Episode 55 | சாணக்கிய தந்திரம் | Thanthi one | 8th November 2024",
       "description": "Dhananandan breaches the palace gates. Durdhara accuses Thanananda of patricide. Will Chandragupta seize Magadha by defeating Thanananda? \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/I5d37EKWYxo/maxresdefault.jpg",
-      "publishedAt": "2024-11-09T04:35:16Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/I5d37EKWYxo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/I5d37EKWYxo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/I5d37EKWYxo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/I5d37EKWYxo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/I5d37EKWYxo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 42,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -566,10 +1641,35 @@
       "id": "4AUxzqGLSwM",
       "title": "Chanakya Thanthiram | Episode 54 | சாணக்கிய தந்திரம் | Thanthi one | 7th November 2024",
       "description": "Dhananandan seeks to capture the palace, but Chandra Gupta counters with effective tactics. Poisoned arrows are used against the satraps, causing widespread harm. Sandhiran dies from the arrow's lethal poison.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/4AUxzqGLSwM/maxresdefault.jpg",
-      "publishedAt": "2024-11-08T04:44:54Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/4AUxzqGLSwM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4AUxzqGLSwM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4AUxzqGLSwM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4AUxzqGLSwM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/4AUxzqGLSwM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 43,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -579,10 +1679,35 @@
       "id": "K_HYx_7at-Y",
       "title": "Chanakya Thanthiram | Episode 53| சாணக்கிய தந்திரம் | Thanthi one | 6th November 2024",
       "description": "Durdara comes to terms with her circumstances. However, Dhanananda is unable to protect his younger sister from the unfolding events. The people of Magadha, meanwhile, refuse to pay taxes, adding to the growing unrest. In a bold move, Durdara manages to escape from Chandra Gupta and makes her way to Dhananandan, seeking refuge with him.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/K_HYx_7at-Y/maxresdefault.jpg",
-      "publishedAt": "2024-11-07T05:05:49Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/K_HYx_7at-Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K_HYx_7at-Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K_HYx_7at-Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/K_HYx_7at-Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/K_HYx_7at-Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 44,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -592,10 +1717,35 @@
       "id": "mipUNVr9DCQ",
       "title": "Chanakya Thanthiram | Episode 52 | சாணக்கிய தந்திரம் | Thanthi one | 5th November 2024",
       "description": "Chandragupta devises a plan to rescue his mother from Dhananandan's captivity. Dhananandan proposes a condition: in exchange for his mother's freedom, Chandragupta must hand over the Princess of Magadha. \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/mipUNVr9DCQ/maxresdefault.jpg",
-      "publishedAt": "2024-11-06T04:59:27Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mipUNVr9DCQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mipUNVr9DCQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mipUNVr9DCQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mipUNVr9DCQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mipUNVr9DCQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 45,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -605,10 +1755,35 @@
       "id": "UEbtkAXKp8s",
       "title": "Chanakya Thanthiram | Episode 51| சாணக்கிய தந்திரம் | Thanthi one | 4th November 2024",
       "description": "Chandra Guptan and his friend devise a daring escape plan from their ingenious prison. Meanwhile, Dhananandhan pressures Jagathjala and his son, demanding they reveal Chandra Guptan's true identity.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/UEbtkAXKp8s/maxresdefault.jpg",
-      "publishedAt": "2024-11-04T14:31:44Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/UEbtkAXKp8s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UEbtkAXKp8s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UEbtkAXKp8s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UEbtkAXKp8s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/UEbtkAXKp8s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 46,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -618,10 +1793,35 @@
       "id": "RCiIEl-bIdg",
       "title": "Chanakya Thanthiram | Episode 50 | சாணக்கிய தந்திரம் | Thanthi one | 3rd November 2024",
       "description": "During Samrat's Durga Pooja celebrations, Jagathjala and his brother plot to reveal Chandra Gupta's true identity. Chandra Gupta, Chanakya, and their allies frantically search for Moora, Chandra Gupta's missing mother. Chandra Guptan vows to save his mother.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/RCiIEl-bIdg/maxresdefault.jpg",
-      "publishedAt": "2024-11-04T07:28:25Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/RCiIEl-bIdg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RCiIEl-bIdg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RCiIEl-bIdg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RCiIEl-bIdg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/RCiIEl-bIdg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 47,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -631,10 +1831,35 @@
       "id": "MpYO3bKRx4Y",
       "title": "Chanakya Thanthiram | Episode 49 | சாணக்கிய தந்திரம் | Thanthi one | 2nd November 2024",
       "description": "Chanakya, disguised, outwits Dhanananda with bold answers. Rani Kalki discovers Mura's truth and vows to rescue him. With cunning strategy, Kalki devises a plan to save Mura.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/MpYO3bKRx4Y/maxresdefault.jpg",
-      "publishedAt": "2024-11-04T07:43:41Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/MpYO3bKRx4Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MpYO3bKRx4Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MpYO3bKRx4Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MpYO3bKRx4Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/MpYO3bKRx4Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 48,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -644,10 +1869,35 @@
       "id": "lJW9c3hV8nk",
       "title": "Chanakya Thanthiram | Episode 48 | சாணக்கிய தந்திரம் | Thanthi one | 1st November 2024",
       "description": "Chanakya reveals Chatru's true identity as Chandragupta to King Parasupura, but they manage to escape after Chatru's staged assassination. However, their relief is short-lived as Dhananandan arrives in Parasapura's kingdom, posing a new threat. Chanakya and Chandragupta must navigate this precarious situation.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/lJW9c3hV8nk/maxresdefault.jpg",
-      "publishedAt": "2024-11-02T05:33:44Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/lJW9c3hV8nk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lJW9c3hV8nk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lJW9c3hV8nk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lJW9c3hV8nk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/lJW9c3hV8nk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 49,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -657,10 +1907,35 @@
       "id": "f7JzK2t002s",
       "title": "Chanakya Thanthiram | Episode 47 | சாணக்கிய தந்திரம் | Thanthi one | 31st October 2024",
       "description": "Queen Mura, enraged by King Mahananda's transgressions, conspires through Sadhguru to eradicate Chandragupta's lineage and expose secrets to Dhanananda. However, Chanakya thwarted the plan, safeguarding the royal dynasty from annihilation.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/f7JzK2t002s/maxresdefault.jpg",
-      "publishedAt": "2024-11-01T07:37:57Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/f7JzK2t002s/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/f7JzK2t002s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/f7JzK2t002s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/f7JzK2t002s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/f7JzK2t002s/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 50,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -670,10 +1945,35 @@
       "id": "jolUJLWXqCY",
       "title": "Chanakya Thanthiram | Episode 46 | சாணக்கிய தந்திரம் | Thanthi one | 30th October 2024",
       "description": "Tanandan devises a strategic plan, uniting the chatrias as they converge to discuss their next collective endeavor. Meanwhile, Chanakya reveals crucial information about Satturu, potentially shifting the balance of power. However, tensions escalate as King Parasupura brazenly disrespects Chandragupta's mother.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/jolUJLWXqCY/maxresdefault.jpg",
-      "publishedAt": "2024-11-01T07:46:21Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/jolUJLWXqCY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jolUJLWXqCY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jolUJLWXqCY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/jolUJLWXqCY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/jolUJLWXqCY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 51,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -683,10 +1983,35 @@
       "id": "O6P3pfdhVhQ",
       "title": "Chanakya Thanthiram | Episode 45 | சாணக்கிய தந்திரம் | Thanthi one | 29th October 2024",
       "description": "Chandragupta strategically aligns with the Parasapura prince, leveraging their rivalry to his advantage, and forges a crucial bond with Thandakar. Gaining royal audience, Chandragupta meets King Parasapura, paving the way for future alliances. \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/O6P3pfdhVhQ/maxresdefault.jpg",
-      "publishedAt": "2024-10-30T05:11:34Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/O6P3pfdhVhQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/O6P3pfdhVhQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/O6P3pfdhVhQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/O6P3pfdhVhQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/O6P3pfdhVhQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 52,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -696,10 +2021,35 @@
       "id": "G2wPNDOtGL0",
       "title": "Chanakya Thanthiram | Episode 44 | சாணக்கிய தந்திரம் | Thanthi one | 28th October 2024",
       "description": "Chanakya and Chandragupta, in disguise, try to outmaneuver Dhananandan's forces. Chandragupta seeks to ally with the Parasapura nation by ensuring their prince's tournament victory. \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/G2wPNDOtGL0/maxresdefault.jpg",
-      "publishedAt": "2024-10-28T14:36:41Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/G2wPNDOtGL0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/G2wPNDOtGL0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/G2wPNDOtGL0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/G2wPNDOtGL0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/G2wPNDOtGL0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 53,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -709,10 +2059,35 @@
       "id": "YIQENBd4Jms",
       "title": "Chanakya Thanthiram | Episode 43 | சாணக்கிய தந்திரம் | Thanthi one | 27th October 2024",
       "description": "Chandragupta's bravery defies poison, fueling his quest for Indian independence. Dhanananda's ruthless tactics target Chatriya rebels, while his caste reforms seek to consolidate power.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/YIQENBd4Jms/maxresdefault.jpg",
-      "publishedAt": "2024-10-28T07:31:10Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/YIQENBd4Jms/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/YIQENBd4Jms/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/YIQENBd4Jms/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/YIQENBd4Jms/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/YIQENBd4Jms/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 54,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -722,10 +2097,35 @@
       "id": "HPYyGySUIjA",
       "title": "Chanakya Thanthiram | Episode 42 | சாணக்கிய தந்திரம் | Thanthi one | 26th October 2024",
       "description": "The king's betrayal of the Satriyas is exposed, while Chandragupta falls gravely injured in battle. As Chandragupta's mother seeks medical aid, Dana Anandan launches a frantic quest to find him.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/HPYyGySUIjA/maxresdefault.jpg",
-      "publishedAt": "2024-10-28T07:47:38Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/HPYyGySUIjA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HPYyGySUIjA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HPYyGySUIjA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HPYyGySUIjA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/HPYyGySUIjA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 55,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -735,10 +2135,35 @@
       "id": "wwZeURluaEY",
       "title": "Chanakya Thanthiram | Episode 41 | சாணக்கிய தந்திரம் | Thanthi one | 25th October 2024",
       "description": "Dhanananda discovers the poisoned water and alerts his troops, but Chandragupta's cunning remains a threat. Concealing his thorn-inflicted injury, Chandragupta leads the charge against Dhanananda's forces. The battle rages on – will Chandragupta's strategic brilliance secure victory?\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/wwZeURluaEY/maxresdefault.jpg",
-      "publishedAt": "2024-10-25T14:31:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/wwZeURluaEY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wwZeURluaEY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wwZeURluaEY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wwZeURluaEY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/wwZeURluaEY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 56,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -748,10 +2173,35 @@
       "id": "v8xIGlP1hTI",
       "title": "Chanakya Thanthiram | Episode 40 | சாணக்கிய தந்திரம் | Thanthi one | 24th October 2024",
       "description": "Chandra Gupta uncovers Thananathan's sinister plan. Thanandan's army trembles at the sight of the powerful Chatriyas forces. Chandragupta, the princess of Magadha, rallies to protect the Chatriyas.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/v8xIGlP1hTI/maxresdefault.jpg",
-      "publishedAt": "2024-10-24T15:07:29Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/v8xIGlP1hTI/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/v8xIGlP1hTI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/v8xIGlP1hTI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/v8xIGlP1hTI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/v8xIGlP1hTI/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 57,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -761,10 +2211,35 @@
       "id": "eydKCH1Vans",
       "title": "Chanakya Thanthiram | Episode 39 | சாணக்கிய தந்திரம் | Thanthi one | 23rd October 2024",
       "description": "Chanakya convenes with King Asaka, revealing the Satriyas' formidable strength. Chanakya and Asaka forge an alliance to conquer Dhanananda. Meanwhile, Chandragupta discreetly monitors Dhanananda's movements from within the palace.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/eydKCH1Vans/maxresdefault.jpg",
-      "publishedAt": "2024-10-23T17:35:36Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/eydKCH1Vans/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/eydKCH1Vans/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/eydKCH1Vans/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/eydKCH1Vans/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/eydKCH1Vans/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 58,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -774,10 +2249,35 @@
       "id": "Nk0Q0l8sSNM",
       "title": "Chanakya Thanthiram | Episode 38 | சாணக்கிய தந்திரம் | Thanthi one | 22nd October 2024",
       "description": "Chandragupta and the Satriyas plot to seize Dananda's arsenal. Thanandan bars Chandragupta from the battlefield. The Chhatriyas successfully loot Dananda's weapons.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/maxresdefault.jpg",
-      "publishedAt": "2024-10-23T09:21:15Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Nk0Q0l8sSNM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 59,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -787,10 +2287,35 @@
       "id": "IGPbl_JYwjw",
       "title": "Chanakya Thanthiram | Episode 37 | சாணக்கிய தந்திரம் | Thanthi one | 21st October 2024",
       "description": "Dhananathan's ruthless rule unites the Satriyas against him.Chandragupta receives a strategic gift from Dhananandan, shifting the balance of power. Chanakya and Chandragupta outmaneuver Dhanananda, leveraging Satriya defections to defeat his army.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/IGPbl_JYwjw/maxresdefault.jpg",
-      "publishedAt": "2024-10-21T16:30:23Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IGPbl_JYwjw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IGPbl_JYwjw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IGPbl_JYwjw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IGPbl_JYwjw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/IGPbl_JYwjw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 60,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -800,10 +2325,35 @@
       "id": "Bu0vGqJdo6Y",
       "title": "Chanakya Thanthiram | Episode 36 | சாணக்கிய தந்திரம் | Thanthi one | 20th October 2024",
       "description": "Chandra Gupta resolves to rescue the suffering Chhatriyas. Assassins plot to kill Chandra Gupta, thwarting his rescue mission. Danandan treacherously laces the Chhatriyas' food with poison.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/maxresdefault.jpg",
-      "publishedAt": "2024-10-21T08:58:54Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Bu0vGqJdo6Y/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 61,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -813,10 +2363,35 @@
       "id": "tPbnx8FKErk",
       "title": "Chanakya Thanthiram | Episode 35 | சாணக்கிய தந்திரம் | Thanthi one | 19th October 2024",
       "description": "Chandragupta uncovers a valuable gold mine, sparking intrigue. He learns the Satriyas are enslaved in the mines, prompting him and Chanakya to devise a rescue plan.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/tPbnx8FKErk/maxresdefault.jpg",
-      "publishedAt": "2024-10-21T09:18:03Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/tPbnx8FKErk/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tPbnx8FKErk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tPbnx8FKErk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tPbnx8FKErk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/tPbnx8FKErk/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 62,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -826,10 +2401,35 @@
       "id": "_9DIDwEVme8",
       "title": "Chanakya Thanthiram | Episode 34 | சாணக்கிய தந்திரம் | Thanthi one | 18th October 2024",
       "description": "\"Chandragupta protects Chanakya, his trusted mentor and advisor.\nHowever, his friend Dumaketu Thananandam unexpectedly betrays and arrests him.Chanakya plots revenge, instructing Chandragupta to eliminate Dumaketu for his treachery\"\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/_9DIDwEVme8/maxresdefault.jpg",
-      "publishedAt": "2024-10-19T08:17:22Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/_9DIDwEVme8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_9DIDwEVme8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_9DIDwEVme8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_9DIDwEVme8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/_9DIDwEVme8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 63,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -839,10 +2439,35 @@
       "id": "QjZYgh1_kHw",
       "title": "Chanakya Thanthiram | Episode 33 | சாணக்கிய தந்திரம் | Thanthi one | 17th October 2024",
       "description": "Aladdin's mother succumbs to a poisonous insect's deadly sting. With seconds ticking away, Aladdin must act swiftly. Can the Jinn's magic save his mother, or is fate sealed?\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/QjZYgh1_kHw/maxresdefault.jpg",
-      "publishedAt": "2024-10-18T05:49:46Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/QjZYgh1_kHw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QjZYgh1_kHw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QjZYgh1_kHw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QjZYgh1_kHw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/QjZYgh1_kHw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 64,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -852,10 +2477,35 @@
       "id": "IS9--mDWgys",
       "title": "Chanakya Thanthiram | Episode 32 | சாணக்கிய தந்திரம் | Thanthi one | 16th October 2024",
       "description": "Dhanananda went to his gold mine and saw the Piplivaan slaves.Dhananandan called Chandragupta and asked him to speak to Chanakya,Chandragupta told Chanakya about his plans.Chandra Gupta killed those  came to kill Amatyar.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/IS9--mDWgys/maxresdefault.jpg",
-      "publishedAt": "2024-10-17T05:49:48Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/IS9--mDWgys/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IS9--mDWgys/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IS9--mDWgys/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IS9--mDWgys/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/IS9--mDWgys/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 65,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -865,10 +2515,35 @@
       "id": "mZq1zodg6OU",
       "title": "Chanakya Thanthiram | Episode 31 | சாணக்கிய தந்திரம் | Thanthi one | 15th October 2024",
       "description": "A shocking news awaits Thananandan  returns to the palace,\n Dadanandan gets worried seeing his mother's condition,\nDhanananda is suspicious of Chandragupta.\nChanakya and Chandragupta conspire against Dhananandan.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/mZq1zodg6OU/maxresdefault.jpg",
-      "publishedAt": "2024-10-16T02:04:38Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mZq1zodg6OU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mZq1zodg6OU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mZq1zodg6OU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mZq1zodg6OU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mZq1zodg6OU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 66,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -878,10 +2553,35 @@
       "id": "EtiGgFnGbbA",
       "title": "Chanakya Thanthiram | Episode 30 | சாணக்கிய தந்திரம் | Thanthi one | 14th October",
       "description": "Chandragupta's heart aches witnessing his kingdom's struggles, yet he remains silent.\nBound by his promise to Chanakya, he conceals his true identity as the rightful prince.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/EtiGgFnGbbA/maxresdefault.jpg",
-      "publishedAt": "2024-10-15T03:25:38Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/EtiGgFnGbbA/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EtiGgFnGbbA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EtiGgFnGbbA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EtiGgFnGbbA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/EtiGgFnGbbA/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 67,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -891,10 +2591,35 @@
       "id": "fv8Th57nhLQ",
       "title": "Chanakya Thanthiram | Episode 29 | சாணக்கிய தந்திரம் | Thanthi one | 13th October 2024",
       "description": "Chandra Gupta's team conceals loot from Dhananand, seeking security. Chanakya arrives, proposing a strategic shift to empower their mission.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/fv8Th57nhLQ/maxresdefault.jpg",
-      "publishedAt": "2024-10-14T06:18:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fv8Th57nhLQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fv8Th57nhLQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fv8Th57nhLQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fv8Th57nhLQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/fv8Th57nhLQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 68,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -904,10 +2629,35 @@
       "id": "haVrheIzIWY",
       "title": "Chanakya Thanthiram | Episode 28 | சாணக்கிய தந்திரம் | Thanthi one | 12th October",
       "description": "The princess arrived at Chandragupta's statue, but he had already uncovered her deceit. He followed the secret tunnel to Dhananandan's hidden treasure.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/haVrheIzIWY/maxresdefault.jpg",
-      "publishedAt": "2024-10-14T06:11:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/haVrheIzIWY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/haVrheIzIWY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/haVrheIzIWY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/haVrheIzIWY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/haVrheIzIWY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 69,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -917,10 +2667,35 @@
       "id": "8fwgGtsqYvw",
       "title": "Chanakya Thanthiram | Episode 27 | சாணக்கிய தந்திரம் | Thanthi one | 11th October",
       "description": "Chandragupta tracks down Vasuchar, uncovering the elusive leader's hideout.\nVasuchar shares the enigmatic Riddles of Vamachara, revealing hidden truths.\nChandragupta grasps the mysteries, fueling his quest for power and liberation.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/8fwgGtsqYvw/maxresdefault.jpg",
-      "publishedAt": "2024-10-12T06:51:48Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/8fwgGtsqYvw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8fwgGtsqYvw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8fwgGtsqYvw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8fwgGtsqYvw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/8fwgGtsqYvw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 70,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -930,10 +2705,35 @@
       "id": "k495VEl3cCM",
       "title": "Chanakya Thanthiram | Episode 26 | சாணக்கிய தந்திரம் | Thanthi one | 10th October",
       "description": "Chanakya's brilliant tactics dismantle Dananda's forces, leaving Amatyar demoralized and defeated. Thanandan's scathing rebuke further fuels Amatyar's anger and hostility towards Chanakya.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/k495VEl3cCM/maxresdefault.jpg",
-      "publishedAt": "2024-10-10T14:34:49Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/k495VEl3cCM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/k495VEl3cCM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/k495VEl3cCM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/k495VEl3cCM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/k495VEl3cCM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 71,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -943,10 +2743,35 @@
       "id": "fuCd8IJq5DU",
       "title": "Chanakya Thanthiram | Episode 25 | சாணக்கிய தந்திரம் | Thanthi one | 9th October",
       "description": "Chandragupta arrives at the river, expecting to find the hidden treasures, but discovers nothing. Unbeknownst to him, Dhanananda has secretly relocated the riches. Chandragupta proceeds to the palace, where he learns of the shift, revealing that his strategic plan with Acharya remains on track.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/fuCd8IJq5DU/maxresdefault.jpg",
-      "publishedAt": "2024-10-10T06:40:57Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/fuCd8IJq5DU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fuCd8IJq5DU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fuCd8IJq5DU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fuCd8IJq5DU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/fuCd8IJq5DU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 72,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -956,10 +2781,35 @@
       "id": "dIzdbgo7sm4",
       "title": "Chanakya Thanthiram | Episode 24 | சாணக்கிய தந்திரம் | Thanthi one | 8th October",
       "description": "Chandragupta sets his sights on uncovering the fabled riches of Dhana Nanda, the wealthy emperor. To achieve his goal, Chandragupta infiltrates Dhana Nanda's army, gathering intel on the ruler's most prized secrets. \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/dIzdbgo7sm4/maxresdefault.jpg",
-      "publishedAt": "2024-10-08T14:34:30Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/dIzdbgo7sm4/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dIzdbgo7sm4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dIzdbgo7sm4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dIzdbgo7sm4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/dIzdbgo7sm4/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 73,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -969,10 +2819,35 @@
       "id": "xy3WhsPF_Dg",
       "title": "Chanakya Thanthiram | Episode 23 | சாணக்கிய தந்திரம் | Thanthi one | 7th October",
       "description": "Chandragupta uncovers a shocking truth: Dhanananda is siphoning off the kingdom's riches and storing them in a secret hideaway, beyond the kingdom's borders.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/xy3WhsPF_Dg/maxresdefault.jpg",
-      "publishedAt": "2024-10-07T14:56:58Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xy3WhsPF_Dg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xy3WhsPF_Dg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xy3WhsPF_Dg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xy3WhsPF_Dg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xy3WhsPF_Dg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 74,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -982,10 +2857,35 @@
       "id": "XoqSd52IySQ",
       "title": "Chanakya Thanthiram | Episode 22 | சாணக்கிய தந்திரம் | Thanthi one | 6th October",
       "description": "Chandra Gupta delivers the coveted Navarangi pushpam to Princess Durdara, fulfilling her wish. Her joy resonates with King Dhananandhan, who asks Chandra Gupta to name his reward.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/XoqSd52IySQ/maxresdefault.jpg",
-      "publishedAt": "2024-10-07T06:14:41Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/XoqSd52IySQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XoqSd52IySQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XoqSd52IySQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XoqSd52IySQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/XoqSd52IySQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 75,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -995,10 +2895,35 @@
       "id": "annyDuK44c8",
       "title": "Chanakya Thanthiram | Episode 21 | சாணக்கிய தந்திரம் | Thanthi one | 5th October",
       "description": "Chandragupta's quest for vengeance against Dayanand is undermined when Acharya sabotages his training. As tensions rise, Dayanand's grip on reality falters due to haunting nightmares.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/annyDuK44c8/maxresdefault.jpg",
-      "publishedAt": "2024-10-05T19:44:36Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/annyDuK44c8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/annyDuK44c8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/annyDuK44c8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/annyDuK44c8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/annyDuK44c8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 76,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1008,10 +2933,35 @@
       "id": "ZRNA4y3zut8",
       "title": "Chanakya Thanthiram | Episode 20 | சாணக்கிய தந்திரம் | Thanthi one | 4th October",
       "description": "Chandragupta urges his mother to reveal hidden truths. She exposes atrocities committed 12 years ago and his father's assassination. Vowing justice, Chandragupta sets out to reclaim his dynasty and avenge his father's death.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/ZRNA4y3zut8/maxresdefault.jpg",
-      "publishedAt": "2024-10-04T14:42:53Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ZRNA4y3zut8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZRNA4y3zut8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZRNA4y3zut8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZRNA4y3zut8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ZRNA4y3zut8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 77,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1021,10 +2971,35 @@
       "id": "Nwb9XMXt3qw",
       "title": "Chanakya Thanthiram | Episode 19 | சாணக்கிய தந்திரம் | Thanthi one | 3rd October",
       "description": "Macedonia gains the upper hand in a friendly Kabaddi match against Magadha. Chandragupta's surprise entry turns the tide. Magadha rallies, shifting the game's momentum.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Nwb9XMXt3qw/maxresdefault.jpg",
-      "publishedAt": "2024-10-03T15:29:04Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Nwb9XMXt3qw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Nwb9XMXt3qw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Nwb9XMXt3qw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Nwb9XMXt3qw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Nwb9XMXt3qw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 78,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1034,10 +3009,35 @@
       "id": "JwIzM1o3lxw",
       "title": "Chanakya Thanthiram | Episode 18 | சாணக்கிய தந்திரம் | Thanthi one | 2nd October 2024",
       "description": "Chandragupta's mother approaches Chanakya, tears of worry streaming down her face, fearing for her son's safety as he is being followed by  Dhananandan. Chanakya offers solace, unveiling his visionary plan for Chandragupta's future.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/JwIzM1o3lxw/maxresdefault.jpg",
-      "publishedAt": "2024-10-02T14:54:00Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/JwIzM1o3lxw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JwIzM1o3lxw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JwIzM1o3lxw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JwIzM1o3lxw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/JwIzM1o3lxw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 79,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1047,10 +3047,35 @@
       "id": "UKZGJOlO-Tw",
       "title": "Chanakya Thanthiram | Episode 17 | சாணக்கிய தந்திரம் | Thanthi one | 1st October",
       "description": "Chanakya advises Chandragupta to return to Dhana Nanda, offering to accompany him on the way. Meanwhile, Dhana Nanda receives a special gift from Seleucus, the Greek general. However, in a shocking turn of events, Dhana Nanda burns the gift.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/UKZGJOlO-Tw/maxresdefault.jpg",
-      "publishedAt": "2024-10-01T15:29:54Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/UKZGJOlO-Tw/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UKZGJOlO-Tw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UKZGJOlO-Tw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UKZGJOlO-Tw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/UKZGJOlO-Tw/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 80,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1060,10 +3085,35 @@
       "id": "pM7X-wSMT_k",
       "title": "Chanakya Thanthiram | Episode 16 | சாணக்கிய தந்திரம் | Thanthi one | 30th September",
       "description": "Dhananand challenges Selucus to send his strongest soldier to fight Chandra Gupta. The battle begins between the mighty Desmond and Chandra, who is severely attacked. Just when things look dire, Chandra receives help from a mysterious man. Who could it be?\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/pM7X-wSMT_k/maxresdefault.jpg",
-      "publishedAt": "2024-09-30T14:33:00Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/pM7X-wSMT_k/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pM7X-wSMT_k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pM7X-wSMT_k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/pM7X-wSMT_k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/pM7X-wSMT_k/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 81,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1073,10 +3123,35 @@
       "id": "ggirKwU1lqQ",
       "title": "Chanakya Thanthiram | Episode 15 | சாணக்கிய தந்திரம் | Thanthi one | 29th September",
       "description": "Selucus mocks Dhananand for losing the diamond, enraging him. Dhananand's mother accuses Moora of being the thief, leading him to sentence her to death later ChandraGupta confesses to the crime and liberates Moora.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/ggirKwU1lqQ/maxresdefault.jpg",
-      "publishedAt": "2024-09-30T05:53:38Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ggirKwU1lqQ/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ggirKwU1lqQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ggirKwU1lqQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ggirKwU1lqQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ggirKwU1lqQ/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 82,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1086,10 +3161,35 @@
       "id": "BvEpNq9qs7g",
       "title": "Chanakya Thanthiram | Episode 14 | சாணக்கிய தந்திரம் | Thanthi one | 28th September",
       "description": "Chandra's daring heist yields the Diamond and a shocking revelation – a cryptic link to his mysterious past. Chanakya's opposition fuels Chandra's determination. Now, Dhananand's summons threatens to expose Chandra's secrets.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/BvEpNq9qs7g/maxresdefault.jpg",
-      "publishedAt": "2024-09-30T05:59:36Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/BvEpNq9qs7g/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BvEpNq9qs7g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BvEpNq9qs7g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BvEpNq9qs7g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/BvEpNq9qs7g/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 83,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1099,10 +3199,35 @@
       "id": "hi1ujE9Kiew",
       "title": "Chanakya Thanthiram | Episode 13 | சாணக்கிய தந்திரம் | Thanthi one | 27th September",
       "description": "Dhananand punishes Chandra for riding the horse, later Chanakya plays a game with Chandra and orders him to steal the diamond on the throne. Durtara plans to trap Chandra for her vengeance \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/hi1ujE9Kiew/maxresdefault.jpg",
-      "publishedAt": "2024-10-01T14:43:11Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/hi1ujE9Kiew/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hi1ujE9Kiew/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hi1ujE9Kiew/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hi1ujE9Kiew/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/hi1ujE9Kiew/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 84,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1112,10 +3237,35 @@
       "id": "T1wP8M3IUlo",
       "title": "Chanakya Thanthiram | Episode 12 | சாணக்கிய தந்திரம் | Thanthi one | 26th September",
       "description": "Chandra seethes with anger and guilt over Dhananand's cruel deed. Chanakya tasks Chandra with carrying water in a broken pot. Duratara dares Chandra to ride the king's horse, testing his courage.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/T1wP8M3IUlo/maxresdefault.jpg",
-      "publishedAt": "2024-09-26T14:36:01Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/T1wP8M3IUlo/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/T1wP8M3IUlo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/T1wP8M3IUlo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/T1wP8M3IUlo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/T1wP8M3IUlo/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 85,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1125,10 +3275,35 @@
       "id": "c_ecV3mtIOM",
       "title": "Chanakya Thanthiram | Episode 11 | சாணக்கிய தந்திரம் | Thanthi one | 25th September",
       "description": "Chanakya reveals the truth to Chandra and threatens him to support, later Chandra meets Dhananand to take charge for the day as the body guard of Duratara.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/c_ecV3mtIOM/maxresdefault.jpg",
-      "publishedAt": "2024-09-25T14:32:28Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/c_ecV3mtIOM/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c_ecV3mtIOM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c_ecV3mtIOM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c_ecV3mtIOM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/c_ecV3mtIOM/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 86,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1138,10 +3313,35 @@
       "id": "xs5juzqI8a8",
       "title": "Chanakya Thanthiram | Episode 10 | சாணக்கிய தந்திரம் | Thanthi one | 24th September",
       "description": "Chandra is arrested by the soldiers, and during a terrorist attack on Durtara, he saves her. Despite this, Durtara insists on punishing Chandra, while Dhananand has other plans. In the end, everything is a  part of Chanakya's elaborate trap.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/xs5juzqI8a8/maxresdefault.jpg",
-      "publishedAt": "2024-09-24T14:30:20Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xs5juzqI8a8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xs5juzqI8a8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xs5juzqI8a8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xs5juzqI8a8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xs5juzqI8a8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 87,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1151,10 +3351,35 @@
       "id": "H_glBiU-qn8",
       "title": "Chanakya Thanthiram | Episode 9 | சாணக்கிய தந்திரம் | Thanthi one | 23rd September",
       "description": "Chandra requests Dhananand for the last rites of Veera Bhadra, later Chanakya liberates Chandra with one condition. Chandra later stands up for the people against the kingdom.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/H_glBiU-qn8/maxresdefault.jpg",
-      "publishedAt": "2024-09-23T14:31:46Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/H_glBiU-qn8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/H_glBiU-qn8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/H_glBiU-qn8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/H_glBiU-qn8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/H_glBiU-qn8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 88,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1164,10 +3389,35 @@
       "id": "Vf89MhifQM8",
       "title": "Chanakya Thanthiram | Episode 8 | சாணக்கிய தந்திரம் | Thanthi one | 22nd September",
       "description": "Moora calls Chandra for a private conversation, during which she reveals the truth to him. Dhananand secretly listens in, waiting to react, when Chandra suddenly makes a shocking move.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Vf89MhifQM8/maxresdefault.jpg",
-      "publishedAt": "2024-09-23T05:54:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Vf89MhifQM8/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Vf89MhifQM8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Vf89MhifQM8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Vf89MhifQM8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Vf89MhifQM8/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 89,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1177,10 +3427,35 @@
       "id": "Ne4QBKdu03E",
       "title": "Chanakya Thanthiram | Episode 7 | சாணக்கிய தந்திரம் | Thanthi one | 21st September",
       "description": "Dhananand offers Chandra a wish, revealing his princehood. Chanakya finds his calling as Chandhra. Chandra discovers his royal lineage and learns the truth about his mother, reshaping his understanding of himself.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/Ne4QBKdu03E/maxresdefault.jpg",
-      "publishedAt": "2024-09-23T05:59:54Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/Ne4QBKdu03E/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ne4QBKdu03E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ne4QBKdu03E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Ne4QBKdu03E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/Ne4QBKdu03E/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 90,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1190,10 +3465,35 @@
       "id": "ZUPrrwssq-Q",
       "title": "Chanakya Thanthiram | Episode 6 | சாணக்கிய தந்திரம் | Thanthi one | 20th September",
       "description": "Dhananand offers Chandra a wish, revealing his princehood. Chanakya finds his calling as Chandhra. Chandra discovers his royal lineage and learns the truth about his mother, reshaping his understanding of himself.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/ZUPrrwssq-Q/maxresdefault.jpg",
-      "publishedAt": "2024-09-20T14:38:00Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/ZUPrrwssq-Q/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZUPrrwssq-Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZUPrrwssq-Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZUPrrwssq-Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/ZUPrrwssq-Q/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 91,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1203,10 +3503,35 @@
       "id": "c1LCNuNqMso",
       "title": "Chanakya Thanthiram | Episode 5 | சாணக்கிய தந்திரம் | Thanthi one | 19th September",
       "description": "Chandra is forced to bring the statue's head to court after his friends' arrest, but faces theft accusations. He clashes with Dhananand, assertively defending his innocence.\nTo watch Porus Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/c1LCNuNqMso/maxresdefault.jpg",
-      "publishedAt": "2024-09-19T14:58:07Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/c1LCNuNqMso/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c1LCNuNqMso/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c1LCNuNqMso/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c1LCNuNqMso/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/c1LCNuNqMso/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 92,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1216,10 +3541,35 @@
       "id": "mmLibDO234w",
       "title": "Chanakya Thanthiram | Episode 4 | சாணக்கிய தந்திரம் | Thanthi one | 18th September",
       "description": "Dhananand and the kingdom is shocked to see the statue's head replaced with a donkey's head when he orders to jail all teens of the kingdom where as Chandra has stolen the head. \nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/mmLibDO234w/maxresdefault.jpg",
-      "publishedAt": "2024-09-18T14:32:17Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/mmLibDO234w/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mmLibDO234w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mmLibDO234w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mmLibDO234w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/mmLibDO234w/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 93,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1229,10 +3579,35 @@
       "id": "z0EL1-7YXVg",
       "title": "Chanakya Thanthiram | Episode 3 | சாணக்கிய தந்திரம் | Thanthi one | 17th September",
       "description": "Chandra Gupta plans his heist to steal one of the gifts for Dhananand and starts executing them while facing obstacles where as Mahamathiyar searches for Chanakya and finds a clue.\nTo watch Chanakya Thanthiram Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/z0EL1-7YXVg/maxresdefault.jpg",
-      "publishedAt": "2024-09-18T06:18:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/z0EL1-7YXVg/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/z0EL1-7YXVg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/z0EL1-7YXVg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/z0EL1-7YXVg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/z0EL1-7YXVg/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 94,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1242,10 +3617,35 @@
       "id": "esTtVdKjeDY",
       "title": "Chanakya Thanthiram | Episode 2 | சாணக்கிய தந்திரம் | Thanthi one | 16th September",
       "description": "After continuous humiliation, Chanakya challenges Dhananand and leaves the kingdom but Dhananand sends his force to kill Chanakya. Chanakya tries to escape the trap where as Chandra Gupta fights with his master who punished him. What is the story behind Chandra Gupta and his mother being a slave to Dhananand?\nTo watch Porus Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/esTtVdKjeDY/maxresdefault.jpg",
-      "publishedAt": "2024-09-16T14:30:06Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/esTtVdKjeDY/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/esTtVdKjeDY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/esTtVdKjeDY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/esTtVdKjeDY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/esTtVdKjeDY/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 95,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
@@ -1255,10 +3655,35 @@
       "id": "i4EJKS6j1oU",
       "title": "Chanakya Thanthiram | Episode 1 | சாணக்கிய தந்திரம் | Thanthi one | 15th September",
       "description": "Chanakya visits Magadha to secure the country's safety, enduring Dhananand's scorn with stoic resolve. Though humiliated, Chanakya prioritizes the nation's interests, while Dhananand's ignorance blinds him to the consequences of his actions.\nTo watch Porus Episodes : \nDon't forget to SUBSCRIBE to the Thanthi One YouTube Channel👉\nFollow us on Social Media for Latest Updates:\nFacebook : \nInstagram : \nX (Twitter)  : \nMinmini     :  \nWhatsapp Channel :  \nShareChat : \nTelegram :",
-      "thumbnail": "https://i.ytimg.com/vi/i4EJKS6j1oU/maxresdefault.jpg",
-      "publishedAt": "2024-09-16T06:54:33Z",
-      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/i4EJKS6j1oU/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i4EJKS6j1oU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i4EJKS6j1oU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/i4EJKS6j1oU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/i4EJKS6j1oU/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
       "position": 96,
+      "playlistId": "PLkdhKIzS8nUlTAVTKkFrurUmv8rYUqSHe",
       "channelTitle": "Thanthi One",
       "videoOwnerChannelTitle": "Thanthi One",
       "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
