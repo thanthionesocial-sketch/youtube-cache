@@ -62,6 +62,26 @@ async function getVideoDurations(videoIds) {
   return durations;
 }
 
+// Clean description for OTT: remove hashtags, social links, YouTube links
+function cleanDescription(desc) {
+  if (!desc) return "";
+  let cleaned = desc;
+
+  // Remove URLs
+  cleaned = cleaned.replace(/https?:\/\/\S+/g, "");
+
+  // Remove hashtags
+  cleaned = cleaned.replace(/#[^\s]+/g, "");
+
+  // Remove multiple newlines
+  cleaned = cleaned.replace(/\n{2,}/g, "\n");
+
+  // Trim spaces
+  cleaned = cleaned.trim();
+
+  return cleaned;
+}
+
 async function run() {
   const playlistsDir = path.join("playlists", "serials");
   const outputDir = path.join("data", "serials");
@@ -89,12 +109,12 @@ async function run() {
       // Flatten JSON into OTT-ready format
       const flatJson = {
         showId: info.playlistId,
-        showTitle: info.title || "Untitled Show",
-        showDescription: info.description || "",
+        showTitle: info.playlisttitle || "",
+        showDescription: cleanDescription(info.playlistdescription || ""),
         episodes: items.map((v) => ({
           id: v.snippet.resourceId.videoId,
           title: v.snippet.title,
-          description: v.snippet.description,
+          description: cleanDescription(v.snippet.description),
           thumbnail: v.snippet.thumbnails.maxres
             ? v.snippet.thumbnails.maxres.url
             : v.snippet.thumbnails.high.url,
@@ -102,7 +122,6 @@ async function run() {
           playlistId: v.snippet.playlistId,
           position: v.snippet.position,
           channelTitle: v.snippet.channelTitle,
-          videoOwnerChannelTitle: v.snippet.videoOwnerChannelTitle,
           videoOwnerChannelId: v.snippet.videoOwnerChannelId,
           duration: videoDurations[v.snippet.resourceId.videoId] || null,
         })),
