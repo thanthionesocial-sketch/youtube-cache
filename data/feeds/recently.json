@@ -768,30 +768,6 @@
     "duration": 1372
   },
   {
-    "id": "1N-7iC0IEY8",
-    "title": "Gayathrii | Episode 40 | காயத்ரி | Thanthi One | 17th October 2025",
-    "publishedAt": "2025-10-17T09:30:01Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1N-7iC0IEY8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1N-7iC0IEY8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1N-7iC0IEY8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Gayathri #Gauri #ShwethaMenon #ThanthiOneTv Swetha, driven by revenge, cruelly pushes Gayathri down and records the act ...",
-    "duration": 2455
-  },
-  {
     "id": "86KPfRsk5cA",
     "title": "Arasi | Episode 32 | அரசி | Thanthi One | 17th October 2025",
     "publishedAt": "2025-10-17T08:37:11Z",
@@ -912,30 +888,6 @@
     "duration": 1417
   },
   {
-    "id": "CKonERiijE8",
-    "title": "Koondukkili | Episode 205 | கூண்டுக்கிளி | Thanthi One | 16th October 2025",
-    "publishedAt": "2025-10-16T10:00:21Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/CKonERiijE8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/CKonERiijE8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/CKonERiijE8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Koondukkili #Balasudha #Sooraj #Venu #Preeti #Jeyachandran #Radhakrishnan #VenuGopal #ThanthiOne The person Shamili ...",
-    "duration": 1387
-  },
-  {
     "id": "xHzkXTLXI3U",
     "title": "Arasi | Episode 31 | அரசி | Thanthi One | 16th October 2025",
     "publishedAt": "2025-10-16T08:30:39Z",
@@ -1006,5 +958,53 @@
     },
     "description": "Annamalai #Thavasi #Ulaganathan #Anwar #VisalamThavasi #GomathiNayagam #Shanthi #Nambi #Nallasivam ...",
     "duration": 2607
+  },
+  {
+    "id": "yrg4IMcqJ8g",
+    "title": "Vaa Di Rasathi | Episode 207 | வாடி ராசாத்தி | Thanthi One | 16th October 2025",
+    "publishedAt": "2025-10-16T03:30:45Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/yrg4IMcqJ8g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/yrg4IMcqJ8g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/yrg4IMcqJ8g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "VaaDiRasathi #MallikaPrathap #Anjana #Sona #Anjana #Manu #Mallika #ThanthiOne During Anjaneya's naming ceremony, ...",
+    "duration": 1413
+  },
+  {
+    "id": "Z3G5fnE3gC8",
+    "title": "Tenali Raman | Episode 364 | தெனாலிராமன் | Thanthi One | 15th October  2025",
+    "publishedAt": "2025-10-15T12:30:50Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Z3G5fnE3gC8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Z3G5fnE3gC8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Z3G5fnE3gC8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "TenaliRaman #Raama #MalluDevan #Thatthacharyar #JaganMohini #KrishnaDevarayar #Babar #Achariyar #dhurjan ...",
+    "duration": 2484
   }
 ]
