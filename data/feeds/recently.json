@@ -864,6 +864,30 @@
     "duration": 1412
   },
   {
+    "id": "QU24_gVar-g",
+    "title": "Koondukkili | Episode 210 | கூண்டுக்கிளி | Thanthi One | 21st October 2025",
+    "publishedAt": "2025-10-21T10:26:28Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QU24_gVar-g/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QU24_gVar-g/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QU24_gVar-g/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Bala stays at her friend Rathna's house, finding shelter and support in her friend's care. During this time, she lovingly raises ...",
+    "duration": 1470
+  },
+  {
     "id": "Cuh0PL9voqg",
     "title": "Gayathrii | Episode 44 | காயத்ரி | Thanthi One | 21st  October 2025",
     "publishedAt": "2025-10-21T09:49:18Z",
@@ -886,101 +910,5 @@
     },
     "description": "Unable to tolerate Gowri's words, Rajesh lashes out and hits her. After reflecting on the situation, he resolves to reunite Mano and ...",
     "duration": 2479
-  },
-  {
-    "id": "1r1APx5lymU",
-    "title": "Annamalai | Episode 213 | அண்ணாமலை | Thanthi One | 21th October 2025",
-    "publishedAt": "2025-10-21T06:30:01Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1r1APx5lymU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1r1APx5lymU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1r1APx5lymU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Driven by greed for Santhanam's property, Tamilrasi threatens him into marrying her. Her cunning plan puts Santhanam in a ...",
-    "duration": 2594
-  },
-  {
-    "id": "dWJpndgOrKU",
-    "title": "Vaanampadi | Episode 210 | வானம்பாடி | Thanthi One | 21th October 2025",
-    "publishedAt": "2025-10-21T05:30:19Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/dWJpndgOrKU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/dWJpndgOrKU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/dWJpndgOrKU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "When Chandran tries to misbehave with Thulasi, she defends herself bravely by stabbing him with a knife. Her quick action ...",
-    "duration": 1358
-  },
-  {
-    "id": "_tv90XnCNio",
-    "title": "Bhagyajatakam | Episode 211 | பாக்யஜாதகம் | Thanthi One | 21th October 2025",
-    "publishedAt": "2025-10-21T04:30:18Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/_tv90XnCNio/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/_tv90XnCNio/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/_tv90XnCNio/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Arun finds himself trapped in jail, overwhelmed with worry and left without any support. Alone and helpless, he struggles to ...",
-    "duration": 1397
-  },
-  {
-    "id": "OD4c4EgzJNY",
-    "title": "Vaa Di Rasathi | Episode 212 | வாடி ராசாத்தி | Thanthi One | 21th October 2025",
-    "publishedAt": "2025-10-21T03:30:13Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/OD4c4EgzJNY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/OD4c4EgzJNY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/OD4c4EgzJNY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Mano urges Aleena to admit her mistake and reconcile, hoping to resolve their conflict. Instead, Aleena refuses to repent and ...",
-    "duration": 1389
   }
 ]
