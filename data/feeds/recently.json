@@ -384,30 +384,6 @@
     "duration": 1387
   },
   {
-    "id": "zFwIQ5ZvB3Q",
-    "title": "Vaa Di Rasathi | Episode 216 | வாடி ராசாத்தி | Thanthi One | 25th October 2025",
-    "publishedAt": "2025-10-25T03:31:00Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/zFwIQ5ZvB3Q/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/zFwIQ5ZvB3Q/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/zFwIQ5ZvB3Q/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Mano urges Aleena to admit her mistake and reconcile, hoping to resolve their conflict. Instead, Aleena refuses to repent and ...",
-    "duration": 1403
-  },
-  {
     "id": "xYwgJVblnOg",
     "title": "Tenali Ramann | Episode 4 | தெனாலிராமன் | Thanthi One | 24th October  2025",
     "publishedAt": "2025-10-24T12:31:22Z",
@@ -792,30 +768,6 @@
     "duration": 2527
   },
   {
-    "id": "Y5MvH-_kdUw",
-    "title": "Koondukkili | Episode 211 | கூண்டுக்கிளி | Thanthi One | 22nd October 2025",
-    "publishedAt": "2025-10-22T10:01:04Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Y5MvH-_kdUw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Y5MvH-_kdUw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Y5MvH-_kdUw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Bala stays at her friend Rathna's house, finding shelter and support in her friend's care. During this time, she lovingly raises ...",
-    "duration": 1361
-  },
-  {
     "id": "wV0rcQtkaPs",
     "title": "Gayathrii | Episode 45 | காயத்ரி | Thanthi One | 22nd October 2025",
     "publishedAt": "2025-10-22T09:30:38Z",
@@ -888,27 +840,51 @@
     "duration": 2454
   },
   {
-    "id": "b-GqmHpPCuw",
-    "title": "Vaanampadi | Episode 211 | வானம்பாடி | Thanthi One | 22nd October 2025",
-    "publishedAt": "2025-10-22T05:30:20Z",
+    "id": "E4Sl98JG1EY",
+    "title": "Vaa Di Rasathi | Episode 213 | வாடி ராசாத்தி | Thanthi One | 22nd October 2025",
+    "publishedAt": "2025-10-22T03:30:10Z",
     "thumbnails": {
       "default": {
-        "url": "https://i.ytimg.com/vi/b-GqmHpPCuw/default.jpg",
+        "url": "https://i.ytimg.com/vi/E4Sl98JG1EY/default.jpg",
         "width": 120,
         "height": 90
       },
       "medium": {
-        "url": "https://i.ytimg.com/vi/b-GqmHpPCuw/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/E4Sl98JG1EY/mqdefault.jpg",
         "width": 320,
         "height": 180
       },
       "high": {
-        "url": "https://i.ytimg.com/vi/b-GqmHpPCuw/hqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/E4Sl98JG1EY/hqdefault.jpg",
         "width": 480,
         "height": 360
       }
     },
-    "description": "Chandran's peaceful life turns upside down when his wife files a police complaint accusing him of cheating her. Shocked by the ...",
-    "duration": 1368
+    "description": "Mano urges Aleena to admit her mistake and reconcile, hoping to resolve their conflict. Instead, Aleena refuses to repent and ...",
+    "duration": 1440
+  },
+  {
+    "id": "uJ9tmIgmmUs",
+    "title": "Tenali Ramann | Episode 1 | தெனாலிராமன் | Thanthi One | 21st October  2025",
+    "publishedAt": "2025-10-21T12:31:20Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/uJ9tmIgmmUs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/uJ9tmIgmmUs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/uJ9tmIgmmUs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Excitement fills Tenali's village as preparations are underway for the wedding of Lakshmiamma's son, Raama. The celebrations ...",
+    "duration": 2559
   }
 ]
