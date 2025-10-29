@@ -312,30 +312,6 @@
     "duration": 2594
   },
   {
-    "id": "-PQovIch8uY",
-    "title": "Chithi | Episode 26 | சித்தி | Thanthi One | 27th October 2025",
-    "publishedAt": "2025-10-27T07:30:00Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/-PQovIch8uY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/-PQovIch8uY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/-PQovIch8uY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Dhivaagar and his sister move into Jeeva's house, but their presence hides a sinister agenda. Together, they plot to exact revenge ...",
-    "duration": 2480
-  },
-  {
     "id": "FeAM9Q4mQLQ",
     "title": "Annamalai | Episode 219 | அண்ணாமலை | Thanthi One | 27th October 2025",
     "publishedAt": "2025-10-27T06:30:11Z",
@@ -672,30 +648,6 @@
     "duration": 2554
   },
   {
-    "id": "42a66Cja44Y",
-    "title": "Koondukkili | Episode 214 | கூண்டுக்கிளி | Thanthi One | 25th October 2025",
-    "publishedAt": "2025-10-25T10:00:06Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/42a66Cja44Y/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/42a66Cja44Y/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/42a66Cja44Y/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Bala stays at her friend Rathna's house, finding shelter and support in her friend's care. During this time, she lovingly raises ...",
-    "duration": 1415
-  },
-  {
     "id": "xx1dLwMVZDU",
     "title": "Chithi | Episode 24 | சித்தி | Thanthi One | 25th October 2025",
     "publishedAt": "2025-10-25T07:30:36Z",
@@ -840,30 +792,6 @@
     "duration": 2535
   },
   {
-    "id": "uLWZLejDJ9w",
-    "title": "Chithi | Episode 23 | சித்தி | Thanthi One | 24th October 2025",
-    "publishedAt": "2025-10-24T07:30:26Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/uLWZLejDJ9w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/uLWZLejDJ9w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/uLWZLejDJ9w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "The doctor warns that Krishna's condition is critical — without immediate treatment, his life is in grave danger. The shocking news ...",
-    "duration": 2574
-  },
-  {
     "id": "cZkarsJgOyM",
     "title": "Annamalai | Episode 216 | அண்ணாமலை | Thanthi One | 24th October 2025",
     "publishedAt": "2025-10-24T06:30:21Z",
@@ -886,5 +814,29 @@
     },
     "description": "Thavasi warmly accepted Shanti as his sister, embracing her as part of his family. Recognizing her capabilities, he entrusted her ...",
     "duration": 2542
+  },
+  {
+    "id": "_uP222tSPAQ",
+    "title": "Vaanampadi | Episode 213 | வானம்பாடி | Thanthi One | 24th October 2025",
+    "publishedAt": "2025-10-24T05:30:29Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/_uP222tSPAQ/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/_uP222tSPAQ/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/_uP222tSPAQ/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Thulasi becomes worried when Thara decides to sell the house, leaving her without a home. Unsure of where to turn, she seeks ...",
+    "duration": 1397
   }
 ]
