@@ -480,30 +480,6 @@
     "duration": 1388
   },
   {
-    "id": "y9FrMPdfB6I",
-    "title": "Gayathrii | Episode 52 | காயத்ரி | Thanthi One | 29th October 2025",
-    "publishedAt": "2025-10-29T09:30:41Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/y9FrMPdfB6I/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/y9FrMPdfB6I/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/y9FrMPdfB6I/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Gayathri's heartfelt advice encourages Gowri to reflect on her actions and mend her strained relationship with Rajesh.",
-    "duration": 2480
-  },
-  {
     "id": "s8c2PQJpNJI",
     "title": "Arasi | Episode 44 | அரசி | Thanthi One | 29th  October 2025",
     "publishedAt": "2025-10-29T08:30:34Z",
@@ -790,29 +766,5 @@
     },
     "description": "Jeeva endures unbearable cruelty in her own home, where Dhivagar abuses her whenever no one is around. Silenced by fear ...",
     "duration": 2585
-  },
-  {
-    "id": "TTrTHUhCgGI",
-    "title": "Bhagyajatakam | Episode 218 | பாக்யஜாதகம் | Thanthi One | 28th October 2025",
-    "publishedAt": "2025-10-28T04:30:15Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/TTrTHUhCgGI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/TTrTHUhCgGI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/TTrTHUhCgGI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Several sinister plots are being hatched to kill Indhu's child, putting both their lives in grave danger. Surrounded by deceit and ...",
-    "duration": 1359
   }
 ]
