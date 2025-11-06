@@ -648,30 +648,6 @@
     "duration": 2543
   },
   {
-    "id": "N-0qRxxI3hU",
-    "title": "Koondukkili | Episode 222  | கூண்டுக்கிளி | Thanthi One | 2nd  November 2025",
-    "publishedAt": "2025-11-02T10:00:40Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/N-0qRxxI3hU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/N-0qRxxI3hU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/N-0qRxxI3hU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Venu's suspicion of Bala intensifies to a cruel extent — he locks her inside the house before leaving for work. Trapped and ...",
-    "duration": 1476
-  },
-  {
     "id": "CLJYeTZZ2o4",
     "title": "Gayathrii | Episode 56 | காயத்ரி | Thanthi One | 2nd  November 2025",
     "publishedAt": "2025-11-02T09:30:08Z",
@@ -792,30 +768,6 @@
     "duration": 1402
   },
   {
-    "id": "aUd1BsAsN4w",
-    "title": "Bhagyajatakam | Episode 223 | பாக்யஜாதகம் | Thanthi One | 2nd November 2025",
-    "publishedAt": "2025-11-02T04:30:00Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/aUd1BsAsN4w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/aUd1BsAsN4w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/aUd1BsAsN4w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Indhu's kidnapped child is miraculously found in Parvathi's car, bringing immense relief to Parvathi, who ensures the child's safety.",
-    "duration": 1364
-  },
-  {
     "id": "ppWZ7xU2Pe8",
     "title": "Vaa Di Rasathi | Episode 224 | வாடி ராசாத்தி | Thanthi One | 2nd November  2025",
     "publishedAt": "2025-11-02T03:30:41Z",
@@ -838,5 +790,53 @@
     },
     "description": "Anjana excitedly prepares to celebrate Mano's birthday, filled with love and anticipation. However, Aleena cunningly deceives ...",
     "duration": 1377
+  },
+  {
+    "id": "QZCUnB-S8xY",
+    "title": "Tenali Ramann | Episode 12  | தெனாலிராமன் | Thanthi One | 1st November 2025",
+    "publishedAt": "2025-11-01T12:30:39Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/QZCUnB-S8xY/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/QZCUnB-S8xY/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/QZCUnB-S8xY/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Tenali's wife comes up with a clever plan to calm the quarrel between the queens by suggesting that the king give them two ...",
+    "duration": 2555
+  },
+  {
+    "id": "XezyKw-uWUs",
+    "title": "Gayathrii | Episode 55 | காயத்ரி | Thanthi One | 1st November 2025",
+    "publishedAt": "2025-11-01T09:30:31Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/XezyKw-uWUs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/XezyKw-uWUs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/XezyKw-uWUs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Mano's sudden return stirs deep emotions among everyone. Struggling with both physical challenges and the heartbreak of ...",
+    "duration": 2469
   }
 ]
