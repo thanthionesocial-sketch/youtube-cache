@@ -2260,5 +2260,16 @@
     "videoOwnerChannelTitle": "Thanthi One",
     "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
     "duration": "PT43M3S"
+  },
+  {
+    "id": "UTP-28wgPWM",
+    "title": "Private video",
+    "description": "This video is private.",
+    "thumbnails": {},
+    "publishedAt": "2025-11-22T13:12:58Z",
+    "channelTitle": "Thanthi One",
+    "playlistId": "PLkdhKIzS8nUnBRWWGhVyHebByH5h93S5H",
+    "position": 58,
+    "duration": null
   }
 ]
