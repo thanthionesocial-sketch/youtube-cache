@@ -1,5 +1,29 @@
 [
   {
+    "id": "8sA9tnyZGX8",
+    "title": "Karnaa | Episode 118 | கர்ணன் | Thanthi One | 8th December 2025",
+    "publishedAt": "2025-12-08T13:30:07Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/8sA9tnyZGX8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/8sA9tnyZGX8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/8sA9tnyZGX8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
+    "duration": 2497
+  },
+  {
     "id": "uivT-BjYGVU",
     "title": "Tenali Ramann | Episode 49 | தெனாலிராமன் | Thanthi One | 8th December 2025",
     "publishedAt": "2025-12-08T12:31:21Z",
@@ -864,30 +888,6 @@
     "duration": 2474
   },
   {
-    "id": "BMmS4rQOuDE",
-    "title": "Krishnathulasi | Episode 69 | துளசி | Thanthi One | 5th December 2025",
-    "publishedAt": "2025-12-05T10:30:17Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BMmS4rQOuDE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BMmS4rQOuDE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BMmS4rQOuDE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 1370
-  },
-  {
     "id": "AGYmAtPP8Po",
     "title": "Piriyadha Varam Vendumm Episode 22 | Thanthi One | 5rd December 2025",
     "publishedAt": "2025-12-05T09:30:11Z",
@@ -910,54 +910,6 @@
     },
     "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
     "duration": 2806
-  },
-  {
-    "id": "htQLZdDrbjA",
-    "title": "Arasi  Episode 81 | அரசி | Thanthi One | 5th December 2025",
-    "publishedAt": "2025-12-05T08:30:22Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/htQLZdDrbjA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/htQLZdDrbjA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/htQLZdDrbjA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 2475
-  },
-  {
-    "id": "U40Th1q_UiA",
-    "title": "Chithi | Episode 65 | சித்தி | Thanthi One | 5th December 2025",
-    "publishedAt": "2025-12-05T07:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/U40Th1q_UiA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/U40Th1q_UiA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/U40Th1q_UiA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 2521
   },
   {
     "id": "WEwmY9wGmig",
@@ -1006,29 +958,5 @@
     },
     "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
     "duration": 1345
-  },
-  {
-    "id": "NdwllFfh3hw",
-    "title": "Bhagyajatakam | Episode 256 | பாக்யஜாதகம் | Thanthi One | 5th December 2025",
-    "publishedAt": "2025-12-05T04:30:13Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/NdwllFfh3hw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/NdwllFfh3hw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/NdwllFfh3hw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 1443
   }
 ]
