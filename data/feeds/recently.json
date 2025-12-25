@@ -1,5 +1,29 @@
 [
   {
+    "id": "CETHaD_6fE0",
+    "title": "Chanakya Thanthiramm | Episode 38 | சாணக்கிய தந்திரம் | Thanthi one 24th December 2025",
+    "publishedAt": "2025-12-24T14:30:17Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/CETHaD_6fE0/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/CETHaD_6fE0/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/CETHaD_6fE0/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
+    "duration": 2659
+  },
+  {
     "id": "PD_R9KXC8hk",
     "title": "Tenali Ramann | Episode 65 | தெனாலிராமன் | Thanthi One | 24 December 2025",
     "publishedAt": "2025-12-24T12:30:43Z",
@@ -840,30 +864,6 @@
     "duration": 2761
   },
   {
-    "id": "ujugRWfemEk",
-    "title": "Vaa Di Rasathii | Episode 48 | வாடி ராசாத்தி | Thanthi One | 21st December 2025",
-    "publishedAt": "2025-12-21T11:30:54Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ujugRWfemEk/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ujugRWfemEk/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ujugRWfemEk/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 2438
-  },
-  {
     "id": "nJYhsWCbF2I",
     "title": "Krishnathulasi | Episode 85 | துளசி | Thanthi One | 21st December 2025",
     "publishedAt": "2025-12-21T10:30:38Z",
@@ -1008,30 +1008,6 @@
     "duration": 1328
   },
   {
-    "id": "Bz7_RH_-Hi4",
-    "title": "Bhagyajatakam | Episode 272 | பாக்யஜாதகம் | Thanthi One | 21st December 2025",
-    "publishedAt": "2025-12-21T04:30:08Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Bz7_RH_-Hi4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Bz7_RH_-Hi4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Bz7_RH_-Hi4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
-    "duration": 1521
-  },
-  {
     "id": "FfEVHpOrs4A",
     "title": "Vaa Di Rasathi | Episode 273 | வாடி ராசாத்தி | Thanthi One | 21st December 2025",
     "publishedAt": "2025-12-21T03:30:11Z",
@@ -1078,5 +1054,29 @@
     },
     "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
     "duration": 2727
+  },
+  {
+    "id": "lo4xrIc2H44",
+    "title": "Piriyadha Varam Vendumm Episode 37 | Thanthi One | 20th December 2025",
+    "publishedAt": "2025-12-20T09:30:34Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/lo4xrIc2H44/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/lo4xrIc2H44/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/lo4xrIc2H44/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
+    "duration": 2592
   }
 ]
