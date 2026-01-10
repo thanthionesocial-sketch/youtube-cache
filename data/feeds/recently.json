@@ -840,30 +840,6 @@
     "duration": 2815
   },
   {
-    "id": "nCeaQS0zqCA",
-    "title": "Krishnathulasi | Episode 101 | கிருஷ்ணதுளசி | 6th Jan 2026 |  Thanthi One | Tamil Drama Tv Serial",
-    "publishedAt": "2026-01-06T10:30:43Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/nCeaQS0zqCA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/nCeaQS0zqCA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/nCeaQS0zqCA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கிருஷ்ணதுளசி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1448
-  },
-  {
     "id": "pNbKPfM3sNk",
     "title": "Piriyadha Varam Vendumm | Episode 54 | பிரியாத வரம் வேண்டும்| 6th Jan 2026 | Thanthi One | Tv serial",
     "publishedAt": "2026-01-06T09:30:40Z",
@@ -984,30 +960,6 @@
     "duration": 1386
   },
   {
-    "id": "NJQinI6JrAQ",
-    "title": "Bhagyajatakam | Episode 288 | பாக்யஜாதகம் | Thanthi One | 6th Jan 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-01-06T04:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/NJQinI6JrAQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/NJQinI6JrAQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/NJQinI6JrAQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "பாக்யஜாதகம் - தினந்தோறும் காலை 10:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1526
-  },
-  {
     "id": "9547d_zfQzo",
     "title": "Vaa Di Rasathi | Episode 289 | வாடி ராசாத்தி | Thanthi One | 6th Jan 2026 | Tv serial Tamil",
     "publishedAt": "2026-01-06T03:30:09Z",
@@ -1054,5 +1006,29 @@
     },
     "description": "சாணக்கிய தந்திரம் - தினந்தோறும் மாலை 8:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2757
+  },
+  {
+    "id": "cd84RKCyi1Y",
+    "title": "Tenali Ramann | Episode 77 | தெனாலிராமன் | Thanthi One | 5th Jan 2026 | Tamil Tv Serial",
+    "publishedAt": "2026-01-05T12:31:03Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/cd84RKCyi1Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/cd84RKCyi1Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/cd84RKCyi1Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2805
   }
 ]
