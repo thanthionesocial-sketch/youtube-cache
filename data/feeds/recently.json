@@ -216,6 +216,30 @@
     "duration": 1440
   },
   {
+    "id": "bHDC1kB7zSw",
+    "title": "Chanakya Thanthiramm | Episode 63 | சாணக்கிய தந்திரம் | 18th Jan 2026 | Thanthi one Tv Serial Tamil",
+    "publishedAt": "2026-01-18T14:30:34Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/bHDC1kB7zSw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/bHDC1kB7zSw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/bHDC1kB7zSw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "சாணக்கிய தந்திரம் - தினந்தோறும் மாலை 8:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2700
+  },
+  {
     "id": "2jhr-oFyyns",
     "title": "Tenali Ramann | Episode 90 | தெனாலிராமன் | Thanthi One | 18th Jan 2026 | Tamil Tv Serial",
     "publishedAt": "2026-01-18T12:30:04Z",
@@ -408,6 +432,30 @@
     "duration": 1396
   },
   {
+    "id": "6pitAzNHkrU",
+    "title": "Chanakya Thanthiramm | Episode 62 | சாணக்கிய தந்திரம் | 17th Jan 2026 | Thanthi one Tv Serial Tamil",
+    "publishedAt": "2026-01-17T14:30:05Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/6pitAzNHkrU/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/6pitAzNHkrU/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/6pitAzNHkrU/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "சாணக்கிய தந்திரம் - தினந்தோறும் மாலை 8:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2731
+  },
+  {
     "id": "erOg1oBMXYM",
     "title": "Tenali Ramann | Episode 89 | தெனாலிராமன் | Thanthi One | 17th Jan 2026 | Tamil Tv Serial",
     "publishedAt": "2026-01-17T12:31:00Z",
@@ -598,30 +646,6 @@
     },
     "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
     "duration": 1287
-  },
-  {
-    "id": "lIWzmdOqvz4",
-    "title": "Aladdinn | Episode 31 | அலாவுதீன் | Thanthi One | 16th Jan 2026 | Tamil Fantasy Tv serial",
-    "publishedAt": "2026-01-16T13:30:50Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/lIWzmdOqvz4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/lIWzmdOqvz4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/lIWzmdOqvz4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "அலாவுதீன் - தினந்தோறும் மாலை 7:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2393
   },
   {
     "id": "6ZT9lFdpKm0",
@@ -982,29 +1006,5 @@
     },
     "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
     "duration": 1356
-  },
-  {
-    "id": "pJ6kFy786hQ",
-    "title": "Tenali Ramann | Episode 86 | தெனாலிராமன் | Thanthi One | 14th Jan 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-01-14T12:31:13Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pJ6kFy786hQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pJ6kFy786hQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pJ6kFy786hQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2615
   }
 ]
