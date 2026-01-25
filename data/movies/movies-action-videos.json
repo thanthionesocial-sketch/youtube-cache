@@ -3228,5 +3228,15 @@
     "videoOwnerChannelTitle": "Thanthi One",
     "videoOwnerChannelId": "UCFYqIFxANnSDsnz6qDH01Hw",
     "duration": "PT1H30M36S"
+  },
+  {
+    "id": "d1mXsLgxyII",
+    "title": "Private video",
+    "description": "This video is private.",
+    "thumbnails": {},
+    "playlistId": "PLkdhKIzS8nUlPEjE-p4fzZVt-pX96uffL",
+    "publishedAt": "2026-01-24T14:27:47Z",
+    "channelTitle": "Thanthi One",
+    "duration": null
   }
 ]
