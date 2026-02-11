@@ -1,5 +1,29 @@
 [
   {
+    "id": "ABjG2wNtZ2Y",
+    "title": "Chanakya Thanthiramm | Episode 86 | சாணக்கிய தந்திரம் | 10th Feb 2026 | Thanthi one Tv Serial Tamil",
+    "publishedAt": "2026-02-10T14:30:17Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ABjG2wNtZ2Y/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ABjG2wNtZ2Y/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ABjG2wNtZ2Y/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "சாணக்கிய தந்திரம் - தினந்தோறும் மாலை 8:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2720
+  },
+  {
     "id": "eG0OEcbHiYE",
     "title": "Tenali Ramann | Episode 113 | தெனாலிராமன் | Thanthi One | 10th Feb 2026 | Tamil Tv Serial",
     "publishedAt": "2026-02-10T12:30:54Z",
@@ -528,30 +552,6 @@
     "duration": 2419
   },
   {
-    "id": "SraM5BboUbE",
-    "title": "Arasi | Episode 146 | அரசி | Thanthi One | 8th Feb 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-02-08T08:30:13Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/SraM5BboUbE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/SraM5BboUbE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/SraM5BboUbE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2492
-  },
-  {
     "id": "0bqwoqSMKmM",
     "title": "Chithi | Episode 130 | சித்தி | Thanthi One | 8th Feb 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-02-08T07:30:00Z",
@@ -672,30 +672,6 @@
     "duration": 2654
   },
   {
-    "id": "7_NBuRxFqpY",
-    "title": "Vaa Di Rasathii | Episode 96 | வாடி ராசாத்தி | Thanthi One | 7th Feb 2026 | Tamil drama Tv Serial",
-    "publishedAt": "2026-02-07T11:30:11Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7_NBuRxFqpY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7_NBuRxFqpY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7_NBuRxFqpY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வாடி ராசாத்தி - தினந்தோறும் மாலை 5:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2729
-  },
-  {
     "id": "tAsl7wZqC-s",
     "title": "Krishnathulasi | Episode 133 | கிருஷ்ணதுளசி | 7th Feb 2026 |  Thanthi One | Tamil Drama Tv Serial",
     "publishedAt": "2026-02-07T10:30:38Z",
@@ -814,30 +790,6 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2739
-  },
-  {
-    "id": "IQcANHURIIg",
-    "title": "Koondukkili | Episode 319 | கூண்டுக்கிளி | Thanthi One | 7th Feb 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-02-07T05:30:15Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/IQcANHURIIg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/IQcANHURIIg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/IQcANHURIIg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1432
   },
   {
     "id": "wjwFs1Iq8KY",
