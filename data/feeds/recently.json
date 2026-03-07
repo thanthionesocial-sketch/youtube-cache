@@ -288,30 +288,6 @@
     "duration": 1458
   },
   {
-    "id": "s_t4RiLoCzA",
-    "title": "Vaanampadii | Episode 50 | வானம்பாடி | Thanthi One | 5th Mar 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-03-05T09:30:29Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/s_t4RiLoCzA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/s_t4RiLoCzA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/s_t4RiLoCzA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வானம்பாடி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
-    "duration": 2449
-  },
-  {
     "id": "FCDSQuhYRmA",
     "title": "Arasi | Episode 171 | அரசி | Thanthi One | 5th Mar 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-03-05T08:30:07Z",
@@ -934,29 +910,5 @@
     },
     "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
     "duration": 2535
-  },
-  {
-    "id": "d_kebWU3xtE",
-    "title": "Chithi | Episode 152 | சித்தி | Thanthi One | 2nd Mar 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-03-02T07:30:16Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/d_kebWU3xtE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/d_kebWU3xtE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/d_kebWU3xtE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "சித்தி - தினந்தோறும் மதியம் 1:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2554
   }
 ]
