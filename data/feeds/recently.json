@@ -816,30 +816,6 @@
     "duration": 2536
   },
   {
-    "id": "iW2xlNWa62M",
-    "title": "Vaa Di Rasathii | Episode 137 | வாடி ராசாத்தி | Thanthi One | 20th Mar 2026 | Tamil drama Tv Serial",
-    "publishedAt": "2026-03-20T11:30:48Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/iW2xlNWa62M/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/iW2xlNWa62M/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/iW2xlNWa62M/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வாடி ராசாத்தி - தினந்தோறும் மாலை 5:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2709
-  },
-  {
     "id": "K_QiYY18NM4",
     "title": "Krishnathulasi | Episode 174 | கிருஷ்ணதுளசி | 20th Mar 2026 | Thanthi One | Tamil Drama Tv Serial",
     "publishedAt": "2026-03-20T10:30:19Z",
@@ -910,29 +886,5 @@
     },
     "description": "சித்தி - தினந்தோறும் மதியம் 1:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
     "duration": 2568
-  },
-  {
-    "id": "8Vu39wxZccU",
-    "title": "Koondukkili | Episode 360 | கூண்டுக்கிளி | Thanthi One | 20th Mar 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-03-20T05:30:04Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/8Vu39wxZccU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/8Vu39wxZccU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/8Vu39wxZccU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1429
   }
 ]
