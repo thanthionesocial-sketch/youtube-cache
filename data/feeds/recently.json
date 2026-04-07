@@ -840,6 +840,30 @@
     "duration": 2479
   },
   {
+    "id": "mXn8n3xR5MI",
+    "title": "Tenali Ramann | Episode 164 | தெனாலிராமன் | Thanthi One | 2nd Apr 2026 | Tamil Tv Serial",
+    "publishedAt": "2026-04-02T12:30:59Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/mXn8n3xR5MI/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/mXn8n3xR5MI/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/mXn8n3xR5MI/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2510
+  },
+  {
     "id": "AEV1Vn5RoU0",
     "title": "Vaa Di Rasathii | Episode 150 | வாடி ராசாத்தி | Thanthi One | 2nd Apr 2026 | Tamil drama Tv Serial",
     "publishedAt": "2026-04-02T11:30:07Z",
@@ -862,30 +886,6 @@
     },
     "description": "வாடி ராசாத்தி - தினந்தோறும் மாலை 5:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2816
-  },
-  {
-    "id": "qVfYYiwSZ6E",
-    "title": "Krishnathulasi | Episode 187 | கிருஷ்ணதுளசி | 2nd Apr 2026 | Thanthi One | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-02T10:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/qVfYYiwSZ6E/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/qVfYYiwSZ6E/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/qVfYYiwSZ6E/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கிருஷ்ணதுளசி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1418
   },
   {
     "id": "I9kBp2eMAp0",
@@ -1008,27 +1008,27 @@
     "duration": 2682
   },
   {
-    "id": "uS-R3QB0siA",
-    "title": "Arasi | Episode 198 | அரசி | Thanthi One | 1st Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-01T08:30:18Z",
+    "id": "f-yidxyEjEo",
+    "title": "Chellamey | Episode 105 | செல்லமே | Thanthi one | 1st Apr 2026 | Tamil Drama Tv serial",
+    "publishedAt": "2026-04-01T06:30:23Z",
     "thumbnails": {
       "default": {
-        "url": "https://i.ytimg.com/vi/uS-R3QB0siA/default.jpg",
+        "url": "https://i.ytimg.com/vi/f-yidxyEjEo/default.jpg",
         "width": 120,
         "height": 90
       },
       "medium": {
-        "url": "https://i.ytimg.com/vi/uS-R3QB0siA/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/f-yidxyEjEo/mqdefault.jpg",
         "width": 320,
         "height": 180
       },
       "high": {
-        "url": "https://i.ytimg.com/vi/uS-R3QB0siA/hqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/f-yidxyEjEo/hqdefault.jpg",
         "width": 480,
         "height": 360
       }
     },
-    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2516
+    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2726
   }
 ]
