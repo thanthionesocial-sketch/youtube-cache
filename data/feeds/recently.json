@@ -528,30 +528,6 @@
     "duration": 2710
   },
   {
-    "id": "FnS-24rceME",
-    "title": "Koondukkili | Episode 382 | கூண்டுக்கிளி | Thanthi One | 11th Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-11T05:30:14Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/FnS-24rceME/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/FnS-24rceME/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/FnS-24rceME/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1435
-  },
-  {
     "id": "eHfk_pMpHd4",
     "title": "Mangalyapattu | Episode 23 | மாங்கல்யப்பட்டு | Thanthi One | 11th Apr 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-04-11T04:30:32Z",
@@ -622,54 +598,6 @@
     },
     "description": "கிருஷ்ணதுளசி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 1443
-  },
-  {
-    "id": "hZyyssgKt7g",
-    "title": "Vaanampadii | Episode 86 | வானம்பாடி | Thanthi One | 10th Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-10T09:30:24Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/hZyyssgKt7g/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/hZyyssgKt7g/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/hZyyssgKt7g/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வானம்பாடி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
-    "duration": 2690
-  },
-  {
-    "id": "HHUU6SW70Rw",
-    "title": "Arasi | Episode 207 | அரசி | Thanthi One | 10th Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-10T08:30:09Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/HHUU6SW70Rw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/HHUU6SW70Rw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/HHUU6SW70Rw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2527
   },
   {
     "id": "jEIZAatVYaY",
@@ -792,28 +720,28 @@
     "duration": 2699
   },
   {
-    "id": "OajXUQGSMso",
-    "title": "Vaanampadii | Episode 85 | வானம்பாடி | Thanthi One | 9th Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-09T09:30:14Z",
+    "id": "ivqTk9kE93w",
+    "title": "Arasi | Episode 206 | அரசி | Thanthi One | 9th Apr 2026 | Tamil Drama Tv Serial",
+    "publishedAt": "2026-04-09T08:30:21Z",
     "thumbnails": {
       "default": {
-        "url": "https://i.ytimg.com/vi/OajXUQGSMso/default.jpg",
+        "url": "https://i.ytimg.com/vi/ivqTk9kE93w/default.jpg",
         "width": 120,
         "height": 90
       },
       "medium": {
-        "url": "https://i.ytimg.com/vi/OajXUQGSMso/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/ivqTk9kE93w/mqdefault.jpg",
         "width": 320,
         "height": 180
       },
       "high": {
-        "url": "https://i.ytimg.com/vi/OajXUQGSMso/hqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/ivqTk9kE93w/hqdefault.jpg",
         "width": 480,
         "height": 360
       }
     },
-    "description": "வானம்பாடி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
-    "duration": 2839
+    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
+    "duration": 2526
   },
   {
     "id": "JSu4n2-4qw4",
@@ -910,5 +838,29 @@
     },
     "description": "வானம்பாடி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
     "duration": 2708
+  },
+  {
+    "id": "HTAZg_OJgUw",
+    "title": "Arasi | Episode 205 | அரசி | Thanthi One | 8th Apr 2026 | Tamil Drama Tv Serial",
+    "publishedAt": "2026-04-08T08:30:10Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/HTAZg_OJgUw/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/HTAZg_OJgUw/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/HTAZg_OJgUw/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
+    "duration": 2563
   }
 ]
