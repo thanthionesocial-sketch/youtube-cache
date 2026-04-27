@@ -1,5 +1,53 @@
 [
   {
+    "id": "pRawvJfdsC8",
+    "title": "Ammann | Episode 12 | அம்மன் | Thanthi One | 27th Apr 2026 | Devotional tamil serial",
+    "publishedAt": "2026-04-27T02:30:40Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/pRawvJfdsC8/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/pRawvJfdsC8/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/pRawvJfdsC8/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "அம்மன் - தினந்தோறும் காலை 8:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
+    "duration": 2433
+  },
+  {
+    "id": "3KjR0OvFDUs",
+    "title": "CID Shakunthalaa | Episode 02 | சி.ஐ.டி சகுந்தலா | Thanthi One | 26th Apr 2026",
+    "publishedAt": "2026-04-26T15:00:07Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/3KjR0OvFDUs/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/3KjR0OvFDUs/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/3KjR0OvFDUs/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "Welcome to Thanthi One – Tamil GEC Entertainment Channel! Enjoy Tamil serials, shows, reality programs, movies & latest ...",
+    "duration": 1309
+  },
+  {
     "id": "r4xAHBHolAg",
     "title": "Tenali Ramann | Episode 188 | தெனாலிராமன் | Thanthi One | 26th Apr 2026 | Tamil Tv Serial",
     "publishedAt": "2026-04-26T12:31:07Z",
@@ -696,54 +744,6 @@
     "duration": 2514
   },
   {
-    "id": "TT1maEcTf5I",
-    "title": "Krishnathulasi | Episode 208 | கிருஷ்ணதுளசி | 23rd Apr 2026 | Thanthi One | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-23T10:30:28Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/TT1maEcTf5I/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/TT1maEcTf5I/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/TT1maEcTf5I/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கிருஷ்ணதுளசி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1461
-  },
-  {
-    "id": "kTEdf73Q49E",
-    "title": "Vaanampadii | Episode 99 | வானம்பாடி | Thanthi One | 23rd Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-23T09:30:31Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/kTEdf73Q49E/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/kTEdf73Q49E/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/kTEdf73Q49E/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வானம்பாடி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
-    "duration": 2700
-  },
-  {
     "id": "H8fOoJiQrXY",
     "title": "Arasi | Episode 220 | அரசி | Thanthi One | 23rd Apr 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-04-23T08:30:09Z",
@@ -816,30 +816,6 @@
     "duration": 1340
   },
   {
-    "id": "rdapezMxAik",
-    "title": "Mangalyapattu | Episode 35 | மாங்கல்யப்பட்டு | Thanthi One | 23rd Apr 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-23T04:30:26Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/rdapezMxAik/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/rdapezMxAik/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/rdapezMxAik/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "மாங்கல்யப்பட்டு - தினந்தோறும் காலை 10:00 மணிக்கு உங்கள் Youtube ...",
-    "duration": 1534
-  },
-  {
     "id": "0MlKRzA_rqk",
     "title": "Ammann | Episode 08 | அம்மன் | Thanthi One | 23rd Apr 2026 | Devotional tamil",
     "publishedAt": "2026-04-23T02:30:00Z",
@@ -886,30 +862,6 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2544
-  },
-  {
-    "id": "mor_iMJlzpg",
-    "title": "Krishnathulasi | Episode 207 | கிருஷ்ணதுளசி | 22th Apr 2026 | Thanthi One | Tamil Drama Tv Serial",
-    "publishedAt": "2026-04-22T10:30:37Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/mor_iMJlzpg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/mor_iMJlzpg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/mor_iMJlzpg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கிருஷ்ணதுளசி - தினந்தோறும் மாலை 4:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1363
   },
   {
     "id": "_jXLPNxo6yU",
@@ -960,27 +912,75 @@
     "duration": 2718
   },
   {
-    "id": "Pcp3CjvaPWI",
-    "title": "Ammann | Episode 07 | அம்மன் | Thanthi One | 22th Apr 2026 | Devotional tamil",
-    "publishedAt": "2026-04-22T02:30:32Z",
+    "id": "iUWfj7AoHUg",
+    "title": "Mangalyapattu | Episode 34 | மாங்கல்யப்பட்டு | Thanthi One | 22th Apr 2026 | Tamil Drama Tv Serial",
+    "publishedAt": "2026-04-22T04:30:33Z",
     "thumbnails": {
       "default": {
-        "url": "https://i.ytimg.com/vi/Pcp3CjvaPWI/default.jpg",
+        "url": "https://i.ytimg.com/vi/iUWfj7AoHUg/default.jpg",
         "width": 120,
         "height": 90
       },
       "medium": {
-        "url": "https://i.ytimg.com/vi/Pcp3CjvaPWI/mqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/iUWfj7AoHUg/mqdefault.jpg",
         "width": 320,
         "height": 180
       },
       "high": {
-        "url": "https://i.ytimg.com/vi/Pcp3CjvaPWI/hqdefault.jpg",
+        "url": "https://i.ytimg.com/vi/iUWfj7AoHUg/hqdefault.jpg",
         "width": 480,
         "height": 360
       }
     },
-    "description": "அம்மன் - தினந்தோறும் காலை 8:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2426
+    "description": "மாங்கல்யப்பட்டு - தினந்தோறும் காலை 10:00 மணிக்கு உங்கள் Youtube ...",
+    "duration": 1501
+  },
+  {
+    "id": "UtLC5ylfdCg",
+    "title": "Tenali Ramann | Episode 183 | தெனாலிராமன் | Thanthi One | 21th Apr 2026 | Tamil Tv Serial",
+    "publishedAt": "2026-04-21T12:30:47Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/UtLC5ylfdCg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/UtLC5ylfdCg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/UtLC5ylfdCg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2549
+  },
+  {
+    "id": "dtYRd4OGwHc",
+    "title": "Arasi | Episode 218 | அரசி | Thanthi One | 21th Apr 2026 | Tamil Drama Tv Serial",
+    "publishedAt": "2026-04-21T08:30:19Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/dtYRd4OGwHc/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/dtYRd4OGwHc/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/dtYRd4OGwHc/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
+    "duration": 2506
   }
 ]
