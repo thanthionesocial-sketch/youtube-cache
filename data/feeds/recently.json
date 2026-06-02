@@ -576,30 +576,6 @@
     "duration": 1273
   },
   {
-    "id": "iAB2MuKOJHM",
-    "title": "Ammann | Episode 43 | அம்மன் | Thanthi One | 28th May 2026 | Devotional tamil serial",
-    "publishedAt": "2026-05-28T02:30:26Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/iAB2MuKOJHM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/iAB2MuKOJHM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/iAB2MuKOJHM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "அம்மன் - தினந்தோறும் காலை 8:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
-    "duration": 2468
-  },
-  {
     "id": "DcuvNTa9wN4",
     "title": "Tenali Ramann | Episode 219 | தெனாலிராமன் | Thanthi One | 27th May 2026 | Tamil Tv Serial",
     "publishedAt": "2026-05-27T12:30:35Z",
@@ -624,30 +600,6 @@
     "duration": 2527
   },
   {
-    "id": "srEYeSfxvo4",
-    "title": "Vaanampadii | Episode 133 | வானம்பாடி | Thanthi One | 27th May 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-05-27T09:30:25Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/srEYeSfxvo4/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/srEYeSfxvo4/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/srEYeSfxvo4/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "வானம்பாடி - தினந்தோறும் மாலை 3:00 மணிக்கு உங்கள் Youtube சேனலில் ...",
-    "duration": 2697
-  },
-  {
     "id": "pWbKp9Y_1TA",
     "title": "Arasi | Episode 253 | அரசி | Thanthi One | 26th May 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-05-26T08:30:32Z",
@@ -670,29 +622,5 @@
     },
     "description": "அரசி - தினந்தோறும் மதியம் 2:00 மணிக்கு உங்கள் Thanthi One தொலைக்காட்சி ...",
     "duration": 2566
-  },
-  {
-    "id": "NhPjstnUQhg",
-    "title": "Chellamey | Episode 160 | செல்லமே | Thanthi one | 26th May 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-05-26T06:30:22Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/NhPjstnUQhg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/NhPjstnUQhg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/NhPjstnUQhg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2691
   }
 ]
