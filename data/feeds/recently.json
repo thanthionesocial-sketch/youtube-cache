@@ -240,30 +240,6 @@
     "duration": 2531
   },
   {
-    "id": "bG4z4JvgQEs",
-    "title": "Chellamey | Episode 177 | செல்லமே | Thanthi one | 12th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-12T06:30:06Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/bG4z4JvgQEs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/bG4z4JvgQEs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/bG4z4JvgQEs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2535
-  },
-  {
     "id": "pyANCM0rc7w",
     "title": "Koondukkili | Episode 444 | கூண்டுக்கிளி | Thanthi One | 12th Jun 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-06-12T05:30:20Z",
@@ -336,30 +312,6 @@
     "duration": 2477
   },
   {
-    "id": "I5U2dQsXOHA",
-    "title": "Koondukkili | Episode 443 | கூண்டுக்கிளி | Thanthi One | 11th Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-11T05:30:23Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/I5U2dQsXOHA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/I5U2dQsXOHA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/I5U2dQsXOHA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1424
-  },
-  {
     "id": "PqZ1YMt4zVI",
     "title": "Tenali Ramann | Episode 233 | தெனாலிராமன் | Thanthi One | 10th Jun 2026 | Tamil Tv Serial",
     "publishedAt": "2026-06-10T12:30:22Z",
@@ -430,29 +382,5 @@
     },
     "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 1321
-  },
-  {
-    "id": "ySY3ibt6OpE",
-    "title": "Tenali Ramann | Episode 231 | தெனாலிராமன் | Thanthi One | 8th Jun 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-06-08T12:30:18Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ySY3ibt6OpE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ySY3ibt6OpE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ySY3ibt6OpE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2469
   }
 ]
