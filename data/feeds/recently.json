@@ -240,30 +240,6 @@
     "duration": 2537
   },
   {
-    "id": "Vn1VtycA-w8",
-    "title": "Chellamey | Episode 179 | செல்லமே | Thanthi one | 14th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-14T06:30:06Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Vn1VtycA-w8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Vn1VtycA-w8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Vn1VtycA-w8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2704
-  },
-  {
     "id": "jsaf8_3HXug",
     "title": "Koondukkili | Episode 446 | கூண்டுக்கிளி | Thanthi One | 14th Jun 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-06-14T05:30:08Z",
@@ -382,53 +358,5 @@
     },
     "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 1341
-  },
-  {
-    "id": "D7KbumTQrk0",
-    "title": "Tenali Ramann | Episode 234 | தெனாலிராமன் | Thanthi One | 11th Jun 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-06-11T12:30:23Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/D7KbumTQrk0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/D7KbumTQrk0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/D7KbumTQrk0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2539
-  },
-  {
-    "id": "RcmSctdMTr8",
-    "title": "Chellamey | Episode 176 | செல்லமே | Thanthi one | 11th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-11T06:30:21Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/RcmSctdMTr8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/RcmSctdMTr8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/RcmSctdMTr8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2477
   }
 ]
