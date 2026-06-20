@@ -240,30 +240,6 @@
     "duration": 2537
   },
   {
-    "id": "BX7Uvo5Ejsc",
-    "title": "Chellamey | Episode 181 | செல்லமே | Thanthi one | 16th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-16T06:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BX7Uvo5Ejsc/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BX7Uvo5Ejsc/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BX7Uvo5Ejsc/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2745
-  },
-  {
     "id": "D2nqk0y7gkg",
     "title": "Koondukkili | Episode 448 | கூண்டுக்கிளி | Thanthi One | 16th Jun 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-06-16T05:30:00Z",
@@ -336,30 +312,6 @@
     "duration": 1372
   },
   {
-    "id": "IXU5NLxsh6g",
-    "title": "Tenali Ramann | Episode 237 | தெனாலிராமன் | Thanthi One | 14th Jun 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-06-14T12:30:18Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/IXU5NLxsh6g/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/IXU5NLxsh6g/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/IXU5NLxsh6g/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2537
-  },
-  {
     "id": "jsaf8_3HXug",
     "title": "Koondukkili | Episode 446 | கூண்டுக்கிளி | Thanthi One | 14th Jun 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-06-14T05:30:08Z",
@@ -382,53 +334,5 @@
     },
     "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 1316
-  },
-  {
-    "id": "1cpXYfQ8BfE",
-    "title": "Chellamey | Episode 178 | செல்லமே | Thanthi one | 13th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-13T06:30:26Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/1cpXYfQ8BfE/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/1cpXYfQ8BfE/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/1cpXYfQ8BfE/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2736
-  },
-  {
-    "id": "7vwyK4xVSLI",
-    "title": "Koondukkili | Episode 445 | கூண்டுக்கிளி | Thanthi One | 13th Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-13T05:30:28Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7vwyK4xVSLI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7vwyK4xVSLI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7vwyK4xVSLI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1339
   }
 ]
