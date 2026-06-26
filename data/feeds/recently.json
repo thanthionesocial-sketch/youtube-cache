@@ -240,30 +240,6 @@
     "duration": 2537
   },
   {
-    "id": "mE34cJxZfNg",
-    "title": "Chellamey | Episode 187 | செல்லமே | Thanthi one | 22nd Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-22T06:30:35Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/mE34cJxZfNg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/mE34cJxZfNg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/mE34cJxZfNg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2727
-  },
-  {
     "id": "S4jfP_SEx_Y",
     "title": "Koondukkili | Episode 454 | கூண்டுக்கிளி | Thanthi One | 22nd Jun 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-06-22T05:30:27Z",
@@ -358,29 +334,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2542
-  },
-  {
-    "id": "gfd8ydgJMhg",
-    "title": "Koondukkili | Episode 452 | கூண்டுக்கிளி | Thanthi One | 20th Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-20T05:30:21Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/gfd8ydgJMhg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/gfd8ydgJMhg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/gfd8ydgJMhg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1316
   }
 ]
