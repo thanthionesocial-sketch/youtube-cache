@@ -240,54 +240,6 @@
     "duration": 2535
   },
   {
-    "id": "L9DzfHxiJVs",
-    "title": "Chellamey | Episode 188 | செல்லமே | Thanthi one | 23rd Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-23T06:30:07Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/L9DzfHxiJVs/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/L9DzfHxiJVs/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/L9DzfHxiJVs/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2701
-  },
-  {
-    "id": "oTDIpIZG3oI",
-    "title": "Koondukkili | Episode 455 | கூண்டுக்கிளி | Thanthi One | 23rd Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-23T05:30:33Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/oTDIpIZG3oI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/oTDIpIZG3oI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/oTDIpIZG3oI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1281
-  },
-  {
     "id": "y5Keg5p5o_4",
     "title": "Tenali Ramann | Episode 245 | தெனாலிராமன் | Thanthi One | 22nd Jun 2026 | Tamil Tv Serial",
     "publishedAt": "2026-06-22T12:30:12Z",
@@ -334,29 +286,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2533
-  },
-  {
-    "id": "7zSh9zhxDd8",
-    "title": "Koondukkili | Episode 453 | கூண்டுக்கிளி | Thanthi One | 21st Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-21T05:30:32Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7zSh9zhxDd8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7zSh9zhxDd8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7zSh9zhxDd8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1242
   }
 ]
