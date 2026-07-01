@@ -382,53 +382,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2506
-  },
-  {
-    "id": "uz3GF2ACNvM",
-    "title": "Koondukkili | Episode 457 | கூண்டுக்கிளி | Thanthi One | 25th Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-25T05:30:14Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/uz3GF2ACNvM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/uz3GF2ACNvM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/uz3GF2ACNvM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1364
-  },
-  {
-    "id": "llvB7QPbEDY",
-    "title": "Chellamey | Episode 189 | செல்லமே | Thanthi one | 24th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-24T06:30:20Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/llvB7QPbEDY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/llvB7QPbEDY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/llvB7QPbEDY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2743
   }
 ]
