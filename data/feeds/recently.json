@@ -406,29 +406,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2736
-  },
-  {
-    "id": "pXUvP_VKDpQ",
-    "title": "Tenali Ramann | Episode 251 | தெனாலிராமன் | Thanthi One | 28th Jun 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-06-28T12:30:40Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/pXUvP_VKDpQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/pXUvP_VKDpQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/pXUvP_VKDpQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2542
   }
 ]
