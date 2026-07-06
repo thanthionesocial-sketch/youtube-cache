@@ -360,30 +360,6 @@
     "duration": 1502
   },
   {
-    "id": "iLGpMQQz4iU",
-    "title": "Tenali Ramann | Episode 253 | தெனாலிராமன் | Thanthi One | 30th Jun 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-06-30T12:30:30Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/iLGpMQQz4iU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/iLGpMQQz4iU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/iLGpMQQz4iU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2545
-  },
-  {
     "id": "h8YlFBE2b8s",
     "title": "Chellamey | Episode 195 | செல்லமே | Thanthi one | 30th Jun 2026 | Tamil Drama Tv serial",
     "publishedAt": "2026-06-30T06:30:12Z",
@@ -408,30 +384,6 @@
     "duration": 2745
   },
   {
-    "id": "vwTElhdaHdI",
-    "title": "Koondukkili | Episode 462 | கூண்டுக்கிளி | Thanthi One | 30th Jun 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-06-30T05:30:23Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/vwTElhdaHdI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/vwTElhdaHdI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/vwTElhdaHdI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1399
-  },
-  {
     "id": "fxgEdvXAW34",
     "title": "Tenali Ramann | Episode 252 | தெனாலிராமன் | Thanthi One | 29th Jun 2026 | Tamil Tv Serial",
     "publishedAt": "2026-06-29T12:30:18Z",
@@ -454,29 +406,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2531
-  },
-  {
-    "id": "YWm833c_-XM",
-    "title": "Chellamey | Episode 194 | செல்லமே | Thanthi one | 29th Jun 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-06-29T06:30:28Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/YWm833c_-XM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/YWm833c_-XM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/YWm833c_-XM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2736
   }
 ]
