@@ -240,30 +240,6 @@
     "duration": 2538
   },
   {
-    "id": "Tb_206TjnUY",
-    "title": "Chellamey | Episode 198 | செல்லமே | Thanthi one | 3rd Jul 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-07-03T06:30:04Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Tb_206TjnUY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Tb_206TjnUY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Tb_206TjnUY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2723
-  },
-  {
     "id": "lYpnidG_QNA",
     "title": "Koondukkili | Episode 465 | கூண்டுக்கிளி | Thanthi One | 3rd Jul 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-07-03T05:30:12Z",
@@ -406,29 +382,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2734
-  },
-  {
-    "id": "xMUznj8bGa8",
-    "title": "Koondukkili | Episode 463 | கூண்டுக்கிளி | Thanthi One | 1st Jul 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-07-01T05:30:07Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/xMUznj8bGa8/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/xMUznj8bGa8/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/xMUznj8bGa8/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1502
   }
 ]
