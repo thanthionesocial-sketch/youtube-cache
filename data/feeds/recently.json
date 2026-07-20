@@ -1,5 +1,29 @@
 [
   {
+    "id": "ev3OqB7xhyg",
+    "title": "Ganapathiye Varuvaii | Episode 289 | கணபதியே வருவாய் | Thanthi One 20th Jul 2026 | Devotional tamil",
+    "publishedAt": "2026-07-20T01:30:23Z",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/ev3OqB7xhyg/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/ev3OqB7xhyg/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/ev3OqB7xhyg/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      }
+    },
+    "description": "கணபதியே வருவாய்- தினந்தோறும் காலை 7:00 மணிக்கு உங்கள் Thanthi One ...",
+    "duration": 2600
+  },
+  {
     "id": "DpR1uzDgm0I",
     "title": "Tenali Ramann | Episode 272 | தெனாலிராமன் | Thanthi One | 19th Jul 2026 | Tamil Tv Serial",
     "publishedAt": "2026-07-19T12:30:01Z",
@@ -312,30 +336,6 @@
     "duration": 2544
   },
   {
-    "id": "BzCu98jez3Q",
-    "title": "Chellamey | Episode 210 | செல்லமே | Thanthi one | 15th Jul 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-07-15T06:30:14Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/BzCu98jez3Q/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/BzCu98jez3Q/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/BzCu98jez3Q/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2767
-  },
-  {
     "id": "jL3c1ujRiP4",
     "title": "Tenali Ramann | Episode 267 | தெனாலிராமன் | Thanthi One | 14th Jul 2026 | Tamil Tv Serial",
     "publishedAt": "2026-07-14T12:30:18Z",
@@ -358,53 +358,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2534
-  },
-  {
-    "id": "H_7MnPAKHRY",
-    "title": "Koondukkili | Episode 476 | கூண்டுக்கிளி | Thanthi One | 14th Jul 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-07-14T05:30:24Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/H_7MnPAKHRY/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/H_7MnPAKHRY/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/H_7MnPAKHRY/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 1252
-  },
-  {
-    "id": "EGqdrcr5OfI",
-    "title": "Tenali Ramann | Episode 266 | தெனாலிராமன் | Thanthi One | 13th Jul 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-07-13T12:30:16Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/EGqdrcr5OfI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/EGqdrcr5OfI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/EGqdrcr5OfI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2546
   }
 ]
