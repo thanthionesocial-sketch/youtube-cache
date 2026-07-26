@@ -382,29 +382,5 @@
     },
     "description": "கணபதியே வருவாய்- தினந்தோறும் காலை 7:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2600
-  },
-  {
-    "id": "DpR1uzDgm0I",
-    "title": "Tenali Ramann | Episode 272 | தெனாலிராமன் | Thanthi One | 19th Jul 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-07-19T12:30:01Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/DpR1uzDgm0I/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/DpR1uzDgm0I/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/DpR1uzDgm0I/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2545
   }
 ]
