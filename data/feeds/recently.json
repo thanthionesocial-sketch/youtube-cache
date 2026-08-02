@@ -240,30 +240,6 @@
     "duration": 2544
   },
   {
-    "id": "3-kumYam6b0",
-    "title": "Chellamey | Episode 224 | செல்லமே | Thanthi one | 29th Jul 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-07-29T06:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/3-kumYam6b0/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/3-kumYam6b0/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/3-kumYam6b0/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2735
-  },
-  {
     "id": "Es0LLD8Jg0s",
     "title": "Tenali Ramann | Episode 281 | தெனாலிராமன் | Thanthi One | 28th Jul 2026 | Tamil Tv Serial",
     "publishedAt": "2026-07-28T12:30:16Z",
@@ -358,53 +334,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
     "duration": 2532
-  },
-  {
-    "id": "Ftk7q7tcNiI",
-    "title": "Chellamey | Episode 222 | செல்லமே | Thanthi one | 27th Jul 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-07-27T06:30:14Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Ftk7q7tcNiI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Ftk7q7tcNiI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Ftk7q7tcNiI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2705
-  },
-  {
-    "id": "gxHHLfsyxeg",
-    "title": "Tenali Ramann | Episode 279 | தெனாலிராமன் | Thanthi One | 26th Jul 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-07-26T12:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/gxHHLfsyxeg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/gxHHLfsyxeg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/gxHHLfsyxeg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi One ...",
-    "duration": 2534
   }
 ]
