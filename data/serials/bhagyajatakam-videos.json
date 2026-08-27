@@ -28,6 +28,11 @@
         "url": "https://i.ytimg.com/vi/eLBltmg-ABs/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/eLBltmg-ABs/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-18T10:20:06Z",
@@ -67,6 +72,11 @@
         "url": "https://i.ytimg.com/vi/UkpQFz3QnpM/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/UkpQFz3QnpM/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-17T11:36:41Z",
@@ -106,6 +116,11 @@
         "url": "https://i.ytimg.com/vi/7Y5Zga8Epkw/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/7Y5Zga8Epkw/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-17T10:55:56Z",
@@ -145,6 +160,11 @@
         "url": "https://i.ytimg.com/vi/WPAw9nPSw1c/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/WPAw9nPSw1c/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-14T15:42:47Z",
@@ -184,6 +204,11 @@
         "url": "https://i.ytimg.com/vi/HfeVowPLf7w/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/HfeVowPLf7w/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-14T11:55:51Z",
@@ -223,6 +248,11 @@
         "url": "https://i.ytimg.com/vi/ORehH94oGjs/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/ORehH94oGjs/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-13T16:46:43Z",
@@ -262,6 +292,11 @@
         "url": "https://i.ytimg.com/vi/LKpHOb5MnQA/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/LKpHOb5MnQA/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-12T12:40:25Z",
@@ -301,6 +336,11 @@
         "url": "https://i.ytimg.com/vi/cnqJbR4Mln0/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/cnqJbR4Mln0/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-11T17:24:16Z",
@@ -340,6 +380,11 @@
         "url": "https://i.ytimg.com/vi/qKSxmSUSyLM/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/qKSxmSUSyLM/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-10T12:20:02Z",

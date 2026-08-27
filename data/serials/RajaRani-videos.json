@@ -28,6 +28,11 @@
         "url": "https://i.ytimg.com/vi/zHVS_wmXxNs/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/zHVS_wmXxNs/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-16T15:40:06Z",
@@ -67,6 +72,11 @@
         "url": "https://i.ytimg.com/vi/J2-dmJV932A/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/J2-dmJV932A/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-13T16:50:46Z",
@@ -106,6 +116,11 @@
         "url": "https://i.ytimg.com/vi/SPH0E-4VFAs/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/SPH0E-4VFAs/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-13T10:34:13Z",
@@ -145,6 +160,11 @@
         "url": "https://i.ytimg.com/vi/h4yEeYhacYU/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/h4yEeYhacYU/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-12T13:23:27Z",
@@ -184,6 +204,11 @@
         "url": "https://i.ytimg.com/vi/_y4a1KUaJUY/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/_y4a1KUaJUY/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-11T13:52:10Z",
@@ -223,6 +248,11 @@
         "url": "https://i.ytimg.com/vi/3uLbRwzqj_A/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/3uLbRwzqj_A/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-10T10:55:22Z",

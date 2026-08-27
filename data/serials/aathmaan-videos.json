@@ -28,6 +28,11 @@
         "url": "https://i.ytimg.com/vi/r5WB7yaDNDY/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/r5WB7yaDNDY/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-16T11:36:34Z",
@@ -67,6 +72,11 @@
         "url": "https://i.ytimg.com/vi/GnC7Jq2NIf8/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/GnC7Jq2NIf8/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-14T15:36:18Z",
@@ -106,6 +116,11 @@
         "url": "https://i.ytimg.com/vi/8PnZseAmHxA/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/8PnZseAmHxA/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-14T12:28:17Z",
@@ -145,6 +160,11 @@
         "url": "https://i.ytimg.com/vi/MPWdr-NTY2U/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/MPWdr-NTY2U/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-13T16:40:33Z",
@@ -184,6 +204,11 @@
         "url": "https://i.ytimg.com/vi/c_ndVafOckA/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/c_ndVafOckA/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-12T12:48:16Z",
@@ -223,6 +248,11 @@
         "url": "https://i.ytimg.com/vi/Ms-TivHYY5Q/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/Ms-TivHYY5Q/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-11T10:48:03Z",
@@ -262,6 +292,11 @@
         "url": "https://i.ytimg.com/vi/o5m9fnGJBKU/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/o5m9fnGJBKU/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "publishedAt": "2026-03-10T13:04:45Z",
