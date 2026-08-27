@@ -28,6 +28,11 @@
         "url": "https://i.ytimg.com/vi/RsCkP1jEUTI/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/RsCkP1jEUTI/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "playlistId": "PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y",
@@ -104,6 +109,11 @@
         "url": "https://i.ytimg.com/vi/-P1ImQUpuL8/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/-P1ImQUpuL8/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "playlistId": "PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y",
@@ -142,6 +152,11 @@
         "url": "https://i.ytimg.com/vi/eLIymB9tsAs/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/eLIymB9tsAs/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "playlistId": "PLkdhKIzS8nUlgYeQhV3UY4ibQ0nAGuK1y",

@@ -28,6 +28,11 @@
         "url": "https://i.ytimg.com/vi/3qacH8IF78s/maxresdefault.jpg",
         "width": 1280,
         "height": 720
+      },
+      "fhd": {
+        "url": "https://i.ytimg.com/vi/3qacH8IF78s/fhddefault.jpg",
+        "width": 1920,
+        "height": 1080
       }
     },
     "playlistId": "PLkdhKIzS8nUl9n2wqOJ6zzK2E_Q8qssdm",
