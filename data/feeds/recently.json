@@ -429,45 +429,6 @@
     "duration": 2486
   },
   {
-    "id": "KmbFvJbxeRg",
-    "title": "Chellamey | Episode 273 | செல்லமே | Thanthi one | 16th Sep 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-09-16T06:30:10Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/KmbFvJbxeRg/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
-    "duration": 2441
-  },
-  {
     "id": "4j6LauRngXM",
     "title": "Koondukkili | Episode 540 | கூண்டுக்கிளி | Thanthi One | 16th Sep 2026 | Tamil Drama Tv Serial",
     "publishedAt": "2026-09-16T05:30:15Z",
@@ -734,44 +695,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
     "duration": 2558
-  },
-  {
-    "id": "rorsXW01FSU",
-    "title": "Tenali Ramann | Episode 328 | தெனாலிராமன் | Thanthi One | 13th Sep 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-09-13T12:30:11Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/rorsXW01FSU/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
-    "duration": 2554
   }
 ]
