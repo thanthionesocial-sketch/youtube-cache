@@ -585,45 +585,6 @@
     "duration": 1259
   },
   {
-    "id": "ksUQRUShT5w",
-    "title": "Tenali Ramann | Episode 333 | தெனாலிராமன் | Thanthi One | 18th Sep 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-09-18T12:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/ksUQRUShT5w/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
-    "duration": 2504
-  },
-  {
     "id": "aUglt-4rzfk",
     "title": "Chellamey | Episode 275 | செல்லமே | Thanthi one | 18th Sep 2026 | Tamil Drama Tv serial",
     "publishedAt": "2026-09-18T06:30:22Z",
@@ -661,83 +622,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
     "duration": 2624
-  },
-  {
-    "id": "OMb0oXkVvgg",
-    "title": "Koondukkili | Episode 542 | கூண்டுக்கிளி | Thanthi One | 18th Sep 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-09-18T05:30:28Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/OMb0oXkVvgg/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One Youtube ...",
-    "duration": 1317
-  },
-  {
-    "id": "x1AXwD6JeoA",
-    "title": "Tenali Ramann | Episode 332 | தெனாலிராமன் | Thanthi One | 17th Sep 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-09-17T12:30:32Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/x1AXwD6JeoA/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
-    "duration": 2499
   }
 ]
