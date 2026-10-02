@@ -466,44 +466,5 @@
     },
     "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
     "duration": 2482
-  },
-  {
-    "id": "7j-ICrPealM",
-    "title": "Chellamey | Episode 282 | செல்லமே | Thanthi one | 25th Sep 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-09-25T06:30:11Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/7j-ICrPealM/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
-    "duration": 2581
   }
 ]
