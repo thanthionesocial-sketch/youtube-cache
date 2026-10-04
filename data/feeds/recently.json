@@ -505,44 +505,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
     "duration": 2572
-  },
-  {
-    "id": "0RzBmFSPGsA",
-    "title": "Koondukkili | Episode 552 | கூண்டுக்கிளி | Thanthi One | 28th Sep 2026 | Tamil Drama Tv Serial",
-    "publishedAt": "2026-09-28T05:30:19Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/0RzBmFSPGsA/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "கூண்டுக்கிளி - தினந்தோறும் காலை 11:00 மணிக்கு உங்கள் Thanthi One Youtube ...",
-    "duration": 1395
   }
 ]
