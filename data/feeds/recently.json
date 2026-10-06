@@ -409,84 +409,6 @@
     "duration": 2418
   },
   {
-    "id": "925210Pa-sI",
-    "title": "Tenali Ramann | Episode 345 | தெனாலிராமன் | Thanthi One | 30th Sep 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-09-30T12:30:04Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/925210Pa-sI/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
-    "duration": 2557
-  },
-  {
-    "id": "7dTqLpY1USQ",
-    "title": "Chellamey | Episode 287 | செல்லமே | Thanthi one | 30th Sep 2026 | Tamil Drama Tv serial",
-    "publishedAt": "2026-09-30T06:30:29Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      },
-      "fhd": {
-        "url": "https://i.ytimg.com/vi/7dTqLpY1USQ/fhddefault.jpg",
-        "width": 1920,
-        "height": 1080
-      }
-    },
-    "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
-    "duration": 2431
-  },
-  {
     "id": "xndTvpTQSEo",
     "title": "Chellamey | Episode 285 | செல்லமே | Thanthi one | 28th Sep 2026 | Tamil Drama Tv serial",
     "publishedAt": "2026-09-28T06:30:03Z",
@@ -524,39 +446,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
     "duration": 2572
-  },
-  {
-    "id": "nJBoWlK7Gak",
-    "title": "லவ் பாஸ் | Aashiqui.in | Romantic Drama Movie ❤️| Super Hit Cinema | Thanthi one | 27th July 2026",
-    "publishedAt": "2026-07-27T15:30:36Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/nJBoWlK7Gak/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/nJBoWlK7Gak/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/nJBoWlK7Gak/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/nJBoWlK7Gak/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/nJBoWlK7Gak/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      }
-    },
-    "description": "aashiqui #lovestory #romanticdrama #dubbedmovie Aashiqui.In - \"Love Pass\" A dark complexioned waitress develops an online ...",
-    "duration": 5645
   }
 ]
