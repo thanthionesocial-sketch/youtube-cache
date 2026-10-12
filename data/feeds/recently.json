@@ -446,39 +446,5 @@
     },
     "description": "செல்லமே - தினந்தோறும் மதியம் 12:00 மணிக்கு உங்கள் Thanthi One Youtube சேனலில் ...",
     "duration": 2643
-  },
-  {
-    "id": "Of1eTDjHUQw",
-    "title": "Tenali Ramann | Episode 350 | தெனாலிராமன் | Thanthi One | 5th Oct 2026 | Tamil Tv Serial",
-    "publishedAt": "2026-10-05T12:30:27Z",
-    "thumbnails": {
-      "default": {
-        "url": "https://i.ytimg.com/vi/Of1eTDjHUQw/default.jpg",
-        "width": 120,
-        "height": 90
-      },
-      "medium": {
-        "url": "https://i.ytimg.com/vi/Of1eTDjHUQw/mqdefault.jpg",
-        "width": 320,
-        "height": 180
-      },
-      "high": {
-        "url": "https://i.ytimg.com/vi/Of1eTDjHUQw/hqdefault.jpg",
-        "width": 480,
-        "height": 360
-      },
-      "standard": {
-        "url": "https://i.ytimg.com/vi/Of1eTDjHUQw/sddefault.jpg",
-        "width": 640,
-        "height": 480
-      },
-      "maxres": {
-        "url": "https://i.ytimg.com/vi/Of1eTDjHUQw/maxresdefault.jpg",
-        "width": 1280,
-        "height": 720
-      }
-    },
-    "description": "தெனாலிராமன் - தினந்தோறும் மாலை 6:00 மணிக்கு உங்கள் Thanthi OneYoutube ...",
-    "duration": 2511
   }
 ]
